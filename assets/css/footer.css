@@ -145,6 +145,41 @@
   gap: 0.95rem;
 }
 
+.footer-column ul,
+.footer-column ol {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer-column ul li a,
+.footer-column ol li a {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 1rem;
+  line-height: 1.55;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+  border: 1px solid;
+  width: 100%;
+}
+
+.footer-column ul#menu-footer-quick-links {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.footer-column ul#menu-footer-quick-links li {
+  break-inside: avoid;
+}
+
+@media (max-width: 767px) {
+  .footer-column ul#menu-footer-quick-links {
+    column-count: 1;
+  }
+}
+
+
 .footer-column-services {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
