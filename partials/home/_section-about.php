@@ -2,31 +2,32 @@
     <div class="container">
     <div class="who-we-are-grid">
         <div class="who-we-are-badge-wrap">
-        <div class="who-we-are-badge">
-            <svg viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <defs>
-                <path
-                id="whoWeAreCirclePath"
-                d="M160 32C89.3076 32 32 89.3076 32 160C32 230.692 89.3076 288 160 288C230.692 288 288 230.692 288 160C288 89.3076 230.692 32 160 32Z"
-                />
-            </defs>
-            <circle cx="160" cy="160" r="128" class="who-we-are-badge-ring" />
-            <circle cx="160" cy="160" r="86" class="who-we-are-badge-core" />
-            <g class="who-we-are-badge-mark">
-                <path
-                d="M160 112L170.382 145.618H205.267L177.443 166.382L187.824 200L160 179.236L132.176 200L142.557 166.382L114.733 145.618H149.618L160 112Z"
-                stroke="currentColor"
-                stroke-width="8"
-                stroke-linejoin="round"
-                />
-            </g>
-            <text class="who-we-are-badge-text">
-                <textPath href="#whoWeAreCirclePath" startOffset="0%">
-                ANVAYA MEDIA WORKS • STRATEGY • CREATIVITY • MEDIA • TECHNOLOGY •
-                </textPath>
-            </text>
-            </svg>
-        </div>
+            <div class="rotating-badge">
+                <svg viewBox="0 0 340 340" class="badge-svg" aria-hidden="true">
+                    <defs>
+                        <path id="badgeCirclePath" d="M170,170
+                            m-128,0
+                            a128,128 0 1,1 256,0
+                            a128,128 0 1,1 -256,0" />
+                    </defs>
+
+                    <text>
+                        <textPath href="#badgeCirclePath" startOffset="0%">
+                        ANVAYA MEDIA WORKS • STRATEGY • CREATIVITY • MEDIA • TECHNOLOGY •
+                        </textPath>
+                    </text>
+                </svg>
+
+                <div class="inner-ring"></div>
+
+                <div class="center-icon" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" role="img">
+                        <polygon points="50,10 60,36 88,36 66,53 74,81 50,64 26,81 34,53 12,36 40,36" fill="none" stroke="#ff6a00"
+                        stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <!-- badge ends here -->
         </div>
 
         <div class="who-we-are-content">
