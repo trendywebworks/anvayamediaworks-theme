@@ -152,6 +152,14 @@
   width: 100%;
 }
 
+.footer-column ul li,
+.footer-column ol li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style: none;
+}
+
 .footer-column ul li a,
 .footer-column ol li a {
   color: rgba(255, 255, 255, 0.84);
@@ -160,21 +168,20 @@
   text-decoration: none;
   padding: 5px 0;
   display: block;
-  border: 1px solid;
   width: 100%;
 }
 
-.footer-column ul#menu-footer-quick-links {
+.footer-column ul#menu-footer-services {
   column-count: 2;
   column-gap: 20px;
 }
 
-.footer-column ul#menu-footer-quick-links li {
+.footer-column ul#menu-footer-services li {
   break-inside: avoid;
 }
 
 @media (max-width: 767px) {
-  .footer-column ul#menu-footer-quick-links {
+  .footer-column ul#menu-footer-services {
     column-count: 1;
   }
 }
