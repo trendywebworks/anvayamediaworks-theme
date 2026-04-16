@@ -1,0 +1,406 @@
+.brand-strategy-page {
+  position: relative;
+  --brand-strategy-hero-title-size: clamp(2.2rem, 4.4vw, 4.1rem);
+  --brand-strategy-section-title-size: clamp(2.1rem, 4vw, 3.15rem);
+  --brand-strategy-card-title-size: clamp(1.3rem, 2vw, 1.7rem);
+  --brand-strategy-copy-size: 18px;
+  --brand-strategy-copy-line-height: 29px;
+  background: #f9fbff;
+}
+
+.brand-strategy-page p,
+.brand-strategy-page li {
+  font-size: var(--brand-strategy-copy-size);
+  line-height: var(--brand-strategy-copy-line-height);
+}
+
+.brand-strategy-section-eyebrow {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.brand-strategy-section-eyebrow {
+  margin-bottom: 0.9rem;
+  color: var(--color-blue);
+}
+
+.brand-strategy-hero-section {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: var(--color-blue);
+}
+
+.brand-strategy-hero-section::before,
+.brand-strategy-hero-section::after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.brand-strategy-hero-section::before {
+  left: -170px;
+  bottom: -170px;
+  border: 26px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 52px rgba(255, 255, 255, 0.06),
+    0 0 0 104px rgba(255, 255, 255, 0.04);
+}
+
+.brand-strategy-hero-section::after {
+  right: -170px;
+  top: -170px;
+  border: 24px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 48px rgba(255, 255, 255, 0.06),
+    0 0 0 96px rgba(255, 255, 255, 0.04);
+}
+
+.brand-strategy-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.25rem;
+  align-items: center;
+}
+
+.brand-strategy-hero-copy h1 {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--brand-strategy-hero-title-size);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+
+.brand-strategy-hero-lead,
+.brand-strategy-hero-support {
+  margin: 0;
+}
+
+.brand-strategy-hero-lead {
+  margin-top: 1.35rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.brand-strategy-hero-support {
+  margin-top: 0.95rem;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.brand-strategy-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.brand-strategy-hero-media img {
+  width: 100%;
+}
+
+.brand-strategy-importance-section,
+.brand-strategy-process-section {
+  padding: 5.5rem 0;
+}
+
+.brand-strategy-importance-section {
+  background: var(--color-white);
+}
+
+.brand-strategy-process-section {
+  background: #f5f8fe;
+}
+
+.brand-strategy-section-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.brand-strategy-section-header h2,
+.brand-strategy-process-header h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--brand-strategy-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.brand-strategy-section-intro,
+.brand-strategy-process-header p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.brand-strategy-benefit-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.brand-strategy-benefit-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.05rem;
+  align-items: start;
+  height: 100%;
+  padding: 1.45rem 1.3rem;
+  border: 1px solid rgba(15, 60, 99, 0.1);
+  border-radius: var(--radius-lg);
+  background: var(--color-white);
+  box-shadow: 0 14px 28px rgba(8, 16, 31, 0.05);
+}
+
+.brand-strategy-benefit-icon {
+  display: inline-flex;
+  color: var(--color-blue);
+}
+
+.brand-strategy-benefit-icon svg {
+  width: 56px;
+  height: 56px;
+}
+
+.brand-strategy-benefit-copy h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.brand-strategy-benefit-copy p {
+  margin: 0.7rem 0 0;
+  color: var(--color-muted);
+}
+
+.brand-strategy-process-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2.4rem;
+}
+
+.brand-strategy-process-header h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--brand-strategy-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.brand-strategy-process-header p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.brand-strategy-process-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.brand-strategy-process-panel {
+  position: relative;
+  background: #dbe7f5;
+  box-shadow: 0 22px 44px rgba(8, 16, 31, 0.08);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.brand-strategy-process-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+.brand-strategy-process-panel.is-secondary {
+  margin-top: 0;
+}
+
+.brand-strategy-process-entry {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 1.15rem;
+  align-items: center;
+  padding: 2rem 2rem 2rem 1.7rem;
+}
+
+.brand-strategy-process-entry+.brand-strategy-process-entry {
+  border-top: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+.brand-strategy-process-sequence {
+  display: flex;
+  align-items: center;
+}
+
+.brand-strategy-process-number {
+  width: 75px;
+  height: 75px;
+  border: 3px solid #1f2530;
+  border-radius: 50%;
+  background: var(--color-white);
+  box-shadow: 0 12px 26px rgba(8, 16, 31, 0.08);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #1f2530;
+}
+
+.brand-strategy-process-number small,
+.brand-strategy-process-number strong {
+  display: block;
+}
+
+.brand-strategy-process-number small {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.brand-strategy-process-number strong {
+  margin-top: 0.15rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.brand-strategy-process-copy h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1.2rem, 1.7vw, 1.55rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.brand-strategy-process-copy p {
+  margin: 0.7rem 0 0;
+  color: var(--color-muted);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.brand-strategy-process-art {
+  width: 124px;
+  min-width: 124px;
+  height: 124px;
+  display: grid;
+  place-items: center;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(15, 60, 99, 0.08);
+  color: var(--color-blue);
+}
+
+.brand-strategy-process-art svg {
+  width: 72px;
+  height: 72px;
+}
+
+@media (width <=1199.98px) {
+
+  .brand-strategy-hero-grid,
+  .brand-strategy-section-header,
+  .brand-strategy-process-header,
+  .brand-strategy-process-board {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-strategy-benefit-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .brand-strategy-process-panel.is-primary,
+  .brand-strategy-process-panel.is-secondary {
+    margin-top: 0;
+  }
+
+  .brand-strategy-process-entry {
+    padding: 1.5rem;
+  }
+}
+
+@media (width <=767.98px) {
+  .brand-strategy-page {
+    --brand-strategy-hero-title-size: 32px;
+    --brand-strategy-section-title-size: 29px;
+    --brand-strategy-card-title-size: 24px;
+    --brand-strategy-copy-size: 14px;
+    --brand-strategy-copy-line-height: 24px;
+  }
+
+  .brand-strategy-hero-section {
+    padding: 0;
+  }
+
+  .brand-strategy-importance-section,
+  .brand-strategy-process-section {
+    padding: 2.5rem 0;
+  }
+
+  .brand-strategy-benefit-list {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-strategy-benefit-item,
+  .brand-strategy-process-entry {
+    padding: 1.3rem;
+  }
+
+  .brand-strategy-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand-strategy-process-entry {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 1rem;
+  }
+
+  .brand-strategy-process-number {
+    width: 75px;
+    height: 75px;
+  }
+
+  .brand-strategy-process-number strong {
+    font-size: 1.45rem;
+  }
+
+  .brand-strategy-process-art {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+  }
+
+  .brand-strategy-process-art svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .brand-strategy-process-copy p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

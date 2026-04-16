@@ -1,0 +1,492 @@
+.growth-marketing-page {
+  background: var(--color-surface);
+}
+
+.growth-marketing-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.growth-marketing-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.growth-marketing-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.growth-marketing-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.growth-marketing-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.growth-marketing-hero-section::before,
+.growth-marketing-hero-section::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.growth-marketing-hero-section::before {
+  width: 460px;
+  height: 460px;
+  top: -180px;
+  right: -140px;
+}
+
+.growth-marketing-hero-section::after {
+  width: 280px;
+  height: 280px;
+  left: -100px;
+  bottom: -110px;
+}
+
+.growth-marketing-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.92fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.growth-marketing-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.65rem, 5vw, 4.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+.growth-marketing-hero-tagline {
+  margin: 1.1rem 0 0;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.growth-marketing-hero-lead {
+  margin: 1rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.growth-marketing-hero-support {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.growth-marketing-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.growth-marketing-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.growth-marketing-idea-section,
+.growth-marketing-problem-section,
+.growth-marketing-approach-section,
+.growth-marketing-funnel-section,
+.growth-marketing-services-section,
+.growth-marketing-process-section {
+  padding: 6rem 0;
+}
+
+.growth-marketing-idea-section,
+.growth-marketing-approach-section,
+.growth-marketing-process-section {
+  background: var(--color-white);
+}
+
+.growth-marketing-problem-section,
+.growth-marketing-funnel-section {
+  background: #f6f9ff;
+}
+
+.growth-marketing-services-section {
+  background: #edf3fb;
+}
+
+.growth-marketing-idea-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.growth-marketing-idea-copy {
+  display: grid;
+  gap: 0.35rem;
+  padding: 2.35rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.growth-marketing-idea-copy h2,
+.growth-marketing-problem-header h2,
+.growth-marketing-approach-intro h2,
+.growth-marketing-funnel-header h2,
+.growth-marketing-services-header h2,
+.growth-marketing-process-header h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.growth-marketing-idea-body,
+.growth-marketing-problem-header p,
+.growth-marketing-approach-card p,
+.growth-marketing-funnel-header p,
+.growth-marketing-funnel-card p,
+.growth-marketing-service-card p,
+.growth-marketing-process-card p {
+  margin: 0.45rem 0 0;
+  line-height: 1.85;
+  color: var(--color-muted);
+}
+
+.growth-marketing-idea-panel {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2.35rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.growth-marketing-engine-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.growth-marketing-engine-grid span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  padding: 0.9rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.growth-marketing-engine-grid span:last-child {
+  grid-column: 1 / -1;
+}
+
+.growth-marketing-idea-note {
+  margin: 0;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.growth-marketing-problem-header,
+.growth-marketing-funnel-header,
+.growth-marketing-services-header,
+.growth-marketing-process-header {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.growth-marketing-problem-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.growth-marketing-problem-card,
+.growth-marketing-approach-card,
+.growth-marketing-funnel-card,
+.growth-marketing-service-card,
+.growth-marketing-process-card {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.7rem 1.45rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.growth-marketing-problem-card {
+  min-height: 240px;
+  justify-items: center;
+  text-align: center;
+  background: var(--color-white);
+  border-top: 4px solid var(--color-orange);
+}
+
+.growth-marketing-problem-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blue);
+}
+
+.growth-marketing-problem-icon svg {
+  width: 82px;
+  height: 82px;
+}
+
+.growth-marketing-problem-card h3,
+.growth-marketing-approach-card h3,
+.growth-marketing-funnel-card h3,
+.growth-marketing-service-card h3,
+.growth-marketing-process-card h3 {
+  margin: 0;
+  font-size: 1.16rem;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.growth-marketing-approach-shell {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.growth-marketing-approach-intro {
+  position: sticky;
+  top: 7.5rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 2.25rem;
+  background: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.growth-marketing-approach-intro p {
+  margin: 0.7rem 0 0;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.growth-marketing-approach-note {
+  margin-top: 1.1rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.growth-marketing-approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.growth-marketing-approach-card {
+  min-height: 220px;
+  background: var(--color-white);
+}
+
+.growth-marketing-approach-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.growth-marketing-approach-number,
+.growth-marketing-funnel-step,
+.growth-marketing-service-number,
+.growth-marketing-process-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.growth-marketing-funnel-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.growth-marketing-funnel-card {
+  position: relative;
+  min-height: 215px;
+  background: var(--color-white);
+}
+
+.growth-marketing-funnel-card::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  right: -0.55rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-top: 2px solid rgba(71, 36, 240, 0.22);
+  border-right: 2px solid rgba(71, 36, 240, 0.22);
+  transform: rotate(45deg);
+}
+
+.growth-marketing-funnel-card:last-child::after {
+  content: none;
+}
+
+.growth-marketing-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.growth-marketing-service-card {
+  position: relative;
+  align-content: start;
+  min-height: 235px;
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+.growth-marketing-service-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -34px -34px auto;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background: rgba(71, 36, 240, 0.05);
+}
+
+.growth-marketing-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.growth-marketing-process-card {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.growth-marketing-process-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-orange), var(--color-blue));
+}
+
+@media (width <=1199.98px) {
+
+  .growth-marketing-hero-grid,
+  .growth-marketing-idea-shell,
+  .growth-marketing-approach-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .growth-marketing-problem-grid,
+  .growth-marketing-funnel-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .growth-marketing-approach-intro {
+    position: static;
+  }
+
+  .growth-marketing-services-grid,
+  .growth-marketing-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .growth-marketing-funnel-card:nth-child(3)::after {
+    content: none;
+  }
+}
+
+@media (width <=767.98px) {
+  .growth-marketing-hero-section {
+    padding: 0;
+  }
+
+  .growth-marketing-idea-section,
+  .growth-marketing-problem-section,
+  .growth-marketing-approach-section,
+  .growth-marketing-funnel-section,
+  .growth-marketing-services-section,
+  .growth-marketing-process-section {
+    padding: 4.5rem 0;
+  }
+
+  .growth-marketing-hero-actions .btn-amw {
+    width: 100%;
+  }
+
+  .growth-marketing-idea-copy,
+  .growth-marketing-idea-panel,
+  .growth-marketing-approach-intro {
+    padding: 1.7rem;
+  }
+
+  .growth-marketing-engine-grid,
+  .growth-marketing-problem-grid,
+  .growth-marketing-approach-grid,
+  .growth-marketing-funnel-grid,
+  .growth-marketing-services-grid,
+  .growth-marketing-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .growth-marketing-engine-grid span:last-child,
+  .growth-marketing-approach-card:last-child {
+    grid-column: auto;
+  }
+
+  .growth-marketing-funnel-card::after {
+    content: none;
+  }
+
+  .growth-marketing-problem-card,
+  .growth-marketing-approach-card,
+  .growth-marketing-funnel-card,
+  .growth-marketing-service-card,
+  .growth-marketing-process-card {
+    min-height: auto;
+  }
+}

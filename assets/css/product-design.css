@@ -1,0 +1,566 @@
+.product-design-page {
+  background: var(--color-surface);
+}
+
+.product-design-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.product-design-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.product-design-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.product-design-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.product-design-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.product-design-hero-section::before,
+.product-design-hero-section::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.product-design-hero-section::before {
+  width: 460px;
+  height: 460px;
+  top: -190px;
+  right: -130px;
+}
+
+.product-design-hero-section::after {
+  width: 260px;
+  height: 260px;
+  left: -120px;
+  bottom: -90px;
+}
+
+.product-design-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3.25rem;
+  align-items: center;
+}
+
+.product-design-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.75rem, 5.2vw, 4.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.product-design-hero-lead {
+  margin: 1.4rem 0 0;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.product-design-hero-support {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.product-design-hero-actions {
+  margin-top: 2rem;
+}
+
+.product-design-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-design-workbench {
+  position: relative;
+  min-height: 470px;
+}
+
+.product-design-workbench-window {
+  padding: 1rem;
+  background: var(--color-white);
+  box-shadow: var(--shadow-strong);
+}
+
+.product-design-window-bar {
+  display: flex;
+  gap: 0.45rem;
+  padding-bottom: 0.85rem;
+}
+
+.product-design-window-bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(8, 16, 31, 0.14);
+}
+
+.product-design-window-body {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 0.9rem;
+}
+
+.product-design-sidebar {
+  display: grid;
+  gap: 0.8rem;
+  padding: 0.9rem 0.7rem;
+  background: var(--color-surface);
+}
+
+.product-design-sidebar span {
+  display: block;
+  height: 18px;
+  background: rgba(71, 36, 240, 0.14);
+}
+
+.product-design-sidebar span:nth-child(2) {
+  background: rgba(255, 92, 0, 0.18);
+}
+
+.product-design-canvas {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+  background: var(--color-surface);
+}
+
+.product-design-canvas-header {
+  height: 64px;
+  background: rgba(71, 36, 240, 0.16);
+  border-left: 4px solid var(--color-orange);
+}
+
+.product-design-canvas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.product-design-canvas-grid div {
+  min-height: 120px;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+}
+
+.product-design-mobile-card {
+  position: absolute;
+  right: -14px;
+  bottom: 34px;
+  width: 170px;
+  padding: 0.7rem;
+  background: var(--color-white);
+  box-shadow: 0 18px 44px rgba(3, 9, 20, 0.22);
+}
+
+.product-design-mobile-screen {
+  display: grid;
+  gap: 0.65rem;
+  min-height: 220px;
+  padding: 0.9rem;
+  background: var(--color-surface);
+}
+
+.product-design-mobile-line,
+.product-design-mobile-block {
+  background: rgba(71, 36, 240, 0.12);
+}
+
+.product-design-mobile-line {
+  height: 12px;
+}
+
+.product-design-mobile-line-long {
+  width: 78%;
+}
+
+.product-design-mobile-block {
+  min-height: 96px;
+  background: rgba(255, 92, 0, 0.16);
+}
+
+.product-design-chip {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 82px;
+  padding: 0.6rem 0.85rem;
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 14px 26px rgba(3, 9, 20, 0.2);
+}
+
+.product-design-chip-blue {
+  top: 22px;
+  right: 24px;
+  background: var(--color-blue);
+}
+
+.product-design-chip-orange {
+  left: -8px;
+  bottom: 152px;
+  background: var(--color-orange);
+}
+
+.product-design-chip-dark {
+  left: 74px;
+  bottom: -8px;
+  background: var(--color-ink);
+}
+
+.product-design-definition-section,
+.product-design-challenges-section,
+.product-design-approach-section {
+  padding: 6rem 0;
+}
+
+.product-design-definition-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+  gap: 1.5rem;
+}
+
+.product-design-definition-copy,
+.product-design-goal-panel {
+  padding: 2.35rem;
+}
+
+.product-design-definition-copy {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.product-design-definition-copy h2,
+.product-design-challenges-header h2,
+.product-design-approach-intro h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.product-design-definition-copy p,
+.product-design-challenges-note,
+.product-design-approach-intro p {
+  margin: 1rem 0 0;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.product-design-definition-list {
+  display: grid;
+  gap: 0.9rem;
+  padding: 0;
+  margin: 1.6rem 0 0;
+  list-style: none;
+}
+
+.product-design-definition-list li {
+  position: relative;
+  padding-left: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.product-design-definition-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-orange);
+}
+
+.product-design-goal-panel {
+  display: grid;
+  align-content: start;
+  gap: 1.5rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  border-radius: 20px;
+}
+
+.product-design-goal-panel h3 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.45rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.product-design-goal-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.product-design-goal-item {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--color-orange);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+}
+
+.product-design-goal-item strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.product-design-goal-item span {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+}
+
+.product-design-challenges-section {
+  background: var(--color-white);
+}
+
+.product-design-challenges-header {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.product-design-challenges-board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 2rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+}
+
+.product-design-challenge-card {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: 1rem;
+  padding: 2rem 1.25rem 1.8rem;
+  text-align: center;
+  border-left: 1px solid var(--color-border);
+}
+
+.product-design-challenge-card:first-child {
+  border-left: 0;
+}
+
+.product-design-challenge-icon {
+  display: inline-flex;
+  color: var(--color-blue);
+}
+
+.product-design-challenge-icon svg {
+  width: 56px;
+  height: 56px;
+}
+
+.product-design-challenge-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.product-design-challenges-note {
+  font-weight: 600;
+}
+
+.product-design-approach-shell {
+  display: grid;
+  grid-template-columns: minmax(290px, 0.72fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.product-design-approach-intro {
+  position: sticky;
+  top: 7.5rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 2.2rem;
+  background: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+}
+
+.product-design-approach-intro h2,
+.product-design-approach-intro p {
+  color: inherit;
+}
+
+.product-design-approach-intro p {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.product-design-approach-intro .product-design-section-eyebrow {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.product-design-approach-intro .product-design-section-eyebrow::before {
+  background: var(--color-white);
+}
+
+.product-design-phase-list {
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.product-design-phase-list span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.9rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.product-design-phase-list span::after {
+  content: "/";
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.product-design-phase-list span:last-child::after {
+  content: "";
+}
+
+.product-design-approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.product-design-approach-card {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.6rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.product-design-approach-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.product-design-approach-card h3 {
+  margin: 0;
+  font-size: 1.28rem;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+}
+
+.product-design-approach-card p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+
+@media (width <=1199.98px) {
+
+  .product-design-hero-grid,
+  .product-design-definition-shell,
+  .product-design-approach-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .product-design-challenges-board {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .product-design-approach-intro {
+    position: static;
+  }
+}
+
+@media (width <=767.98px) {
+  .product-design-hero-section {
+    padding: 0;
+  }
+
+  .product-design-definition-section,
+  .product-design-challenges-section,
+  .product-design-approach-section {
+    padding: 4.5rem 0;
+  }
+
+  .product-design-workbench {
+    min-height: 360px;
+  }
+
+  .product-design-window-body,
+  .product-design-challenges-board,
+  .product-design-approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-design-mobile-card {
+    right: 0;
+    bottom: -12px;
+    width: 146px;
+  }
+
+  .product-design-definition-copy,
+  .product-design-goal-panel,
+  .product-design-approach-intro {
+    padding: 1.7rem;
+  }
+
+  .product-design-challenge-card {
+    border-left: 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .product-design-challenge-card:first-child {
+    border-top: 0;
+  }
+}

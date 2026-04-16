@@ -1,0 +1,510 @@
+.events-solution-page {
+  background: var(--color-surface);
+}
+
+.events-solution-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.events-solution-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.events-solution-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.events-solution-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.events-solution-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+}
+
+.events-solution-hero-section::before,
+.events-solution-hero-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.events-solution-hero-section::before {
+  width: 480px;
+  height: 480px;
+  top: -220px;
+  right: -120px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.events-solution-hero-section::after {
+  width: 260px;
+  height: 260px;
+  left: -90px;
+  bottom: -90px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.events-solution-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.92fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.events-solution-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.7rem, 5vw, 4.3rem);
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+.events-solution-hero-tagline {
+  margin: 1.1rem 0 0;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.97);
+}
+
+.events-solution-hero-lead {
+  margin: 1rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.events-solution-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-hero-visual {
+  position: relative;
+}
+
+.events-solution-hero-visual::before {
+  content: "";
+  position: absolute;
+  inset: auto 1rem 1rem auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  transform: rotate(12deg);
+}
+
+.events-solution-hero-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+.events-solution-insight-section,
+.events-solution-approach-section,
+.events-solution-services-section,
+.events-solution-process-section {
+  padding: 6rem 0;
+  background: var(--color-white);
+}
+
+.events-solution-solve-section,
+.events-solution-lifecycle-section,
+.events-solution-audience-section {
+  padding: 6rem 0;
+  background: #f6f9ff;
+}
+
+.events-solution-insight-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  gap: 1.5rem;
+  align-items: stretch;
+  border-radius: 20px;
+}
+
+.events-solution-insight-copy {
+  display: grid;
+  gap: 0.35rem;
+  padding: 2.4rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.events-solution-insight-copy h2,
+.events-solution-approach-intro h2,
+.events-solution-solve-header h2,
+.events-solution-services-header h2,
+.events-solution-lifecycle-header h2,
+.events-solution-audience-header h2,
+.events-solution-process-header h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.events-solution-insight-body,
+.events-solution-solve-header p,
+.events-solution-approach-card p,
+.events-solution-services-header p,
+.events-solution-service-card p,
+.events-solution-lifecycle-header p,
+.events-solution-lifecycle-card p,
+.events-solution-audience-header p,
+.events-solution-process-header p,
+.events-solution-process-card p {
+  margin: 0.45rem 0 0;
+  line-height: 1.85;
+  color: var(--color-muted);
+}
+
+.events-solution-insight-note {
+  margin: 0.75rem 0 0;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.events-solution-insight-panel {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2.4rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.events-solution-insight-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.events-solution-insight-item {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--color-orange);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+.events-solution-insight-item strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.events-solution-insight-item span {
+  color: rgba(255, 255, 255, 0.74);
+  line-height: 1.7;
+}
+
+.events-solution-approach-shell {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.events-solution-approach-intro {
+  position: sticky;
+  top: 7.5rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 2.3rem;
+  background: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.events-solution-approach-intro p {
+  margin: 0.7rem 0 0;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.events-solution-approach-note {
+  margin-top: 1.1rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.events-solution-approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.events-solution-approach-card,
+.events-solution-solve-card,
+.events-solution-service-card,
+.events-solution-lifecycle-card,
+.events-solution-process-card {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.7rem 1.45rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  background: var(--color-white);
+  border-radius: 20px;
+}
+
+.events-solution-approach-card {
+  min-height: 220px;
+}
+
+.events-solution-approach-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.events-solution-approach-number,
+.events-solution-service-number,
+.events-solution-lifecycle-step,
+.events-solution-process-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.events-solution-approach-card h3,
+.events-solution-solve-card h3,
+.events-solution-service-card h3,
+.events-solution-lifecycle-card h3,
+.events-solution-process-card h3 {
+  margin: 0;
+  font-size: 1.16rem;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.events-solution-solve-header,
+.events-solution-services-header,
+.events-solution-lifecycle-header,
+.events-solution-audience-header,
+.events-solution-process-header {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.events-solution-solve-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-solve-card {
+  min-height: 155px;
+  align-content: start;
+  border-top: 4px solid var(--color-orange);
+}
+
+.events-solution-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-service-card {
+  position: relative;
+  align-content: start;
+  min-height: 235px;
+  overflow: hidden;
+}
+
+.events-solution-service-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -34px -34px auto;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background: rgba(255, 92, 0, 0.08);
+}
+
+.events-solution-lifecycle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-lifecycle-card {
+  position: relative;
+  min-height: 235px;
+}
+
+.events-solution-lifecycle-card::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  right: -0.55rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-top: 2px solid rgba(71, 36, 240, 0.22);
+  border-right: 2px solid rgba(71, 36, 240, 0.22);
+  transform: rotate(45deg);
+}
+
+.events-solution-lifecycle-card:last-child::after {
+  content: none;
+}
+
+.events-solution-audience-shell {
+  padding: 2.45rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.events-solution-audience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-audience-grid span {
+  display: flex;
+  align-items: center;
+  min-height: 92px;
+  padding: 1rem 1.1rem;
+  background: #f7f9fe;
+  border: 1px solid var(--color-border);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.94rem;
+  font-weight: 700;
+  line-height: 1.45;
+  border-radius: 20px;
+}
+
+.events-solution-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.events-solution-process-card {
+  position: relative;
+  background: var(--color-white);
+}
+
+.events-solution-process-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--color-orange);
+}
+
+@media (width <=1199.98px) {
+
+  .events-solution-hero-grid,
+  .events-solution-insight-shell,
+  .events-solution-approach-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .events-solution-approach-intro {
+    position: static;
+  }
+
+  .events-solution-solve-grid,
+  .events-solution-services-grid,
+  .events-solution-audience-grid,
+  .events-solution-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width <=767.98px) {
+  .events-solution-hero-section {
+    padding: 0;
+  }
+
+  .events-solution-insight-section,
+  .events-solution-approach-section,
+  .events-solution-solve-section,
+  .events-solution-services-section,
+  .events-solution-lifecycle-section,
+  .events-solution-audience-section,
+  .events-solution-process-section {
+    padding: 4.5rem 0;
+  }
+
+  .events-solution-hero-actions .btn-amw {
+    width: 100%;
+  }
+
+  .events-solution-insight-copy,
+  .events-solution-insight-panel,
+  .events-solution-approach-intro,
+  .events-solution-audience-shell {
+    padding: 1.7rem;
+  }
+
+  .events-solution-approach-grid,
+  .events-solution-solve-grid,
+  .events-solution-services-grid,
+  .events-solution-lifecycle-grid,
+  .events-solution-audience-grid,
+  .events-solution-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-solution-approach-card:last-child {
+    grid-column: auto;
+  }
+
+  .events-solution-lifecycle-card::after {
+    content: none;
+  }
+
+  .events-solution-approach-card,
+  .events-solution-solve-card,
+  .events-solution-service-card,
+  .events-solution-lifecycle-card,
+  .events-solution-process-card {
+    min-height: auto;
+  }
+}

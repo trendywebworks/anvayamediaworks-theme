@@ -1,0 +1,575 @@
+.cro-audit-page {
+  background: var(--color-surface);
+}
+
+.cro-audit-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.cro-audit-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.cro-audit-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.cro-audit-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.cro-audit-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.cro-audit-hero-section::before,
+.cro-audit-hero-section::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.cro-audit-hero-section::before {
+  width: 440px;
+  height: 440px;
+  top: -180px;
+  right: -120px;
+}
+
+.cro-audit-hero-section::after {
+  width: 240px;
+  height: 240px;
+  left: -100px;
+  bottom: -90px;
+}
+
+.cro-audit-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3.25rem;
+  align-items: center;
+}
+
+.cro-audit-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.75rem, 5.2vw, 4.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.cro-audit-hero-lead {
+  margin: 1.4rem 0 0;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.cro-audit-hero-support {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.cro-audit-hero-actions {
+  margin-top: 2rem;
+}
+
+.cro-audit-dashboard {
+  display: grid;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  background: var(--color-white);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: var(--shadow-strong);
+}
+
+.cro-audit-dashboard-top {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cro-audit-kpi {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1.1rem 1.15rem;
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-blue);
+  color: var(--color-text);
+}
+
+.cro-audit-kpi span,
+.cro-audit-kpi small {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+}
+
+.cro-audit-kpi strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.cro-audit-kpi-accent {
+  background: rgba(255, 92, 0, 0.08);
+  border-left-color: var(--color-orange);
+}
+
+.cro-audit-funnel {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.25rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.cro-audit-funnel-step {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.cro-audit-funnel-step>div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--color-text);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.cro-audit-funnel-bar {
+  height: 12px;
+  background: rgba(71, 36, 240, 0.12);
+}
+
+.cro-audit-funnel-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  background: var(--color-orange);
+}
+
+.cro-audit-funnel-bar-full::after {
+  width: 100%;
+}
+
+.cro-audit-funnel-bar-68::after {
+  width: 68%;
+}
+
+.cro-audit-funnel-bar-37::after {
+  width: 37%;
+}
+
+.cro-audit-funnel-bar-12::after {
+  width: 12%;
+}
+
+.cro-audit-dashboard-note {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1.2rem 1.25rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+}
+
+.cro-audit-dashboard-note p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.74);
+  line-height: 1.7;
+}
+
+.cro-audit-dashboard-tag {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.4rem 0.7rem;
+  background: rgba(255, 92, 0, 0.18);
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cro-audit-definition-section,
+.cro-audit-signs-section,
+.cro-audit-analysis-section,
+.cro-audit-framework-section {
+  padding: 6rem 0;
+}
+
+.cro-audit-definition-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+  gap: 1.5rem;
+}
+
+.cro-audit-definition-copy,
+.cro-audit-goal-panel {
+  padding: 2.4rem;
+}
+
+.cro-audit-definition-copy {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.cro-audit-definition-copy h2,
+.cro-audit-signs-header h2,
+.cro-audit-analysis-header h2,
+.cro-audit-framework-header h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.cro-audit-definition-copy p,
+.cro-audit-signs-header p,
+.cro-audit-framework-header p {
+  margin: 1rem 0 0;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.cro-audit-focus-list {
+  display: grid;
+  gap: 0.9rem;
+  padding: 0;
+  margin: 1.65rem 0 0;
+  list-style: none;
+}
+
+.cro-audit-focus-list li {
+  position: relative;
+  padding-left: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.cro-audit-focus-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62rem;
+  width: 8px;
+  height: 8px;
+  background: var(--color-orange);
+  border-radius: 999px;
+}
+
+.cro-audit-goal-panel {
+  display: grid;
+  align-content: start;
+  gap: 1.5rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  border-radius: 20px;
+}
+
+.cro-audit-goal-panel h3 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.45rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.cro-audit-goal-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.cro-audit-goal-item {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--color-orange);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.cro-audit-goal-item strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.cro-audit-goal-item span {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+}
+
+.cro-audit-signs-section {
+  background: var(--color-white);
+}
+
+.cro-audit-signs-header {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.cro-audit-signs-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 2.4rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.cro-audit-sign-card {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: 1rem;
+  padding: 2rem 1.35rem 1.85rem;
+  text-align: center;
+  border-left: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-orange);
+}
+
+.cro-audit-sign-card:first-child {
+  border-left: 0;
+}
+
+.cro-audit-sign-icon {
+  display: inline-flex;
+  color: var(--color-blue);
+}
+
+.cro-audit-sign-icon svg {
+  width: 58px;
+  height: 58px;
+}
+
+.cro-audit-sign-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.cro-audit-signs-note {
+  margin: 1.4rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.cro-audit-analysis-board {
+  padding: 2.8rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.cro-audit-analysis-header {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.cro-audit-analysis-header h2 {
+  color: var(--color-white);
+}
+
+.cro-audit-analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cro-audit-analysis-card {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.cro-audit-analysis-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.cro-audit-analysis-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.cro-audit-analysis-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.75;
+}
+
+.cro-audit-framework-section {
+  background: var(--color-white);
+}
+
+.cro-audit-framework-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+  gap: 1.6rem;
+  align-items: end;
+}
+
+.cro-audit-framework-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cro-audit-framework-card {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  padding: 1.7rem 1.5rem 1.55rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+}
+
+.cro-audit-framework-card::after {
+  content: "";
+  position: absolute;
+  top: 2.25rem;
+  right: -0.7rem;
+  width: 1.4rem;
+  height: 1px;
+  background: var(--color-orange);
+}
+
+.cro-audit-framework-card:last-child::after {
+  display: none;
+}
+
+.cro-audit-framework-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  border-radius: 20px;
+}
+
+.cro-audit-framework-card h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.cro-audit-framework-card p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+
+@media (width <=1199.98px) {
+
+  .cro-audit-hero-grid,
+  .cro-audit-definition-shell,
+  .cro-audit-framework-header {
+    grid-template-columns: 1fr;
+  }
+
+  .cro-audit-signs-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cro-audit-analysis-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cro-audit-framework-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cro-audit-framework-card:nth-child(2)::after,
+  .cro-audit-framework-card:last-child::after {
+    display: none;
+  }
+}
+
+@media (width <=767.98px) {
+  .cro-audit-hero-section {
+    padding: 0;
+  }
+
+  .cro-audit-definition-section,
+  .cro-audit-signs-section,
+  .cro-audit-analysis-section,
+  .cro-audit-framework-section {
+    padding: 4.5rem 0;
+  }
+
+  .cro-audit-hero-grid {
+    gap: 2rem;
+  }
+
+  .cro-audit-dashboard-top,
+  .cro-audit-signs-grid,
+  .cro-audit-analysis-grid,
+  .cro-audit-framework-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cro-audit-definition-copy,
+  .cro-audit-goal-panel,
+  .cro-audit-analysis-board {
+    padding: 1.65rem;
+  }
+
+  .cro-audit-sign-card {
+    border-left: 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .cro-audit-sign-card:first-child {
+    border-top: 4px solid var(--color-orange);
+  }
+
+  .cro-audit-framework-card::after {
+    display: none;
+  }
+}

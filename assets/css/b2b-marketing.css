@@ -1,0 +1,493 @@
+.b2b-marketing-page {
+  background: var(--color-surface);
+}
+
+.b2b-marketing-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.b2b-marketing-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.b2b-marketing-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.b2b-marketing-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.b2b-marketing-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.b2b-marketing-hero-section::before,
+.b2b-marketing-hero-section::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.b2b-marketing-hero-section::before {
+  width: 460px;
+  height: 460px;
+  top: -180px;
+  right: -140px;
+}
+
+.b2b-marketing-hero-section::after {
+  width: 280px;
+  height: 280px;
+  left: -100px;
+  bottom: -110px;
+}
+
+.b2b-marketing-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.92fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.b2b-marketing-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.65rem, 5vw, 4.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+}
+
+.b2b-marketing-hero-tagline {
+  margin: 1.1rem 0 0;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.b2b-marketing-hero-lead {
+  margin: 1rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.b2b-marketing-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.b2b-marketing-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.b2b-marketing-idea-section,
+.b2b-marketing-problem-section,
+.b2b-marketing-approach-section,
+.b2b-marketing-funnel-section,
+.b2b-marketing-services-section,
+.b2b-marketing-process-section {
+  padding: 6rem 0;
+}
+
+.b2b-marketing-idea-section,
+.b2b-marketing-approach-section,
+.b2b-marketing-process-section {
+  background: var(--color-white);
+}
+
+.b2b-marketing-problem-section,
+.b2b-marketing-funnel-section {
+  background: #f6f9ff;
+}
+
+.b2b-marketing-services-section {
+  background: #edf3fb;
+}
+
+.b2b-marketing-idea-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.b2b-marketing-idea-copy {
+  display: grid;
+  gap: 0.35rem;
+  padding: 2.35rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.b2b-marketing-idea-copy h2,
+.b2b-marketing-problem-header h2,
+.b2b-marketing-approach-intro h2,
+.b2b-marketing-funnel-header h2,
+.b2b-marketing-services-header h2,
+.b2b-marketing-process-header h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.b2b-marketing-idea-divider {
+  margin: 0.55rem 0 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.55;
+  color: var(--color-orange);
+}
+
+.b2b-marketing-idea-body,
+.b2b-marketing-problem-header p,
+.b2b-marketing-approach-card p,
+.b2b-marketing-funnel-header p,
+.b2b-marketing-funnel-card p,
+.b2b-marketing-service-card p,
+.b2b-marketing-process-header p,
+.b2b-marketing-process-card p {
+  margin: 0.45rem 0 0;
+  line-height: 1.85;
+  color: var(--color-muted);
+}
+
+.b2b-marketing-idea-note {
+  margin: 0.75rem 0 0;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.b2b-marketing-idea-panel {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2.35rem;
+  background: var(--color-ink);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.b2b-marketing-idea-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.b2b-marketing-idea-item {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
+  border-left: 3px solid var(--color-orange);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+}
+
+.b2b-marketing-idea-item strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.b2b-marketing-idea-item span {
+  color: rgba(255, 255, 255, 0.74);
+  line-height: 1.7;
+}
+
+.b2b-marketing-problem-header,
+.b2b-marketing-services-header,
+.b2b-marketing-process-header,
+.b2b-marketing-funnel-header {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.b2b-marketing-problem-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.b2b-marketing-problem-card,
+.b2b-marketing-approach-card,
+.b2b-marketing-funnel-card,
+.b2b-marketing-service-card,
+.b2b-marketing-process-card {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.7rem 1.45rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  border-radius: 20px;
+}
+
+.b2b-marketing-problem-card {
+  min-height: 240px;
+  justify-items: center;
+  text-align: center;
+  background: var(--color-white);
+  border-top: 4px solid var(--color-orange);
+}
+
+.b2b-marketing-problem-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blue);
+}
+
+.b2b-marketing-problem-icon svg {
+  width: 82px;
+  height: 82px;
+}
+
+.b2b-marketing-problem-card h3,
+.b2b-marketing-approach-card h3,
+.b2b-marketing-funnel-card h3,
+.b2b-marketing-service-card h3,
+.b2b-marketing-process-card h3 {
+  margin: 0;
+  font-size: 1.16rem;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.b2b-marketing-approach-shell {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.b2b-marketing-approach-intro {
+  position: sticky;
+  top: 7.5rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 2.25rem;
+  background: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.b2b-marketing-approach-intro p {
+  margin: 0.7rem 0 0;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.b2b-marketing-approach-note {
+  margin-top: 1.1rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.b2b-marketing-approach-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.b2b-marketing-approach-card {
+  min-height: 220px;
+  background: var(--color-white);
+}
+
+.b2b-marketing-approach-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.b2b-marketing-approach-number,
+.b2b-marketing-funnel-step,
+.b2b-marketing-service-number,
+.b2b-marketing-process-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.b2b-marketing-funnel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.b2b-marketing-funnel-card {
+  position: relative;
+  min-height: 220px;
+  background: var(--color-white);
+}
+
+.b2b-marketing-funnel-card::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  right: -0.55rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-top: 2px solid rgba(71, 36, 240, 0.22);
+  border-right: 2px solid rgba(71, 36, 240, 0.22);
+  transform: rotate(45deg);
+}
+
+.b2b-marketing-funnel-card:last-child::after {
+  content: none;
+}
+
+.b2b-marketing-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.b2b-marketing-service-card {
+  position: relative;
+  align-content: start;
+  min-height: 235px;
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+.b2b-marketing-service-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -34px -34px auto;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background: rgba(71, 36, 240, 0.05);
+}
+
+.b2b-marketing-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.b2b-marketing-process-card {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.b2b-marketing-process-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-orange), var(--color-blue));
+}
+
+@media (width <=1199.98px) {
+
+  .b2b-marketing-hero-grid,
+  .b2b-marketing-idea-shell,
+  .b2b-marketing-approach-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .b2b-marketing-problem-grid,
+  .b2b-marketing-funnel-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .b2b-marketing-approach-intro {
+    position: static;
+  }
+
+  .b2b-marketing-services-grid,
+  .b2b-marketing-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .b2b-marketing-funnel-card:nth-child(2)::after {
+    content: none;
+  }
+}
+
+@media (width <=767.98px) {
+  .b2b-marketing-hero-section {
+    padding: 0;
+  }
+
+  .b2b-marketing-idea-section,
+  .b2b-marketing-problem-section,
+  .b2b-marketing-approach-section,
+  .b2b-marketing-funnel-section,
+  .b2b-marketing-services-section,
+  .b2b-marketing-process-section {
+    padding: 4.5rem 0;
+  }
+
+  .b2b-marketing-hero-actions .btn-amw {
+    width: 100%;
+  }
+
+  .b2b-marketing-idea-copy,
+  .b2b-marketing-idea-panel,
+  .b2b-marketing-approach-intro {
+    padding: 1.7rem;
+  }
+
+  .b2b-marketing-problem-grid,
+  .b2b-marketing-approach-grid,
+  .b2b-marketing-funnel-grid,
+  .b2b-marketing-services-grid,
+  .b2b-marketing-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .b2b-marketing-approach-card:last-child {
+    grid-column: auto;
+  }
+
+  .b2b-marketing-funnel-card::after {
+    content: none;
+  }
+
+  .b2b-marketing-problem-card,
+  .b2b-marketing-approach-card,
+  .b2b-marketing-funnel-card,
+  .b2b-marketing-service-card,
+  .b2b-marketing-process-card {
+    min-height: auto;
+  }
+}

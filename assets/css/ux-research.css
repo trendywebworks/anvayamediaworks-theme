@@ -1,0 +1,496 @@
+.ux-research-page {
+  position: relative;
+  --ux-research-hero-title-size: clamp(2.2rem, 4.4vw, 4.1rem);
+  --ux-research-section-title-size: clamp(2rem, 3.8vw, 3.05rem);
+  --ux-research-card-title-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  --ux-research-copy-size: 18px;
+  --ux-research-copy-line-height: 29px;
+  background: #f8fbff;
+}
+
+.ux-research-page p,
+.ux-research-page li {
+  font-size: var(--ux-research-copy-size);
+  line-height: var(--ux-research-copy-line-height);
+}
+
+.ux-research-section-eyebrow,
+.ux-research-process-step {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ux-research-section-eyebrow {
+  margin-bottom: 0.9rem;
+  color: var(--color-blue);
+}
+
+.ux-research-hero-section {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: var(--color-blue);
+}
+
+.ux-research-hero-section::before,
+.ux-research-hero-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.ux-research-hero-section::before {
+  left: -170px;
+  bottom: -170px;
+  width: 360px;
+  height: 360px;
+  border: 26px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 52px rgba(255, 255, 255, 0.06),
+    0 0 0 104px rgba(255, 255, 255, 0.04);
+}
+
+.ux-research-hero-section::after {
+  right: -150px;
+  top: -170px;
+  width: 320px;
+  height: 320px;
+  border: 24px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 48px rgba(255, 255, 255, 0.06),
+    0 0 0 96px rgba(255, 255, 255, 0.04);
+}
+
+.ux-research-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.ux-research-hero-copy h1 {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--ux-research-hero-title-size);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+
+.ux-research-hero-lead,
+.ux-research-hero-support {
+  margin: 0;
+}
+
+.ux-research-hero-lead {
+  margin-top: 1.35rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.ux-research-hero-support {
+  margin-top: 0.95rem;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.ux-research-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.ux-research-hero-image-shell img {
+  width: 100%;
+}
+
+.ux-research-foundation-section,
+.ux-research-problems-section,
+.ux-research-approach-section,
+.ux-research-methods-section,
+.ux-research-outcomes-section,
+.ux-research-fit-section {
+  padding: 5.5rem 0;
+}
+
+.ux-research-foundation-section,
+.ux-research-outcomes-section {
+  background: var(--color-white);
+}
+
+.ux-research-approach-section,
+.ux-research-fit-section {
+  background: #f3f7fd;
+}
+
+.ux-research-problems-section {
+  background: var(--color-orange);
+}
+
+.ux-research-methods-section {
+  background: #eef4fd;
+}
+
+.ux-research-foundation-grid,
+.ux-research-outcomes-shell,
+.ux-research-fit-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 2rem;
+}
+
+.ux-research-foundation-grid {
+  align-items: center;
+}
+
+.ux-research-outcomes-shell,
+.ux-research-fit-shell {
+  align-items: center;
+}
+
+.ux-research-foundation-media {
+  box-shadow: 0 22px 40px rgba(8, 16, 31, 0.08);
+}
+
+.ux-research-foundation-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: calc(var(--radius-xl) - 10px);
+}
+
+.ux-research-foundation-content,
+.ux-research-outcomes-copy,
+.ux-research-foundation-copy,
+.ux-research-fit-copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.ux-research-foundation-content {
+  align-content: center;
+}
+
+.ux-research-foundation-copy h2,
+.ux-research-problems-header h2,
+.ux-research-approach-header h2,
+.ux-research-methods-header h2,
+.ux-research-outcomes-copy h2,
+.ux-research-fit-copy h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--ux-research-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.ux-research-foundation-copy p,
+.ux-research-approach-header p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.ux-research-question-stack {
+  display: grid;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.ux-research-question-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 1.3rem 1.35rem;
+  background: #f3f7fd;
+  border-left: 5px solid var(--color-blue);
+  border-radius: 10px;
+}
+
+.ux-research-question-index,
+.ux-research-approach-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--color-orange);
+}
+
+.ux-research-question-card h3,
+.ux-research-problem-card h3,
+.ux-research-approach-step h3,
+.ux-research-outcome-card h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--ux-research-card-title-size);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.ux-research-problems-header {
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.ux-research-problems-header .ux-research-section-eyebrow,
+.ux-research-problems-header h2 {
+  color: var(--color-white);
+}
+
+.ux-research-problems-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.ux-research-problem-card {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 1rem;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.ux-research-problem-icon {
+  display: inline-flex;
+  color: var(--color-white);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  padding: 30px;
+}
+
+.ux-research-problem-icon svg {
+  color: var(--color-white);
+  width: 100px;
+  height: 100px;
+}
+
+.ux-research-problem-card h3 {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.ux-research-problems-note {
+  margin: 1.7rem 0 0;
+  color: rgba(255, 255, 255, 0.74);
+  text-align: center;
+}
+
+.ux-research-approach-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.94fr);
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.ux-research-approach-rail {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ux-research-approach-step {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: start;
+  align-content: start;
+  padding: 1.35rem 1.4rem;
+  border-left: 5px solid var(--color-blue);
+  background: var(--color-white);
+  box-shadow: 0 12px 24px rgba(8, 16, 31, 0.05);
+  border-radius: 20px;
+}
+
+.ux-research-approach-step p {
+  margin: 0.6rem 0 0;
+  color: var(--color-muted);
+}
+
+.ux-research-methods-shell {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
+  gap: 1.6rem;
+  align-items: start;
+}
+
+.ux-research-methods-side {
+  display: grid;
+  gap: 1.4rem;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 18px 34px rgba(8, 16, 31, 0.06);
+  position: sticky;
+  top: 7.5rem;
+  border-radius: 20px;
+}
+
+.ux-research-methods-header {
+  display: grid;
+  gap: 1rem;
+}
+
+.ux-research-methods-header p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.ux-research-methods-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ux-research-method-item {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.4rem 1.45rem;
+  border-left: 5px solid var(--color-orange);
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(8, 16, 31, 0.05);
+  border-radius: 20px;
+}
+
+.ux-research-method-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(15, 60, 99, 0.12);
+  border-radius: 50%;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--color-blue);
+}
+
+.ux-research-method-item h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--ux-research-card-title-size);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.ux-research-outcomes-media,
+.ux-research-fit-media {
+  overflow: hidden;
+  min-height: 420px;
+  background: #eaf1fb;
+  box-shadow: 0 18px 34px rgba(8, 16, 31, 0.08);
+}
+
+.ux-research-outcomes-media img,
+.ux-research-fit-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ux-research-bullet-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--color-text);
+}
+
+.ux-research-bullet-list li+li {
+  margin-top: 0.7rem;
+}
+
+.ux-research-bullet-list-links a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.ux-research-bullet-list-links a:hover,
+.ux-research-bullet-list-links a:focus-visible {
+  color: var(--color-blue);
+}
+
+@media (width <=1199.98px) {
+
+  .ux-research-hero-grid,
+  .ux-research-foundation-grid,
+  .ux-research-outcomes-shell,
+  .ux-research-fit-shell,
+  .ux-research-approach-header,
+  .ux-research-methods-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .ux-research-approach-rail,
+  .ux-research-problems-grid,
+  .ux-research-methods-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ux-research-methods-side {
+    position: static;
+    top: auto;
+  }
+
+  .ux-research-foundation-media img,
+  .ux-research-methods-shell img,
+  .ux-research-outcomes-media img,
+  .ux-research-fit-media img {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (width <=767.98px) {
+  .ux-research-page {
+    --ux-research-hero-title-size: 32px;
+    --ux-research-section-title-size: 29px;
+    --ux-research-card-title-size: 24px;
+    --ux-research-copy-size: 14px;
+    --ux-research-copy-line-height: 24px;
+  }
+
+  .ux-research-hero-section {
+    padding: 0;
+  }
+
+  .ux-research-foundation-section,
+  .ux-research-problems-section,
+  .ux-research-approach-section,
+  .ux-research-methods-section,
+  .ux-research-outcomes-section,
+  .ux-research-fit-section {
+    padding: 2.5rem 0;
+  }
+
+  .ux-research-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ux-research-problems-grid,
+  .ux-research-approach-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .ux-research-methods-side {
+    padding: 1.3rem;
+  }
+
+  .ux-research-question-card,
+  .ux-research-approach-step {
+    grid-template-columns: 1fr;
+  }
+
+  .ux-research-method-item,
+  .ux-research-fit-links a,
+  .ux-research-problem-card {
+    min-height: 0;
+  }
+}

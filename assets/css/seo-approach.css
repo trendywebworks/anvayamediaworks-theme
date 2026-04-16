@@ -1,0 +1,292 @@
+.seo-page {
+  position: relative;
+  --seo-eyebrow-size: 1.2rem;
+  --seo-eyebrow-gap: 0.9rem;
+  --seo-hero-title-size: clamp(2.2rem, 4.4vw, 4.1rem);
+  --seo-section-title-size: clamp(2rem, 3.8vw, 2.8rem);
+  --seo-card-title-size: clamp(1.3rem, 2vw, 1.55rem);
+  --seo-copy-size: 18px;
+  --seo-copy-line-height: 29px;
+  background: linear-gradient(180deg, #fcfdff 0%, #f7f8fc 100%);
+}
+
+.seo-page p {
+  font-size: var(--seo-copy-size);
+  line-height: var(--seo-copy-line-height);
+}
+
+.seo-eyebrow,
+.seo-section-eyebrow,
+.seo-note-label {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--seo-eyebrow-size);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.seo-eyebrow,
+.seo-section-eyebrow {
+  margin-bottom: var(--seo-eyebrow-gap);
+}
+
+.seo-eyebrow {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.seo-section-eyebrow {
+  color: var(--color-blue);
+}
+
+.seo-note-label {
+  color: var(--color-orange);
+}
+
+.seo-hero-section {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: var(--color-blue);
+}
+
+.seo-hero-section::before,
+.seo-hero-section::after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.seo-hero-section::before {
+  left: -170px;
+  bottom: -170px;
+  border: 26px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 52px rgba(255, 255, 255, 0.06),
+    0 0 0 104px rgba(255, 255, 255, 0.04);
+}
+
+.seo-hero-section::after {
+  right: -170px;
+  top: -170px;
+  border: 24px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 48px rgba(255, 255, 255, 0.06),
+    0 0 0 96px rgba(255, 255, 255, 0.04);
+}
+
+.seo-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.25rem;
+  align-items: center;
+}
+
+.seo-hero-copy h1 {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--seo-hero-title-size);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.seo-hero-copy p {
+  margin: 0;
+}
+
+.seo-hero-copy p {
+  margin-top: 1.35rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.seo-hero-copy li {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.seo-hero-support {
+  margin-top: 0.95rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.seo-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.seo-hero-media img {
+  width: 100%;
+}
+
+.seo-evidence-section {
+  padding: 5.5rem 0;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f8faff 100%);
+}
+
+.seo-evidence-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.seo-evidence-main-media {
+  margin: 0;
+}
+
+.seo-evidence-main-media img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: calc(var(--radius-xl) - 10px);
+  background: #eef2fb;
+}
+
+.seo-evidence-note {
+  display: grid;
+  gap: 0.55rem;
+  width: 82%;
+  justify-self: end;
+  padding: 1.2rem;
+  border: 1px solid rgba(15, 60, 99, 0.12);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 32px rgba(8, 16, 31, 0.06);
+}
+
+.seo-evidence-note .seo-note-label {
+  margin-bottom: 0;
+}
+
+.seo-evidence-note p,
+.seo-section-intro,
+.seo-truth-item p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.seo-evidence-content {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.seo-evidence-content h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--seo-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.seo-truth-list {
+  display: grid;
+}
+
+.seo-truth-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.seo-truth-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(71, 36, 240, 0.12), rgba(255, 92, 0, 0.12));
+  color: var(--color-blue);
+}
+
+.seo-truth-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.85;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.seo-truth-item h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--seo-card-title-size);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.seo-truth-item p {
+  margin-top: 0.45rem;
+}
+
+.seo-section-outro {
+  padding: 1.4rem 1.5rem 0;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: -0.03em;
+}
+
+@media (width <=1199.98px) {
+
+  .seo-hero-grid,
+  .seo-evidence-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .seo-evidence-note {
+    width: 100%;
+    justify-self: stretch;
+  }
+}
+
+@media (width <=767.98px) {
+  .seo-page {
+    --seo-eyebrow-size: 0.72rem;
+    --seo-eyebrow-gap: 0.75rem;
+    --seo-hero-title-size: 32px;
+    --seo-section-title-size: 29px;
+    --seo-card-title-size: 22px;
+    --seo-copy-size: 14px;
+    --seo-copy-line-height: 24px;
+  }
+
+  .seo-hero-section {
+    padding: 0;
+  }
+
+  .seo-evidence-section {
+    padding: 2.5rem 0;
+  }
+
+  .seo-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .seo-hero-actions .btn {
+    width: 100%;
+  }
+
+  .seo-evidence-content {
+    gap: 1.2rem;
+  }
+
+  .seo-truth-item {
+    grid-template-columns: 1fr;
+  }
+}

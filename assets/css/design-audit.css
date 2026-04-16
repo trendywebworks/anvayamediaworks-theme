@@ -1,0 +1,511 @@
+.design-audit-page {
+  position: relative;
+  --design-audit-hero-title-size: clamp(2.2rem, 4.4vw, 4.1rem);
+  --design-audit-section-title-size: clamp(2rem, 3.8vw, 3.1rem);
+  --design-audit-card-title-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  --design-audit-copy-size: 18px;
+  --design-audit-copy-line-height: 29px;
+  background: #f7faff;
+}
+
+.design-audit-page p,
+.design-audit-page li {
+  font-size: var(--design-audit-copy-size);
+  line-height: var(--design-audit-copy-line-height);
+}
+
+.design-audit-section-eyebrow,
+.design-audit-process-step {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.design-audit-section-eyebrow {
+  margin-bottom: 0.9rem;
+  color: var(--color-blue);
+}
+
+.design-audit-hero-section {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: var(--color-blue);
+}
+
+.design-audit-hero-section::before,
+.design-audit-hero-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.design-audit-hero-section::before {
+  left: -170px;
+  bottom: -170px;
+  width: 360px;
+  height: 360px;
+  border: 26px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 52px rgba(255, 255, 255, 0.06),
+    0 0 0 104px rgba(255, 255, 255, 0.04);
+}
+
+.design-audit-hero-section::after {
+  right: -140px;
+  top: -150px;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.design-audit-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.design-audit-hero-copy h1 {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--design-audit-hero-title-size);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+
+.design-audit-hero-lead,
+.design-audit-hero-support {
+  margin: 0;
+}
+
+.design-audit-hero-lead {
+  margin-top: 1.35rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.design-audit-hero-support {
+  margin-top: 0.95rem;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.design-audit-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.design-audit-screen {
+  padding: 1rem;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-strong);
+  backdrop-filter: blur(18px);
+}
+
+.design-audit-screen-bar {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 0.2rem;
+}
+
+.design-audit-screen-bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.design-audit-screen-body {
+  display: grid;
+  grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #edf4ff 0%, #dce9fb 100%);
+}
+
+.design-audit-score-card {
+  display: grid;
+  gap: 1rem;
+  padding: 1.15rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.design-audit-screen-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.design-audit-gauge {
+  display: grid;
+  place-items: center;
+}
+
+.design-audit-gauge-ring {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at center, #ffffff 0 54%, transparent 55%),
+    conic-gradient(var(--color-orange) 0 120deg, var(--color-blue) 120deg 313deg, rgba(15, 60, 99, 0.12) 313deg 360deg);
+}
+
+.design-audit-gauge-ring strong {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1;
+  color: var(--color-text);
+}
+
+.design-audit-gauge-ring small {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+}
+
+.design-audit-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.design-audit-mini-card {
+  padding: 1rem 0.95rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(15, 60, 99, 0.08);
+}
+
+.design-audit-mini-card strong {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.94rem;
+  color: var(--color-text);
+}
+
+.design-audit-mini-card span {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+}
+
+.design-audit-checklist {
+  display: grid;
+  gap: 0.7rem;
+  grid-column: 1 / -1;
+  padding: 1rem 1.15rem;
+  border-radius: 20px;
+  background: rgba(15, 60, 99, 0.08);
+}
+
+.design-audit-checklist-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.design-audit-checklist-item span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-orange);
+  box-shadow: 0 0 0 5px rgba(255, 153, 51, 0.16);
+}
+
+.design-audit-checklist-item p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.design-audit-impact-section,
+.design-audit-scope-section,
+.design-audit-process-section {
+  padding: 5.5rem 0;
+}
+
+.design-audit-impact-section {
+  background: var(--color-white);
+}
+
+.design-audit-scope-section {
+  padding-top: 0;
+}
+
+.design-audit-process-section {
+  background: #f3f7fd;
+}
+
+.design-audit-impact-shell,
+.design-audit-process-header {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.design-audit-impact-intro {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  background: var(--color-blue);
+  box-shadow: var(--shadow-soft);
+  position: sticky;
+  top: 7.5rem;
+  border-radius: 20px;
+}
+
+.design-audit-impact-intro .design-audit-section-eyebrow,
+.design-audit-impact-intro h2,
+.design-audit-impact-intro p {
+  color: var(--color-white);
+}
+
+.design-audit-impact-intro h2,
+.design-audit-scope-header h2,
+.design-audit-process-header h2 {
+  margin: 0;
+  font-size: var(--design-audit-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.design-audit-impact-intro p,
+.design-audit-process-header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.design-audit-impact-list {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.design-audit-impact-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 1.3rem 1.35rem;
+  border-left: 4px solid var(--color-blue);
+  background: #f3f7fd;
+  border-radius: 20px;
+}
+
+.design-audit-impact-icon {
+  display: inline-flex;
+  color: var(--color-blue);
+}
+
+.design-audit-impact-icon svg {
+  width: 44px;
+  height: 44px;
+}
+
+.design-audit-impact-item h3,
+.design-audit-scope-item h3,
+.design-audit-process-card h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--design-audit-card-title-size);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.design-audit-impact-item p,
+.design-audit-scope-item p,
+.design-audit-process-card p {
+  margin: 0.65rem 0 0;
+  color: var(--color-muted);
+}
+
+.design-audit-scope-board {
+  padding: 2.2rem 0;
+  background: #0f2135;
+  color: var(--color-white);
+  box-shadow: 0 28px 48px rgba(8, 16, 31, 0.12);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.design-audit-scope-header {
+  padding: 0 2.2rem 1.7rem;
+}
+
+.design-audit-scope-header .design-audit-section-eyebrow,
+.design-audit-scope-header h2 {
+  color: var(--color-white);
+}
+
+.design-audit-scope-list {
+  display: grid;
+}
+
+.design-audit-scope-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.45rem 2.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.design-audit-scope-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--color-orange);
+}
+
+.design-audit-scope-item h3,
+.design-audit-scope-item p {
+  color: var(--color-white);
+}
+
+.design-audit-scope-item p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.design-audit-process-header {
+  margin-bottom: 2.2rem;
+}
+
+.design-audit-process-header p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.design-audit-process-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.design-audit-process-card {
+  position: relative;
+  padding: 1.5rem 1.25rem;
+  background: var(--color-white);
+  box-shadow: 0 14px 28px rgba(8, 16, 31, 0.06);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.design-audit-process-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: var(--color-orange);
+}
+
+.design-audit-process-step {
+  margin-bottom: 1rem;
+  color: var(--color-blue);
+}
+
+@media (width <=1199.98px) {
+
+  .design-audit-hero-grid,
+  .design-audit-impact-shell,
+  .design-audit-process-header {
+    grid-template-columns: 1fr;
+  }
+
+  .design-audit-impact-intro {
+    position: static;
+    top: auto;
+  }
+
+  .design-audit-screen-body,
+  .design-audit-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .design-audit-gauge-ring {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (width <=767.98px) {
+  .design-audit-page {
+    --design-audit-hero-title-size: 32px;
+    --design-audit-section-title-size: 29px;
+    --design-audit-card-title-size: 24px;
+    --design-audit-copy-size: 14px;
+    --design-audit-copy-line-height: 24px;
+  }
+
+  .design-audit-hero-section {
+    padding: 0;
+  }
+
+  .design-audit-impact-section,
+  .design-audit-scope-section,
+  .design-audit-process-section {
+    padding: 2.5rem 0;
+  }
+
+  .design-audit-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .design-audit-screen-body,
+  .design-audit-mini-grid,
+  .design-audit-process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .design-audit-impact-intro,
+  .design-audit-impact-item,
+  .design-audit-scope-header,
+  .design-audit-scope-item,
+  .design-audit-process-card,
+  .design-audit-checklist,
+  .design-audit-score-card {
+    padding: 1.3rem;
+  }
+
+  .design-audit-impact-item,
+  .design-audit-scope-item {
+    grid-template-columns: 1fr;
+  }
+
+  .design-audit-gauge-ring {
+    width: 128px;
+    height: 128px;
+  }
+
+  .design-audit-process-card::before {
+    inset: 0 0 auto 0;
+    width: auto;
+    height: 6px;
+  }
+}

@@ -1,0 +1,60 @@
+<svg width="1600" height="1080" viewBox="0 0 1600 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1080" fill="#EEF2FB"/>
+  <rect x="68" y="62" width="1464" height="956" fill="#FFFFFF"/>
+  <rect x="126" y="124" width="1348" height="832" fill="#E8ECF6"/>
+  <rect x="126" y="124" width="1348" height="832" fill="#E8ECF6"/>
+
+  <g opacity="0.95">
+    <rect x="790" y="166" width="598" height="724" fill="#DCE3F2"/>
+    <rect x="760" y="190" width="640" height="676" fill="#F6F8FC"/>
+  </g>
+
+  <g filter="url(#blurA)" opacity="0.88">
+    <circle cx="408" cy="290" r="74" fill="#B8C4DF"/>
+    <rect x="336" y="364" width="150" height="264" rx="74" fill="#D4DCEB"/>
+    <circle cx="592" cy="326" r="66" fill="#AAB7D3"/>
+    <rect x="530" y="390" width="132" height="238" rx="66" fill="#CBD5E8"/>
+    <circle cx="680" cy="372" r="56" fill="#C6D0E5"/>
+    <rect x="630" y="426" width="108" height="186" rx="54" fill="#DDE4F0"/>
+  </g>
+
+  <g opacity="0.96">
+    <circle cx="1120" cy="320" r="126" fill="#FF5C00"/>
+    <circle cx="1110" cy="332" r="110" fill="#D08A63"/>
+    <rect x="1008" y="428" width="232" height="304" rx="96" fill="#0F3C63"/>
+    <rect x="982" y="438" width="72" height="340" rx="30" fill="#0F3C63"/>
+    <rect x="1210" y="444" width="72" height="348" rx="30" fill="#0F3C63"/>
+    <rect x="1046" y="494" width="166" height="248" rx="34" fill="#3E5E92"/>
+    <rect x="1008" y="706" width="250" height="108" rx="36" fill="#FFFFFF"/>
+    <rect x="966" y="676" width="324" height="164" rx="52" fill="#2F4784"/>
+    <rect x="1108" y="646" width="262" height="164" rx="24" fill="#CBD5E8"/>
+    <rect x="1134" y="670" width="210" height="122" rx="18" fill="#F5F7FB"/>
+    <rect x="1160" y="696" width="156" height="10" rx="5" fill="#C6D0E5"/>
+    <rect x="1160" y="724" width="132" height="10" rx="5" fill="#C6D0E5"/>
+    <rect x="1160" y="752" width="118" height="10" rx="5" fill="#C6D0E5"/>
+  </g>
+
+  <g opacity="0.94">
+    <rect x="494" y="546" width="108" height="172" rx="20" fill="#FFFFFF"/>
+    <rect x="520" y="574" width="56" height="56" rx="18" fill="#4724F0"/>
+    <rect x="520" y="650" width="56" height="12" rx="6" fill="#B7C4E2"/>
+    <rect x="520" y="676" width="42" height="12" rx="6" fill="#B7C4E2"/>
+  </g>
+
+  <g opacity="0.92">
+    <rect x="228" y="708" width="468" height="134" rx="28" fill="#FFFFFF"/>
+    <rect x="264" y="748" width="132" height="12" rx="6" fill="#4724F0"/>
+    <rect x="264" y="780" width="310" height="10" rx="5" fill="#C4CEE3"/>
+    <rect x="264" y="804" width="232" height="10" rx="5" fill="#C4CEE3"/>
+    <circle cx="614" cy="775" r="30" fill="#FF5C00"/>
+    <path d="M603 775L612 784L626 766" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <defs>
+    <filter id="blurA" x="274" y="216" width="518" height="524" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_1_1"/>
+    </filter>
+  </defs>
+</svg>

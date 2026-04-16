@@ -1,0 +1,142 @@
+@media (max-width: 1199.98px) {
+  .nav-shell {
+    grid-template-columns: auto auto;
+  }
+
+  .navbar-collapse {
+    grid-column: 1 / -1;
+    justify-self: stretch;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    background: rgba(9, 17, 33, 0.96);
+  }
+
+  .navbar-nav {
+    align-items: stretch;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: left;
+    padding: 0.95rem 0 !important;
+  }
+
+  .nav-link::after {
+    left: 0;
+    right: calc(100% - 42px);
+    bottom: 0.2rem;
+  }
+
+  .nav-panel-toggle::before {
+    right: 0;
+  }
+
+  .mega-menu {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: none;
+    display: none;
+    padding-top: 0.2rem;
+  }
+
+  .nav-item.is-open > .mega-menu {
+    display: block;
+  }
+
+  .mega-menu-panel {
+    padding: 1.15rem;
+    border-radius: 0;
+  }
+
+  .mega-menu-intro,
+  .mega-menu-grid-2,
+  .mega-menu-grid-3,
+  .mega-menu-grid-4,
+  .mega-solution-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mega-menu-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mega-menu-intro {
+    gap: 1rem;
+  }
+
+  .navbar-mobile-cta {
+    margin-top: 1rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-shell-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar {
+    padding: 0.95rem 0;
+  }
+
+  .mega-menu-panel,
+  .mega-menu-column,
+  .mega-menu-note,
+  .mega-solution-card {
+    border-radius: 0;
+  }
+
+  .navbar-mobile-cta .btn-amw,
+  .btn-nav-cta {
+    width: 100%;
+  }
+
+  .prefooter-section {
+    padding: 2rem 0;
+  }
+
+  .prefooter-content h2,
+  .prefooter-content p {
+    max-width: 100%;
+  }
+
+  .prefooter-content h2 {
+    font-size: 26px;
+  }
+
+  .prefooter-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .btn-prefooter-cta {
+    width: auto;
+    padding-left: 1.1rem;
+  }
+
+  .site-footer {
+    padding-top: 4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-logo img {
+    width: 116px;
+  }
+
+  .footer-bottom {
+    margin-top: 2.4rem;
+  }
+}

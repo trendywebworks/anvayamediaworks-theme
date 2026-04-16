@@ -1,0 +1,390 @@
+.brand-design-page {
+  background: var(--color-surface);
+}
+
+.brand-design-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.brand-design-section-eyebrow::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-orange);
+  flex: 0 0 auto;
+}
+
+.brand-design-section-eyebrow-light {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.brand-design-section-eyebrow-light::before {
+  background: var(--color-white);
+}
+
+.brand-design-hero-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.brand-design-hero-section::before,
+.brand-design-hero-section::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.brand-design-hero-section::before {
+  width: 460px;
+  height: 460px;
+  top: -190px;
+  right: -140px;
+}
+
+.brand-design-hero-section::after {
+  width: 260px;
+  height: 260px;
+  left: -120px;
+  bottom: -90px;
+}
+
+.brand-design-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3.25rem;
+  align-items: center;
+}
+
+.brand-design-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.75rem, 5.2vw, 4.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.brand-design-hero-lead {
+  margin: 1.4rem 0 0;
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.brand-design-hero-support {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.brand-design-hero-actions {
+  margin-top: 2rem;
+}
+
+.brand-design-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.brand-design-definition-section,
+.brand-design-signs-section,
+.brand-design-process-section {
+  padding: 6rem 0;
+}
+
+.brand-design-definition-section {
+  background: var(--color-white);
+}
+
+.brand-design-definition-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.brand-design-definition-media {
+  overflow: hidden;
+  box-shadow: 0 22px 40px rgba(8, 16, 31, 0.08);
+  border-radius: calc(var(--radius-xl) - 10px);
+}
+
+.brand-design-definition-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: calc(var(--radius-xl) - 10px);
+}
+
+.brand-design-definition-content,
+.brand-design-definition-copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.brand-design-definition-content {
+  align-content: center;
+}
+
+.brand-design-definition-copy h2,
+.brand-design-signs-header h2,
+.brand-design-process-header h2 {
+  margin: 1rem 0 0;
+  font-size: clamp(2rem, 3.8vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.brand-design-definition-copy p,
+.brand-design-signs-header p,
+.brand-design-process-header p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.brand-design-definition-list {
+  display: grid;
+  gap: 0.9rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.brand-design-definition-list li {
+  position: relative;
+  padding-left: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.brand-design-definition-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-orange);
+}
+
+.brand-design-signs-section {
+  background: var(--color-white);
+}
+
+.brand-design-signs-header {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.brand-design-signs-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.brand-design-sign-card {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  padding: 1.8rem 1.3rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-orange);
+  border-radius: 20px;
+}
+
+.brand-design-sign-icon,
+.brand-design-process-icon {
+  display: inline-flex;
+  color: var(--color-blue);
+}
+
+.brand-design-sign-icon svg,
+.brand-design-process-icon svg {
+  width: 54px;
+  height: 54px;
+}
+
+.brand-design-sign-number,
+.brand-design-process-number {
+  color: var(--color-orange);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.brand-design-sign-card h3,
+.brand-design-process-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+}
+
+.brand-design-signs-note {
+  margin: 1.35rem 0 0;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.brand-design-process-section {
+  background: #f3f7fd;
+}
+
+.brand-design-process-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.7fr);
+  gap: 1.6rem;
+  align-items: end;
+}
+
+.brand-design-process-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.brand-design-process-arrow {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  color: var(--color-text);
+  background: transparent;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.brand-design-process-arrow:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.brand-design-process-arrow:disabled {
+  opacity: 0.35;
+}
+
+.brand-design-process-arrow svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.brand-design-process-progress {
+  position: relative;
+  width: 88px;
+  height: 1px;
+  background: rgba(16, 20, 28, 0.24);
+}
+
+.brand-design-process-progress-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 100%;
+  background: #10141c;
+  transform: scaleX(0.34);
+  transform-origin: left center;
+  transition: transform 0.32s ease;
+}
+
+.brand-design-process-window {
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.brand-design-process-track {
+  display: flex;
+  gap: 1rem;
+  padding: 0.25rem 0 0.5rem;
+  transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
+}
+
+.brand-design-process-card {
+  flex: 0 0 clamp(280px, 31vw, 360px);
+  display: grid;
+  gap: 1rem;
+  padding: 1.7rem 1.5rem 1.55rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 18px 34px rgba(8, 16, 31, 0.06);
+  border-radius: 20px;
+}
+
+.brand-design-process-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand-design-process-card p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+
+@media (width <=1199.98px) {
+
+  .brand-design-hero-grid,
+  .brand-design-definition-grid,
+  .brand-design-process-header {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-design-signs-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (width <=767.98px) {
+  .brand-design-hero-section {
+    padding: 0;
+  }
+
+  .brand-design-definition-section,
+  .brand-design-signs-section,
+  .brand-design-process-section {
+    padding: 4.5rem 0;
+  }
+
+  .brand-design-signs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-design-definition-media {
+    min-height: 360px;
+  }
+
+  .brand-design-process-controls {
+    justify-content: flex-start;
+  }
+
+  .brand-design-process-window {
+    margin-top: 1.6rem;
+  }
+}

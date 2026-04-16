@@ -1,0 +1,210 @@
+.work-page {
+  position: relative;
+  --work-hero-title-size: clamp(2.2rem, 4.4vw, 4.1rem);
+  --work-section-title-size: clamp(2.1rem, 4vw, 3.4rem);
+  --work-card-title-size: clamp(1.45rem, 2vw, 1.85rem);
+  --work-copy-size: 18px;
+  --work-copy-line-height: 29px;
+  background: #fbfcff;
+}
+
+.work-page p {
+  font-size: var(--work-copy-size);
+  line-height: var(--work-copy-line-height);
+}
+
+.work-hero-section {
+  position: relative;
+  padding: 5.5rem 0;
+  overflow: hidden;
+  background: var(--color-blue);
+}
+
+.work-hero-section::before,
+.work-hero-section::after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.work-hero-section::before {
+  left: -170px;
+  bottom: -170px;
+  border: 26px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 52px rgba(255, 255, 255, 0.06),
+    0 0 0 104px rgba(255, 255, 255, 0.04);
+}
+
+.work-hero-section::after {
+  right: -170px;
+  top: -170px;
+  border: 24px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 48px rgba(255, 255, 255, 0.06),
+    0 0 0 96px rgba(255, 255, 255, 0.04);
+}
+
+.work-hero-shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.work-hero-shell .page-breadcrumbs {
+  justify-content: center;
+}
+
+.work-hero-shell h1 {
+  margin: 0;
+  color: var(--color-white);
+  font-size: var(--work-hero-title-size);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.clients-section {
+  padding: 5.5rem 0;
+  background: var(--color-white);
+}
+
+.clients-section-header {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2.4rem;
+}
+
+.clients-eyebrow {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.clients-section-header h2 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--work-section-title-size);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.clients-intro {
+  margin: 0 0 0 auto;
+  color: var(--color-muted);
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.client-card {
+  display: grid;
+  gap: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: #fbfcff;
+  overflow: hidden;
+  transition: transform var(--transition-base), border-color var(--transition-base);
+}
+
+.client-card:hover {
+  border-color: rgba(71, 36, 240, 0.24);
+  transform: translateY(-4px);
+}
+
+.client-card-media {
+  position: relative;
+  min-height: 320px;
+  background: #edf1f8;
+  overflow: hidden;
+}
+
+.client-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-card-body {
+  padding: 1.6rem 1.5rem 1.7rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.client-card-category {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  color: var(--color-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.client-card-body h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--work-card-title-size);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.client-card-body p {
+  margin: 0.7rem 0 0;
+  color: var(--color-muted);
+}
+
+@media (width <=1199.98px) {
+  .clients-section-header {
+    grid-template-columns: 1fr;
+  }
+
+  .clients-intro {
+    margin: 0;
+  }
+}
+
+@media (width <=767.98px) {
+  .work-page {
+    --work-hero-title-size: 32px;
+    --work-section-title-size: 30px;
+    --work-card-title-size: clamp(1.35rem, 6vw, 1.6rem);
+    --work-copy-size: 14px;
+    --work-copy-line-height: 24px;
+  }
+
+  .work-hero-section {
+    padding: 2.5rem 0;
+  }
+
+  .clients-section {
+    padding: 2.5rem 0;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .client-card-media {
+    min-height: 240px;
+  }
+
+  .client-card-body {
+    padding: 1.35rem 1.2rem 1.4rem;
+  }
+}
