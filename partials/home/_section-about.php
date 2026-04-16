@@ -39,7 +39,7 @@
             bring together strategy, creative thinking, media activation, digital marketing, design,
             and technology to solve growth challenges with discipline and direction.
         </p>
-        <a class="btn btn-amw btn-amw-primary who-we-are-cta" href="<?php echo htmlspecialchars($contactLink, ENT_QUOTES, 'UTF-8'); ?>">Talk to Anvaya</a>
+        <a class="btn btn-amw btn-amw-primary who-we-are-cta" href="<?php echo home_url(); ?>/contact/">Talk to Anvaya</a>
         </div>
     </div>
     </div>
