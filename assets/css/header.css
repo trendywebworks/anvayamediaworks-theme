@@ -241,11 +241,6 @@
   gap: 0 1.3rem;
 }
 
-.mega-menu-subcolumn a:first-child {
-  border-top: 0;
-  padding-top: 0.15rem;
-}
-
 .mega-menu-column,
 .mega-menu-note {
   min-height: 100%;
@@ -275,8 +270,9 @@
   background-color: var(--color-blue);
 }
 
-.mega-menu-column-detailed a {
-  padding: 0.95rem 0;
+.mega-menu-column a:hover small,
+.mega-menu-column a:hover strong {
+  color: var(--color-white);
 }
 
 .mega-menu-column-detailed strong {
