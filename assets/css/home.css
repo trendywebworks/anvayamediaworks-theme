@@ -392,7 +392,9 @@
 .capability-showcase-media {
   height: 100%;
   min-height: 620px;
-  background: #edf0f7;
+  background: #fff;
+  align-items: center;
+  display: flex;
 }
 
 .capability-showcase-media img {
