@@ -87,29 +87,24 @@ if ( function_exists( 'add_image_size' ) ) {
 // Disable Admin Bar for All Users Except for Administrators
 add_filter('show_admin_bar', '__return_false');
 
-// VALIDATE EMAIL IDS
-add_filter('wpcf7_validate_email*', 'block_invalid_email_domains_cf7', 20, 2);
-add_filter('wpcf7_validate_email', 'block_invalid_email_domains_cf7', 20, 2);
+add_filter('wpcf7_validate_email*', 'validate_real_email_cf7', 20, 2);
+add_filter('wpcf7_validate_email', 'validate_real_email_cf7', 20, 2);
 
-function block_invalid_email_domains_cf7($result, $tag) {
+function validate_real_email_cf7($result, $tag) {
     $name = $tag->name;
 
     if ($name === 'your-email') {
         $email = isset($_POST[$name]) ? sanitize_email($_POST[$name]) : '';
 
-        $blocked_domains = array(
-            'gm.cm',
-            'gmal.com',
-            'gmai.com',
-            'gmail.cm',
-            'gmail.con',
-            'yaho.com',
-            'yahoomail.com'
-        );
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $result->invalidate($tag, "Please enter a valid email format.");
+            return $result;
+        }
 
         $domain = substr(strrchr($email, "@"), 1);
 
-        if (in_array(strtolower($domain), $blocked_domains)) {
+        // Check if domain actually exists (MX record)
+        if (!checkdnsrr($domain, 'MX')) {
             $result->invalidate($tag, "Please enter a valid email address.");
         }
     }
