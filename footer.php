@@ -58,39 +58,7 @@
               'walker' => new wp_bootstrap_navwalker())
               );
           ?>
-        </div>
-
-        <div class="footer-column footer-column-services">
-          <span class="footer-heading">Services</span>
-          <?php /* Primary navigation */
-              wp_nav_menu( array(
-              'theme_location' => 'footer_nav_3',
-              'depth' => 2,
-              'container' => false,
-              'menu_class' => '',
-              'role' => 'menu',
-              'aria-labelledby' => 'footer_nav_3',
-              //Process nav menu using our custom nav walker
-              'walker' => new wp_bootstrap_navwalker())
-              );
-          ?>
-        </div>
-
-        <div class="footer-column">
-          <span class="footer-heading">Solutions</span>
-          <?php /* Primary navigation */
-              wp_nav_menu( array(
-              'theme_location' => 'footer_nav_4',
-              'depth' => 2,
-              'container' => false,
-              'menu_class' => '',
-              'role' => 'menu',
-              'aria-labelledby' => 'footer_nav_4',
-              //Process nav menu using our custom nav walker
-              'walker' => new wp_bootstrap_navwalker())
-              );
-          ?>
-        </div>
+        </div>        
       </div>
 
       <div class="footer-bottom">
