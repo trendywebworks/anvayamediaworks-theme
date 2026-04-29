@@ -13,11 +13,17 @@
             Every element works together to create a seamless and scalable digital presence.
           </p>
           <div class="footer-brand-social" aria-label="Company social links">
-            <a href="#" aria-label="Anvaya Media Works on LinkedIn">
-              <i class="lni lni-linkedin"></i>
+            <a href="https://www.youtube.com/@AnvayaMediawork" aria-label="Anvaya Media Works on LinkedIn" target="_blank">
+              <i class="lni lni-youtube"></i>
             </a>
-            <a href="#" aria-label="Anvaya Media Works on X">
-              <i class="lni lni-x"></i>
+            <a href="https://maps.app.goo.gl/GF6W2bdbZiVPMkN86" aria-label="Anvaya Media Works on LinkedIn" target="_blank">
+              <i class="lni lni-map-marker"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1cJRE8tmTe/" aria-label="Anvaya Media Works on LinkedIn" target="_blank">
+              <i class="lni lni-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/anvayamediaworks" aria-label="Anvaya Media Works on X" target="_blank">
+              <i class="lni lni-instagram"></i>
             </a>
           </div>
         </div>

@@ -87,4 +87,57 @@ if ( function_exists( 'add_image_size' ) ) {
 // Disable Admin Bar for All Users Except for Administrators
 add_filter('show_admin_bar', '__return_false');
 
+// VALIDATE EMAIL IDS
+add_filter('wpcf7_validate_email*', 'block_invalid_email_domains_cf7', 20, 2);
+add_filter('wpcf7_validate_email', 'block_invalid_email_domains_cf7', 20, 2);
+
+function block_invalid_email_domains_cf7($result, $tag) {
+    $name = $tag->name;
+
+    if ($name === 'your-email') {
+        $email = isset($_POST[$name]) ? sanitize_email($_POST[$name]) : '';
+
+        $blocked_domains = array(
+            'gm.cm',
+            'gmal.com',
+            'gmai.com',
+            'gmail.cm',
+            'gmail.con',
+            'yaho.com',
+            'yahoomail.com'
+        );
+
+        $domain = substr(strrchr($email, "@"), 1);
+
+        if (in_array(strtolower($domain), $blocked_domains)) {
+            $result->invalidate($tag, "Please enter a valid email address.");
+        }
+    }
+
+    return $result;
+}
+
+// VALIDATE PHONE NUMBER
+add_filter('wpcf7_validate_tel*', 'validate_indian_phone_cf7', 20, 2);
+add_filter('wpcf7_validate_tel', 'validate_indian_phone_cf7', 20, 2);
+
+function validate_indian_phone_cf7($result, $tag) {
+    $name = $tag->name;
+
+    if ($name === 'your-phone') {
+        $phone = isset($_POST[$name]) ? trim($_POST[$name]) : '';
+
+        // Remove spaces, dashes, etc.
+        $phone = preg_replace('/[^0-9]/', '', $phone);
+
+        // Validate: starts with 6-9 and total 10 digits
+        if (!preg_match('/^[6-9][0-9]{9}$/', $phone)) {
+            $result->invalidate($tag, "Please enter a valid 10-digit Indian mobile number.");
+        }
+    }
+
+    return $result;
+}
+
+
 ?>
