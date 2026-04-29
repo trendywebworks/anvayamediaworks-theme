@@ -354,3 +354,47 @@ h6,
     transform: scale(1);
   }
 }
+
+.popup-form label {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.popup-form label span {
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.popup-form input {
+  font-size: var(--contact-copy-size);
+  line-height: var(--contact-copy-line-height);
+  width: 100%;
+  padding: 1rem 1rem 1.05rem;
+  border: 1px solid rgba(15, 60, 99, 0.16);
+  border-radius: 18px;
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.92);
+  outline: none;
+}
+
+/* VALIDATION */
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #46b450 !important;
+  background: #46b450 !important;
+  text-align: center !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+  border-color: #ffb900 !important;
+  background: #ffb900 !important;
+  text-align: center !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+}

@@ -76,7 +76,9 @@
       <h2>Get in Touch</h2>
       <p>Fill out the form below and our team will contact you shortly.</p>
 
-      <?php echo do_shortcode('[contact-form-7 id="d204ff8" title="Lead Form"]'); ?>
+      <div class="popup-form">
+        <?php echo do_shortcode('[contact-form-7 id="d204ff8" title="Lead Form"]'); ?>
+      </div>
     </div>
   </div>
 
