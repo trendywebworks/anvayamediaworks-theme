@@ -132,6 +132,10 @@
   </script>
 
   <script>
+    document.addEventListener('wpcf7submit', function () {
+      console.log('CF7 working');
+    });
+
     document.addEventListener('DOMContentLoaded', function () {
       if (typeof wpcf7 !== 'undefined') {
         document.querySelectorAll('.wpcf7 form').forEach(function (form) {
