@@ -175,5 +175,17 @@ function validate_indian_phone_cf7($result, $tag) {
     return $result;
 }
 
+add_action('wp_enqueue_scripts', function () {
+    if (is_page('contact')) {
+        if (function_exists('wpcf7_enqueue_scripts')) {
+            wpcf7_enqueue_scripts();
+        }
+
+        if (function_exists('wpcf7_enqueue_styles')) {
+            wpcf7_enqueue_styles();
+        }
+    }
+}, 20);
+
 
 ?>
