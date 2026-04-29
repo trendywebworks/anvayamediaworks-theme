@@ -73,7 +73,7 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.9fr) minmax(0, 0.9fr) minmax(0, 1.7fr) minmax(0, 0.9fr);
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 2.5rem 2rem;
 }
 

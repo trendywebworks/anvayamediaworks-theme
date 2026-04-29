@@ -44,7 +44,7 @@
     padding-top: 0.2rem;
   }
 
-  .nav-item.is-open > .mega-menu {
+  .nav-item.is-open>.mega-menu {
     display: block;
   }
 
@@ -74,7 +74,7 @@
   }
 
   .footer-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 }
 
