@@ -36,14 +36,6 @@ require_once('wp_bootstrap_navwalker.php');
 
 /* GET ACTIVE CLASS */
 
-
-
-// De-register jQuery from Contact Form 7
-add_action('wp_print_scripts', 'my_deregister_javascript', 100 );
-	function my_deregister_javascript() {
-	wp_deregister_script('contact-form-7' );
-}
-
 // //////////////////////////////////// TO ENABLE SIDE BAR WIDGET IN WP ADMIN ///////////////////////////////
 function arphabet_widgets_init() {
 	register_sidebar( array(
