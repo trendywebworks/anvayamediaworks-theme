@@ -87,26 +87,67 @@ if ( function_exists( 'add_image_size' ) ) {
 // Disable Admin Bar for All Users Except for Administrators
 add_filter('show_admin_bar', '__return_false');
 
-add_filter('wpcf7_validate_email*', 'validate_real_email_cf7', 20, 2);
-add_filter('wpcf7_validate_email', 'validate_real_email_cf7', 20, 2);
+// VALIDATE EMAIL IDS
+add_filter('wpcf7_validate_email*', 'cf7_validate_real_email_domain', 20, 2);
+add_filter('wpcf7_validate_email', 'cf7_validate_real_email_domain', 20, 2);
 
-function validate_real_email_cf7($result, $tag) {
+function cf7_validate_real_email_domain($result, $tag) {
+
+    $tag  = new WPCF7_FormTag($tag);
     $name = $tag->name;
 
-    if ($name === 'your-email') {
-        $email = isset($_POST[$name]) ? sanitize_email($_POST[$name]) : '';
+    if ($name !== 'your-email') {
+        return $result;
+    }
 
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $result->invalidate($tag, "Please enter a valid email format.");
-            return $result;
-        }
+    $submission = WPCF7_Submission::get_instance();
 
-        $domain = substr(strrchr($email, "@"), 1);
+    if (!$submission) {
+        return $result;
+    }
 
-        // Check if domain actually exists (MX record)
-        if (!checkdnsrr($domain, 'MX')) {
-            $result->invalidate($tag, "Please enter a valid email address.");
-        }
+    $posted_data = $submission->get_posted_data();
+    $email = isset($posted_data[$name]) ? sanitize_email($posted_data[$name]) : '';
+
+    if (!is_email($email)) {
+        $result->invalidate($tag, 'Please enter a valid email address.');
+        return $result;
+    }
+
+    $domain = strtolower(substr(strrchr($email, '@'), 1));
+
+    $blocked_domains = array(
+        'gm.cm',
+        'gmal.com',
+        'gmai.com',
+        'gmial.com',
+        'gmaill.com',
+        'gmail.cm',
+        'gmail.con',
+        'gmail.co',
+        'gmail.om',
+        'yaho.com',
+        'yahooo.com',
+        'yahoomail.com',
+        'yahoo.cm',
+        'yahoo.con',
+        'yahoo.co',
+        'hotnail.com',
+        'hotmal.com',
+        'hotmial.com',
+        'hotmail.con',
+        'hotmail.co',
+        'outlok.com',
+        'outllok.com',
+        'outlook.con',
+        'test.com',
+        'example.com',
+        'abc.com',
+        'xyz.com'
+    );
+
+    if (in_array($domain, $blocked_domains, true)) {
+        $result->invalidate($tag, 'Please enter a valid email address.');
     }
 
     return $result;
