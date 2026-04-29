@@ -67,6 +67,17 @@
     </div>
   </footer>
 
+
+  <!-- Lead Gen Form Modal -->
+  <div id="customModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Welcome!</h2>
+      <p>Thanks for visiting our website. Let us know how we can help you.</p>
+    </div>
+  </div>
+
+
   <!-- jQuery CDN -->
   <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -83,6 +94,23 @@
 
   <!-- Custom Script -->
   <script src="<?php bloginfo('template_directory'); ?>/assets/js/script.js"></script>
+
+  <script>
+    window.addEventListener('load', function () {
+
+      if (!localStorage.getItem('modalShown')) {
+        setTimeout(function () {
+          document.getElementById('customModal').style.display = 'block';
+        }, 30000);
+      }
+
+      document.querySelector('.close-btn').onclick = function () {
+        document.getElementById('customModal').style.display = 'none';
+        localStorage.setItem('modalShown', 'true');
+      };
+
+    });
+  </script>
 
   <?php wp_footer(); ?>
 
