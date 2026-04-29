@@ -121,6 +121,16 @@
     });
   </script>
 
+  <script>
+    document.addEventListener('wpcf7submit', function(event) {
+      const modal = document.getElementById('customModal');
+
+      if (modal) {
+        modal.style.display = 'flex';
+      }
+    }, false);
+  </script>
+
   <?php wp_footer(); ?>
 
 </body>
