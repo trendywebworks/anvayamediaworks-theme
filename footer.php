@@ -17,7 +17,7 @@
               <i class="lni lni-youtube"></i>
             </a>
             <a href="https://maps.app.goo.gl/GF6W2bdbZiVPMkN86" aria-label="Anvaya Media Works on LinkedIn" target="_blank">
-              <i class="lni lni-map-marker"></i>
+              <i class="lni lni-location"></i>
             </a>
             <a href="https://www.facebook.com/share/1cJRE8tmTe/" aria-label="Anvaya Media Works on LinkedIn" target="_blank">
               <i class="lni lni-facebook"></i>

@@ -73,12 +73,12 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   gap: 2.5rem 2rem;
 }
 
 .footer-brand {
-  max-width: 22rem;
+  max-width: 90%;
 }
 
 .footer-logo {
