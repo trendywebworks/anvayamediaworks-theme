@@ -72,8 +72,11 @@
   <div id="customModal" class="modal">
     <div class="modal-content">
       <span class="close-btn">&times;</span>
-      <h2>Welcome!</h2>
-      <p>Thanks for visiting our website. Let us know how we can help you.</p>
+
+      <h2>Get in Touch</h2>
+      <p>Fill out the form below and our team will contact you shortly.</p>
+
+      <?php echo do_shortcode('[contact-form-7 id="d204ff8" title="Lead Form"]'); ?>
     </div>
   </div>
 
@@ -97,18 +100,22 @@
 
   <script>
     window.addEventListener('load', function () {
+      const modal = document.getElementById('customModal');
+      const closeBtn = document.querySelector('.close-btn');
 
-      if (!localStorage.getItem('modalShown')) {
-        setTimeout(function () {
-          document.getElementById('customModal').style.display = 'block';
-        }, 30000);
-      }
+      setTimeout(function () {
+        modal.style.display = 'flex';
+      }, 30000);
 
-      document.querySelector('.close-btn').onclick = function () {
-        document.getElementById('customModal').style.display = 'none';
-        localStorage.setItem('modalShown', 'true');
-      };
+      closeBtn.addEventListener('click', function () {
+        modal.style.display = 'none';
+      });
 
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
     });
   </script>
 
