@@ -160,13 +160,12 @@
                           </a>
                           <a href="<?php echo home_url('/solutions'); ?>/digital-transformation/">
                             <strong>Digital Transformation</strong>                            
-                          </a>
-                          <a href="<?php echo home_url('/solutions'); ?>/ideation-and-design-strategy/">
-                            <strong>Ideation &amp; Design Strategy</strong>
-                            <small>Turn vision into reality. Design strategies that captivate and convert.</small>
-                          </a>
+                          </a>                          
                         </div>
                         <div class="mega-menu-subcolumn">
+                          <a href="<?php echo home_url('/solutions'); ?>/ideation-and-design-strategy/">
+                            <strong>Ideation &amp; Design Strategy</strong>
+                          </a>
                           <a href="<?php echo home_url('/solutions'); ?>/brand-visibility/">
                             <strong>Brand Visibility</strong>                            
                           </a>
