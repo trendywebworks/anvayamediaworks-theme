@@ -131,6 +131,16 @@
     }, false);
   </script>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof wpcf7 !== 'undefined') {
+        document.querySelectorAll('.wpcf7 form').forEach(function (form) {
+          wpcf7.init(form);
+        });
+      }
+    });
+  </script>
+
   <?php wp_footer(); ?>
 
 </body>
