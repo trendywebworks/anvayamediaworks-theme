@@ -105,7 +105,7 @@ h6,
   --btn-arrow-color: var(--color-white);
   gap: 0.85rem;
   min-height: 58px;
-  padding: 0.42rem 0.42rem 0.42rem 1.25rem;
+  padding: 0.42rem 1.25rem;
 }
 
 .btn-amw::after {
