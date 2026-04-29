@@ -207,7 +207,7 @@
 
 .screen-reader-response ul li,
 .wpcf7-not-valid-tip {
-  color: red;
+  color: red !important;
 }
 
 .contact-form {
