@@ -156,18 +156,10 @@
                       <div class="mega-menu-links-grid">
                         <div class="mega-menu-subcolumn">
                           <a href="<?php echo home_url('/solutions'); ?>/brand-growth-and-recognition/">
-                            <strong>Brand Growth &amp; Recognition</strong>
-                            <small>
-                              Drive brand growth, brand recall, and brand recognition through our strategic
-                              design solutions backed by research and market insights.
-                            </small>
+                            <strong>Brand Growth &amp; Recognition</strong>                            
                           </a>
                           <a href="<?php echo home_url('/solutions'); ?>/digital-transformation/">
-                            <strong>Digital Transformation</strong>
-                            <small>
-                              Elevate your operations, strategy, &amp; processes. Transition from legacy systems
-                              to a future ready environment.
-                            </small>
+                            <strong>Digital Transformation</strong>                            
                           </a>
                           <a href="<?php echo home_url('/solutions'); ?>/ideation-and-design-strategy/">
                             <strong>Ideation &amp; Design Strategy</strong>
@@ -176,11 +168,7 @@
                         </div>
                         <div class="mega-menu-subcolumn">
                           <a href="<?php echo home_url('/solutions'); ?>/brand-visibility/">
-                            <strong>Brand Visibility</strong>
-                            <small>
-                              Elevate your brand market presence, ensuring it captures attention and builds trust
-                              among target audiences.
-                            </small>
+                            <strong>Brand Visibility</strong>                            
                           </a>
                         </div>
                       </div>
