@@ -1,0 +1,121 @@
+.services-page {
+  background: #fbfcff;
+}
+
+.services-directory-section {
+  padding: 5.5rem 0 6rem;
+  background:
+    radial-gradient(circle at top left, rgba(71, 36, 240, 0.06), transparent 28%),
+    linear-gradient(180deg, #fbfcff 0%, #eef4ff 100%);
+}
+
+.services-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.services-directory-card {
+  min-height: 100%;
+  padding: 2rem;
+  border: 1px solid rgba(71, 36, 240, 0.08);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(8px);
+}
+
+.services-directory-card h2 {
+  margin: 0 0 1.4rem;
+  color: var(--color-text);
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+.services-directory-links {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-directory-links li {
+  margin: 0;
+}
+
+.services-directory-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(71, 36, 240, 0.12);
+  color: var(--color-text);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  transition:
+    transform var(--transition-base),
+    color var(--transition-base);
+}
+
+.services-directory-links a::after {
+  content: "→";
+  color: var(--color-orange);
+  font-size: 1.05rem;
+  flex: 0 0 auto;
+}
+
+.services-directory-links a:hover {
+  transform: translateX(4px);
+  color: var(--color-blue);
+}
+
+.services-directory-empty {
+  padding: 2rem;
+  border: 1px dashed rgba(71, 36, 240, 0.18);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.82);
+  text-align: center;
+}
+
+.services-directory-empty h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: clamp(1.8rem, 3vw, 2.35rem);
+  line-height: 1.08;
+}
+
+.services-directory-empty p {
+  max-width: 42rem;
+  margin: 1rem auto 0;
+  color: var(--color-muted);
+}
+
+@media (width <= 767.98px) {
+  .services-directory-section {
+    padding: 2.5rem 0;
+  }
+
+  .services-directory-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-directory-card {
+    padding: 1.25rem;
+    border-radius: 24px;
+  }
+
+  .services-directory-card h2 {
+    margin-bottom: 1rem;
+  }
+
+  .services-directory-links a {
+    padding: 0.9rem 0;
+  }
+}
