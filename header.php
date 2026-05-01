@@ -207,7 +207,7 @@
           -->
 
             <li class="nav-item">
-              <a class="nav-link<?php echo $isContactPage ? ' is-active' : ''; ?>" href="<?php echo home_url(); ?>/contact/">Contact</a>
+              <a class="nav-link<?php echo $isContactPage ? ' is-active' : ''; ?>" href="<?php echo home_url(); ?>/contact/">Contact Us</a>
             </li>
           </ul>
 

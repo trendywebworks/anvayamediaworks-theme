@@ -79,13 +79,13 @@ if ( function_exists( 'add_image_size' ) ) {
 // Disable Admin Bar for All Users Except for Administrators
 add_filter('show_admin_bar', '__return_false');
 
-// VALIDATE EMAIL IDS
+// STRICT EMAIL VALIDATION FOR CONTACT FORM 7
 add_filter('wpcf7_validate_email*', 'cf7_validate_real_email_domain', 20, 2);
 add_filter('wpcf7_validate_email', 'cf7_validate_real_email_domain', 20, 2);
 
 function cf7_validate_real_email_domain($result, $tag) {
 
-    $tag  = new WPCF7_FormTag($tag);
+    $tag = new WPCF7_FormTag($tag);
     $name = $tag->name;
 
     if ($name !== 'your-email') {
@@ -101,49 +101,61 @@ function cf7_validate_real_email_domain($result, $tag) {
     $posted_data = $submission->get_posted_data();
     $email = isset($posted_data[$name]) ? sanitize_email($posted_data[$name]) : '';
 
+    // Basic email validation
     if (!is_email($email)) {
         $result->invalidate($tag, 'Please enter a valid email address.');
         return $result;
     }
 
+    // Extract domain
     $domain = strtolower(substr(strrchr($email, '@'), 1));
 
+    // ❌ Block invalid formats like g.c or x.y
+    if (!preg_match('/^[a-z0-9.-]+\.[a-z]{2,}$/i', $domain)) {
+        $result->invalidate($tag, 'Please enter a valid email address.');
+        return $result;
+    }
+
+    // ❌ Block very short domain names like g.com
+    $parts = explode('.', $domain);
+    $domain_name = $parts[0];
+
+    if (strlen($domain_name) < 2) {
+        $result->invalidate($tag, 'Please enter a valid email address.');
+        return $result;
+    }
+
+    // ❌ Block common typo / fake domains
     $blocked_domains = array(
-        'gm.cm',
-        'gmal.com',
-        'gmai.com',
-        'gmial.com',
-        'gmaill.com',
-        'gmail.cm',
-        'gmail.con',
-        'gmail.co',
-        'gmail.om',
-        'yaho.com',
-        'yahooo.com',
-        'yahoomail.com',
-        'yahoo.cm',
-        'yahoo.con',
-        'yahoo.co',
-        'hotnail.com',
-        'hotmal.com',
-        'hotmial.com',
-        'hotmail.con',
-        'hotmail.co',
-        'outlok.com',
-        'outllok.com',
-        'outlook.con',
-        'test.com',
-        'example.com',
-        'abc.com',
-        'xyz.com'
+        'gm.cm','gmal.com','gmai.com','gmial.com','gmaill.com',
+        'gmail.cm','gmail.con','gmail.co','gmail.om',
+        'yaho.com','yahooo.com','yahoomail.com','yahoo.cm','yahoo.con','yahoo.co',
+        'hotnail.com','hotmal.com','hotmial.com','hotmail.con','hotmail.co',
+        'outlok.co', 'outllok.com', 'outlook.con',
+        'test.com','example.com','abc.com','xyz.com'
     );
 
     if (in_array($domain, $blocked_domains, true)) {
         $result->invalidate($tag, 'Please enter a valid email address.');
+        return $result;
+    }
+
+    // ❌ Block fake names like test/demo
+    if (preg_match('/test|demo|fake|abc|xyz/i', $email)) {
+        $result->invalidate($tag, 'Please enter a valid email address.');
+        return $result;
+    }
+
+    // ❌ Check real domain via DNS (MX record)
+    if (!checkdnsrr($domain, 'MX')) {
+        $result->invalidate($tag, 'Please enter a real email address.');
+        return $result;
     }
 
     return $result;
 }
+
+
 
 // VALIDATE PHONE NUMBER
 add_filter('wpcf7_validate_tel*', 'validate_indian_phone_cf7', 20, 2);
