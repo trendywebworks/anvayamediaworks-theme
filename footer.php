@@ -126,22 +126,10 @@
         }
       });
     });
-
-
     /* Contact Form 7 Submit Event */
     document.addEventListener('wpcf7submit', function(event) {
-      const modal = document.getElementById('customModal');
-
-      if (modal) {
-        // ⚠️ Choose behavior:
-
-        // OPTION 1: Close modal after submit (recommended)
-        modal.style.display = 'none';
-
-        // OPTION 2: Keep it open (remove above line and uncomment below if needed)
-        // modal.style.display = 'flex';
-      }
-    }, false);
+      // DO NOTHING → keep modal open
+    });
   </script>
 
   <script>
