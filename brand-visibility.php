@@ -101,7 +101,7 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
             <a class="btn btn-amw btn-amw-primary" href="<?php echo home_url(); ?>/contact/">
               <?php echo htmlspecialchars($solutionHeroPrimaryCta, ENT_QUOTES, 'UTF-8'); ?>
             </a>
-            <a class="btn btn-amw btn-amw-secondary" href="<<?php echo home_url(); ?>/solutions/">
+            <a class="btn btn-amw btn-amw-secondary" href="<?php echo home_url(); ?>/solutions/">
               <?php echo htmlspecialchars($solutionHeroSecondaryCta, ENT_QUOTES, 'UTF-8'); ?>
             </a>
           </div>

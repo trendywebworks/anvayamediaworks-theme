@@ -105,28 +105,41 @@
       const modal = document.getElementById('customModal');
       const closeBtn = document.querySelector('.close-btn');
 
+      // Show modal after 30 seconds
       setTimeout(function () {
-        modal.style.display = 'flex';
+        if (modal) {
+          modal.style.display = 'flex';
+        }
       }, 30000);
 
-      closeBtn.addEventListener('click', function () {
-        modal.style.display = 'none';
-      });
-
-      modal.addEventListener('click', function (e) {
-        if (e.target === modal) {
+      // Close ONLY via close button
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
           modal.style.display = 'none';
+        });
+      }
+
+      // Disable ESC key closing
+      document.addEventListener('keydown', function(e) {
+        if (e.key === "Escape") {
+          e.preventDefault();
         }
       });
     });
-  </script>
 
-  <script>
+
+    /* Contact Form 7 Submit Event */
     document.addEventListener('wpcf7submit', function(event) {
       const modal = document.getElementById('customModal');
 
       if (modal) {
-        modal.style.display = 'flex';
+        // ⚠️ Choose behavior:
+
+        // OPTION 1: Close modal after submit (recommended)
+        modal.style.display = 'none';
+
+        // OPTION 2: Keep it open (remove above line and uncomment below if needed)
+        // modal.style.display = 'flex';
       }
     }, false);
   </script>
