@@ -75,6 +75,11 @@
       <div class="popup-form">
         <script src="https://js-na2.hsforms.net/forms/embed/245706297.js" defer></script>
         <div class="hs-form-frame" data-region="na2" data-form-id="96c8a4e9-44f0-481a-8c3c-5501db340e26" data-portal-id="245706297"></div>
+        <style>
+          .hsfc-Step .hsfc-Step__Content {
+              padding: 0 !important;
+          }
+        </style>
       </div>
     </div>
   </div>
