@@ -72,10 +72,6 @@
   <div id="customModal" class="modal">
     <div class="modal-content">
       <span class="close-btn">&times;</span>
-
-      <h2>Get in Touch</h2>
-      <p>Fill out the form below and our team will contact you shortly.</p>
-
       <div class="popup-form">
         <script src="https://js-na2.hsforms.net/forms/embed/245706297.js" defer></script>
         <div class="hs-form-frame" data-region="na2" data-form-id="96c8a4e9-44f0-481a-8c3c-5501db340e26" data-portal-id="245706297"></div>

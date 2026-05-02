@@ -10,3 +10,6 @@ Text Domain: Trendy Web Works
 
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+.hsfc-Step__Content {
+    padding: 0 !important;
+}
