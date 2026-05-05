@@ -50,8 +50,10 @@
 
           <div class="brand-design-definition-content">
             <div class="brand-design-definition-copy">
+
               <h2 class="sub-heading">What Is Brand Design?</h2>
               <h3 class="sub-heading-caption">Shape how the brand looks, feels, and communicates across every touchpoint.</h3>
+
               <p>
                 Brand Design is the visual expression of your brand, how it looks, feels, and communicates across all touchpoints.
               </p>
@@ -71,6 +73,7 @@
 
     <section class="brand-design-signs-section">
       <div class="container">
+        
         <div class="brand-design-signs-header">
           <h2 class="sub-heading">Signs Your Brand Needs a Redesign</h2>
           <h3 class="sub-heading-caption">When brand signals feel scattered, recognition and trust start to weaken.</h3>
