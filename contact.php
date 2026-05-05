@@ -93,7 +93,7 @@
         <div class="contact-team-grid">
           <article class="contact-team-card">
             <div class="contact-team-avatar">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/contact-team-dummy.svg" alt="Placeholder portrait of Rajesh Ayanala">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/rajesh-ayanala.webp" alt="Placeholder portrait of Rajesh Ayanala">
             </div>
             <h3>Rajesh Ayanala</h3>
             <p>&ldquo;Driven by results. Defined by creativity. At Anvaya, your vision becomes reality.&rdquo;</p>
@@ -113,7 +113,7 @@
 
           <article class="contact-team-card">
             <div class="contact-team-avatar">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/contact-team-dummy.svg" alt="Placeholder portrait of Anupriya">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/anupriya.webp" alt="Placeholder portrait of Anupriya">
             </div>
             <h3>Anupriya</h3>
             <p>&ldquo;We build brands with purpose, passion, and originality every single day.&rdquo;</p>
@@ -133,7 +133,7 @@
 
           <article class="contact-team-card">
             <div class="contact-team-avatar">
-              <img src="<?php bloginfo('template_directory'); ?>/assets/images/contact-team-dummy.svg" alt="Placeholder portrait of Vamsi Krishna">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/images/vamsi-krishna.webp" alt="Placeholder portrait of Vamsi Krishna">
             </div>
             <h3>Vamsi Krishna</h3>
             <p>&ldquo;Excellence is our standard. Growth is our promise. Let&rsquo;s set new benchmarks together.&rdquo;</p>
