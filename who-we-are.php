@@ -40,8 +40,8 @@
       <div class="container">
         <div class="about-section-header">
           <div>
-            <span class="about-section-eyebrow">Anvaya</span>
-            <h2>How the partnership stays clear, effective, and accountable.</h2>
+            <h2 class="sub-heading">Anvaya</h2>
+            <h3 class="sub-heading-caption">How the partnership stays clear, effective, and accountable.</h3>
           </div>
 
           <p class="about-section-intro">
@@ -83,8 +83,8 @@
       <div class="container">
         <div class="about-section-header">
           <div>
-            <span class="about-section-eyebrow">Vision &amp; Values</span>
-            <h2>Let's create the future of your brand.</h2>
+            <h2 class="sub-heading">Vision &amp; Values</h2>
+            <h3 class="sub-heading-caption">Let's create the future of your brand.</h3>
           </div>
 
           <p class="about-section-intro">

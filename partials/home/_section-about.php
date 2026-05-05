@@ -31,8 +31,8 @@
         </div>
 
         <div class="who-we-are-content">
-        <span class="who-we-are-eyebrow">Who We Are</span>
-        <h2>Where strategic clarity meets creative execution and scalable digital growth.</h2>
+        <h2 class="sub-heading">Who We Are</h2>
+        <h3 class="sub-heading-caption">Where strategic clarity meets creative execution and scalable digital growth.</h3>
         <p>
             Anvaya Media Works is a brand-building and digital growth partner for ambitious businesses
             that want sharper positioning, stronger market presence, and more meaningful results. We

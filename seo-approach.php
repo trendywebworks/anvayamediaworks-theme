@@ -52,8 +52,8 @@
 
           <div class="seo-evidence-content">
             <div>
-              <span class="seo-section-eyebrow">Reality First</span>
-              <h2>We create content rooted in reality.</h2>
+              <h2 class="sub-heading">Reality First</h2>
+              <h3 class="sub-heading-caption">We create content rooted in reality.</h3>
             </div>
 
             <p class="seo-section-intro">

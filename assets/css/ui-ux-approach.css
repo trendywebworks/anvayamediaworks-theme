@@ -136,12 +136,8 @@
   order: 2;
 }
 
-.uiux-decision-copy h2 {
+.uiux-decision-copy .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--uiux-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .uiux-decision-copy p {
@@ -174,12 +170,8 @@
   margin-bottom: 2rem;
 }
 
-.uiux-questions-header h2 {
+.uiux-questions-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--uiux-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .uiux-questions-grid {

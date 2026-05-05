@@ -19,8 +19,8 @@
       <div class="container">
         <div class="faqs-shell">
           <div class="faqs-intro">
-            <span class="faqs-section-eyebrow">Frequently Asked Questions</span>
-            <h2>Clear answers about how AMW thinks, works, and who it is built for.</h2>
+            <h2 class="sub-heading">Frequently Asked Questions</h2>
+            <h3 class="sub-heading-caption">Clear answers about how AMW thinks, works, and who it is built for.</h3>
             <p>
               A straightforward view of what makes our approach different, how we think about channels,
               what early progress looks like, and which businesses we are best suited to support.

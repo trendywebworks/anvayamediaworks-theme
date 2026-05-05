@@ -154,16 +154,13 @@
   border-radius: 20px;
 }
 
-.growth-marketing-idea-copy h2,
-.growth-marketing-problem-header h2,
-.growth-marketing-approach-intro h2,
-.growth-marketing-funnel-header h2,
-.growth-marketing-services-header h2,
-.growth-marketing-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.growth-marketing-idea-copy .sub-heading-caption,
+.growth-marketing-problem-header .sub-heading-caption,
+.growth-marketing-approach-intro .sub-heading-caption,
+.growth-marketing-funnel-header .sub-heading-caption,
+.growth-marketing-services-header .sub-heading-caption,
+.growth-marketing-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .growth-marketing-idea-body,
@@ -295,6 +292,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .growth-marketing-approach-intro p {

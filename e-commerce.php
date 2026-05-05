@@ -42,8 +42,8 @@
       <div class="container">
         <div class="ecommerce-solution-insight-shell">
           <div class="ecommerce-solution-insight-copy">
-            <span class="ecommerce-solution-section-eyebrow">Industry Insight</span>
-            <h2>E-commerce Is Easy to Start. Hard to Scale.</h2>
+            <h2 class="sub-heading">Industry Insight</h2>
+            <h3 class="sub-heading-caption">E-commerce Is Easy to Start. Hard to Scale.</h3>
             <p class="ecommerce-solution-insight-body">
               Running an online store today is more competitive than ever.
             </p>
@@ -81,8 +81,8 @@
       <div class="container">
         <div class="ecommerce-solution-approach-shell">
           <div class="ecommerce-solution-approach-intro">
-            <span class="ecommerce-solution-section-eyebrow ecommerce-solution-section-eyebrow-light">Our Approach</span>
-            <h2>A Complete E-commerce Growth System</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Complete E-commerce Growth System</h3>
             <p>
               At Anvaya Media Works, we don&rsquo;t treat e-commerce as isolated tasks. We build connected systems that drive consistent growth.
             </p>
@@ -129,8 +129,8 @@
     <section class="ecommerce-solution-solve-section">
       <div class="container">
         <div class="ecommerce-solution-solve-header">
-          <span class="ecommerce-solution-section-eyebrow">What We Solve</span>
-          <h2>Solving Real E-commerce Growth Challenges</h2>
+          <h2 class="sub-heading">What We Solve</h2>
+          <h3 class="sub-heading-caption">Solving Real E-commerce Growth Challenges</h3>
           <p>
             We focus on the operational and conversion bottlenecks that stop stores from scaling profitably.
           </p>
@@ -162,8 +162,8 @@
     <section class="ecommerce-solution-services-section">
       <div class="container">
         <div class="ecommerce-solution-services-header">
-          <span class="ecommerce-solution-section-eyebrow">Our E-commerce Solutions</span>
-          <h2>End-to-End Solutions for Online Stores</h2>
+          <h2 class="sub-heading">Our E-commerce Solutions</h2>
+          <h3 class="sub-heading-caption">End-to-End Solutions for Online Stores</h3>
           <p>
             We combine commerce infrastructure, acquisition, conversion, retention, and optimization into one connected revenue system.
           </p>
@@ -212,8 +212,8 @@
     <section class="ecommerce-solution-journey-section">
       <div class="container">
         <div class="ecommerce-solution-journey-header">
-          <span class="ecommerce-solution-section-eyebrow">Customer Journey</span>
-          <h2>Optimizing Every Step of the Buyer Journey</h2>
+          <h2 class="sub-heading">Customer Journey</h2>
+          <h3 class="sub-heading-caption">Optimizing Every Step of the Buyer Journey</h3>
           <p>
             We shape the experience from first touch to repeat purchase so more visits become revenue.
           </p>
@@ -257,8 +257,8 @@
       <div class="container">
         <div class="ecommerce-solution-platforms-shell">
           <div class="ecommerce-solution-platforms-header">
-            <span class="ecommerce-solution-section-eyebrow">Platforms &amp; Technologies</span>
-            <h2>Built for Leading E-commerce Platforms</h2>
+            <h2 class="sub-heading">Platforms &amp; Technologies</h2>
+            <h3 class="sub-heading-caption">Built for Leading E-commerce Platforms</h3>
             <p>
               We work with the tools and commerce infrastructure needed to keep stores flexible, scalable, and future-ready.
             </p>
@@ -282,8 +282,8 @@
     <section class="ecommerce-solution-process-section">
       <div class="container">
         <div class="ecommerce-solution-process-header">
-          <span class="ecommerce-solution-section-eyebrow">Process</span>
-          <h2>How We Scale E-commerce Brands</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Scale E-commerce Brands</h3>
           <p>
             We follow a growth-oriented process designed to identify leverage points, implement improvements, and scale what works.
           </p>

@@ -45,8 +45,8 @@
       <div class="container">
         <div class="ppc-management-hook-shell">
           <div class="ppc-management-hook-copy">
-            <span class="ppc-management-section-eyebrow">The Hook</span>
-            <h2>Need Results Fast? PPC Delivers.</h2>
+            <h2 class="sub-heading">The Hook</h2>
+            <h3 class="sub-heading-caption">Need Results Fast? PPC Delivers.</h3>
             <p class="ppc-management-hook-body">
               Unlike organic strategies, PPC gives you instant visibility and traffic. But without the right strategy, it can burn your budget quickly.
             </p>
@@ -69,8 +69,8 @@
     <section class="ppc-management-problem-section">
       <div class="container">
         <div class="ppc-management-problem-header">
-          <span class="ppc-management-section-eyebrow">The Problem</span>
-          <h2>Why Most PPC Campaigns Fail</h2>
+          <h2 class="sub-heading">The Problem</h2>
+          <h3 class="sub-heading-caption">Why Most PPC Campaigns Fail</h3>
           <p>
             Running ads is easy. Running profitable ads consistently is not.
           </p>
@@ -158,8 +158,8 @@
       <div class="container">
         <div class="ppc-management-approach-shell">
           <div class="ppc-management-approach-intro">
-            <span class="ppc-management-section-eyebrow ppc-management-section-eyebrow-light">Our Approach</span>
-            <h2>Performance-Driven PPC Strategy</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">Performance-Driven PPC Strategy</h3>
             <p>
               At Anvaya Media Works, we focus on ROI-first advertising, not just clicks.
             </p>
@@ -207,8 +207,8 @@
       <div class="container">
         <div class="ppc-management-platforms-shell">
           <div class="ppc-management-platforms-header">
-            <span class="ppc-management-section-eyebrow">Platforms We Manage</span>
-            <h2>Multi-Channel PPC Expertise</h2>
+            <h2 class="sub-heading">Platforms We Manage</h2>
+            <h3 class="sub-heading-caption">Multi-Channel PPC Expertise</h3>
             <p>
               We manage campaigns across the platforms that matter most for acquisition, awareness, remarketing, and B2B targeting.
             </p>
@@ -251,8 +251,8 @@
     <section class="ppc-management-services-section">
       <div class="container">
         <div class="ppc-management-services-header">
-          <span class="ppc-management-section-eyebrow">Our PPC Services</span>
-          <h2>End-to-End PPC Management</h2>
+          <h2 class="sub-heading">Our PPC Services</h2>
+          <h3 class="sub-heading-caption">End-to-End PPC Management</h3>
           <p>
             We combine strategy, campaign structure, tracking, creative, and optimization into one complete paid media system.
           </p>
@@ -307,8 +307,8 @@
     <section class="ppc-management-process-section">
       <div class="container">
         <div class="ppc-management-process-header">
-          <span class="ppc-management-section-eyebrow">Process</span>
-          <h2>How We Drive Results</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Drive Results</h3>
           <p>
             We follow a performance-first flow built to move quickly, learn fast, and scale what actually works.
           </p>

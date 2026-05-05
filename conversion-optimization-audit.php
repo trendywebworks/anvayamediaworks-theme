@@ -41,8 +41,8 @@
       <div class="container">
         <div class="cro-audit-definition-shell">
           <div class="cro-audit-definition-copy">
-            <span class="cro-audit-section-eyebrow">What Is a Conversion Optimization Audit?</span>
-            <h2>Find the barriers between interest and action.</h2>
+            <h2 class="sub-heading">What Is a Conversion Optimization Audit?</h2>
+            <h3 class="sub-heading-caption">Find the barriers between interest and action.</h3>
             <p>
               A Conversion Optimization Audit is a deep analysis of your website or app to identify barriers preventing users from converting.
             </p>
@@ -84,8 +84,8 @@
     <section class="cro-audit-signs-section">
       <div class="container">
         <div class="cro-audit-signs-header">
-          <span class="cro-audit-section-eyebrow">Signs You Need a CRO Audit</span>
-          <h2>If action is weak, the issue is usually somewhere in the journey.</h2>
+          <h2 class="sub-heading">Signs You Need a CRO Audit</h2>
+          <h3 class="sub-heading-caption">If action is weak, the issue is usually somewhere in the journey.</h3>
           <p>
             These are the patterns that usually signal the gap between traffic and revenue is no longer just a marketing problem.
           </p>
@@ -160,8 +160,8 @@
       <div class="container">
         <div class="cro-audit-analysis-board">
           <div class="cro-audit-analysis-header">
-            <span class="cro-audit-section-eyebrow cro-audit-section-eyebrow-light">What We Analyze</span>
-            <h2>Six layers of the experience that influence whether users convert or leave.</h2>
+            <h2 class="sub-heading">What We Analyze</h2>
+            <h3 class="sub-heading-caption">Six layers of the experience that influence whether users convert or leave.</h3>
           </div>
 
           <div class="cro-audit-analysis-grid">
@@ -209,8 +209,8 @@
       <div class="container">
         <div class="cro-audit-framework-header">
           <div>
-            <span class="cro-audit-section-eyebrow">Our CRO Audit Framework</span>
-            <h2>Analyze. Identify. Optimize. Scale.</h2>
+            <h2 class="sub-heading">Our CRO Audit Framework</h2>
+            <h3 class="sub-heading-caption">Analyze. Identify. Optimize. Scale.</h3>
           </div>
           <p>
             We structure the audit as a decision system, so the output is not just observations. It becomes a roadmap for higher performance.

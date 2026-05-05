@@ -140,14 +140,11 @@
   align-content: center;
 }
 
-.rebranding-definition-copy h2,
-.rebranding-signs-header h2,
-.rebranding-transform-header h2,
-.rebranding-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.rebranding-definition-copy .sub-heading-caption,
+.rebranding-signs-header .sub-heading-caption,
+.rebranding-transform-header .sub-heading-caption,
+.rebranding-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .rebranding-definition-copy p,

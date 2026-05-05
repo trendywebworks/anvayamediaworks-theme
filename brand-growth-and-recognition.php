@@ -122,8 +122,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
       <div class="container">
         <div class="outcome-solution-idea-shell">
           <div class="outcome-solution-idea-copy">
-            <span class="outcome-solution-section-eyebrow"><?php echo htmlspecialchars($solutionIdeaEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionIdeaHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionIdeaEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionIdeaHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p class="outcome-solution-idea-body">
               <?php echo htmlspecialchars($solutionIdeaBody, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -139,8 +139,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
       <div class="container">
         <div class="outcome-solution-challenge-shell">
           <div class="outcome-solution-challenge-header">
-            <span class="outcome-solution-section-eyebrow"><?php echo htmlspecialchars($solutionChallengeEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionChallengeHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionChallengeEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionChallengeHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p>
               <?php echo htmlspecialchars($solutionChallengeIntro, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -161,8 +161,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
       <div class="container">
         <div class="outcome-solution-approach-shell">
           <div class="outcome-solution-approach-intro">
-            <span class="outcome-solution-section-eyebrow outcome-solution-section-eyebrow-light"><?php echo htmlspecialchars($solutionApproachEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionApproachHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionApproachEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionApproachHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p>
               <?php echo htmlspecialchars($solutionApproachBody, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -188,8 +188,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
       <div class="container">
         <div class="outcome-solution-build-shell">
           <div class="outcome-solution-build-header">
-            <span class="outcome-solution-section-eyebrow"><?php echo htmlspecialchars($solutionBuildEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionBuildHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionBuildEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionBuildHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p>
               <?php echo htmlspecialchars($solutionBuildIntro, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -211,8 +211,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
     <section class="outcome-solution-services-section">
       <div class="container">
         <div class="outcome-solution-services-header">
-          <span class="outcome-solution-section-eyebrow"><?php echo htmlspecialchars($solutionServicesEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionServicesHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionServicesEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionServicesHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionServicesIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>
@@ -233,8 +233,8 @@ $solutionJourneyEyebrow = $solutionJourneyEyebrow ?? 'Journey';
     <section class="outcome-solution-journey-section">
       <div class="container">
         <div class="outcome-solution-journey-header">
-          <span class="outcome-solution-section-eyebrow"><?php echo htmlspecialchars($solutionJourneyEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionJourneyHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionJourneyEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionJourneyHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionJourneyIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>

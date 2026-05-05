@@ -140,14 +140,11 @@
   align-content: center;
 }
 
-.dashboard-design-importance-copy h2,
-.dashboard-design-problems-header h2,
-.dashboard-design-designs-header h2,
-.dashboard-design-approach-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.dashboard-design-importance-copy .sub-heading-caption,
+.dashboard-design-problems-header .sub-heading-caption,
+.dashboard-design-designs-header .sub-heading-caption,
+.dashboard-design-approach-header .sub-heading-caption {
+  margin: 0;
 }
 
 .dashboard-design-importance-copy p,

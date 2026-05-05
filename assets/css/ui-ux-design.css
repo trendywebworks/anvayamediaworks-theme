@@ -253,13 +253,10 @@
   gap: 0.25rem;
 }
 
-.uiux-design-clarity-header h2,
-.uiux-design-thinking-copy h2,
-.uiux-design-system-intro h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.uiux-design-clarity-header .sub-heading-caption,
+.uiux-design-thinking-copy .sub-heading-caption,
+.uiux-design-system-intro .sub-heading-caption {
+  margin: 0;
 }
 
 .uiux-design-clarity-grid {
@@ -322,9 +319,11 @@
   background: var(--color-blue);
   color: var(--color-white);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
-.uiux-design-thinking-copy h2,
+.uiux-design-thinking-copy .sub-heading-caption,
 .uiux-design-thinking-copy p {
   color: inherit;
 }
@@ -400,9 +399,11 @@
   background: var(--color-ink);
   color: var(--color-white);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
-.uiux-design-system-intro h2,
+.uiux-design-system-intro .sub-heading-caption,
 .uiux-design-system-intro p {
   color: inherit;
 }

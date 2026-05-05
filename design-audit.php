@@ -41,8 +41,8 @@
       <div class="container">
         <div class="design-audit-impact-shell">
           <div class="design-audit-impact-intro">
-            <span class="design-audit-section-eyebrow">Why A Design Audit Matters</span>
-            <h2>Even good-looking designs can fail if they don&rsquo;t perform.</h2>
+            <h2 class="sub-heading">Why A Design Audit Matters</h2>
+            <h3 class="sub-heading-caption">Even good-looking designs can fail if they don&rsquo;t perform.</h3>
             <p>
               We look past surface aesthetics and examine whether design decisions are actually supporting user experience, brand clarity, and business outcomes.
             </p>
@@ -126,8 +126,8 @@
       <div class="container">
         <div class="design-audit-scope-board">
           <div class="design-audit-scope-header">
-            <span class="design-audit-section-eyebrow">What We Audit</span>
-            <h2>Five key areas we review across design, usability, and performance.</h2>
+            <h2 class="sub-heading">What We Audit</h2>
+            <h3 class="sub-heading-caption">Five key areas we review across design, usability, and performance.</h3>
           </div>
 
           <div class="design-audit-scope-list">
@@ -179,8 +179,8 @@
       <div class="container">
         <div class="design-audit-process-header">
           <div>
-            <span class="design-audit-section-eyebrow">Our Design Audit Process</span>
-            <h2>Five steps that turn observations into prioritized action.</h2>
+            <h2 class="sub-heading">Our Design Audit Process</h2>
+            <h3 class="sub-heading-caption">Five steps that turn observations into prioritized action.</h3>
           </div>
           <p>
             The goal is not to hand over abstract feedback. We structure the audit so the output is practical, focused, and aligned with what the business actually needs next.

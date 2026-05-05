@@ -49,8 +49,8 @@
 
           <div class="logo-design-importance-content">
             <div class="logo-design-importance-copy">
-              <span class="logo-design-section-eyebrow">Why Logo Design Matters</span>
-              <h2>A well-designed logo does more than look good. It builds recognition and trust.</h2>
+              <h2 class="sub-heading">Why Logo Design Matters</h2>
+              <h3 class="sub-heading-caption">A well-designed logo does more than look good. It builds recognition and trust.</h3>
               <p>
                 A strong logo becomes the most memorable part of the brand system. It shapes first impressions, reinforces perception, and helps the brand stay recognizable wherever it appears.
               </p>
@@ -75,8 +75,8 @@
     <section class="logo-design-problems-section">
       <div class="container">
         <div class="logo-design-problems-header">
-          <span class="logo-design-section-eyebrow">Common Logo Problems We Fix</span>
-          <h2>When the logo is weak, generic, or inconsistent, the whole brand feels less credible.</h2>
+          <h2 class="sub-heading">Common Logo Problems We Fix</h2>
+          <h3 class="sub-heading-caption">When the logo is weak, generic, or inconsistent, the whole brand feels less credible.</h3>
         </div>
 
         <div class="logo-design-problems-grid">
@@ -116,8 +116,8 @@
       <div class="container">
         <div class="logo-design-approach-header">
           <div>
-            <span class="logo-design-section-eyebrow">Our Logo Design Approach</span>
-            <h2>Five steps that turn brand understanding into a logo system ready for every use case.</h2>
+            <h2 class="sub-heading">Our Logo Design Approach</h2>
+            <h3 class="sub-heading-caption">Five steps that turn brand understanding into a logo system ready for every use case.</h3>
           </div>
           <p>Discover, concept, design, refine, and deliver with clarity from first sketch to final files.</p>
         </div>

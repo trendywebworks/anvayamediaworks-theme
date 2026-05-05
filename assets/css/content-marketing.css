@@ -154,16 +154,13 @@
   border-radius: 20px;
 }
 
-.content-marketing-idea-copy h2,
-.content-marketing-problem-header h2,
-.content-marketing-approach-intro h2,
-.content-marketing-ecosystem-header h2,
-.content-marketing-services-header h2,
-.content-marketing-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.content-marketing-idea-copy .sub-heading-caption,
+.content-marketing-problem-header .sub-heading-caption,
+.content-marketing-approach-intro .sub-heading-caption,
+.content-marketing-ecosystem-header .sub-heading-caption,
+.content-marketing-services-header .sub-heading-caption,
+.content-marketing-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .content-marketing-idea-body,
@@ -293,6 +290,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .content-marketing-approach-intro p {

@@ -49,8 +49,8 @@
 
           <div class="marketing-collateral-definition-content">
             <div class="marketing-collateral-definition-copy">
-              <span class="marketing-collateral-section-eyebrow">What Is Marketing Collateral?</span>
-              <h2>Turn communication into conversion with materials built to support every touchpoint.</h2>
+              <h2 class="sub-heading">What Is Marketing Collateral?</h2>
+              <h3 class="sub-heading-caption">Turn communication into conversion with materials built to support every touchpoint.</h3>
               <p>
                 Marketing Collateral includes all the visual and communication materials used to promote your brand, products, or services.
               </p>
@@ -74,8 +74,8 @@
     <section class="marketing-collateral-gaps-section">
       <div class="container">
         <div class="marketing-collateral-gaps-header">
-          <span class="marketing-collateral-section-eyebrow">Common Gaps We Fix</span>
-          <h2>When the materials are weak, campaigns, conversations, and conversion all lose momentum.</h2>
+          <h2 class="sub-heading">Common Gaps We Fix</h2>
+          <h3 class="sub-heading-caption">When the materials are weak, campaigns, conversations, and conversion all lose momentum.</h3>
         </div>
 
         <div class="marketing-collateral-gaps-grid">
@@ -114,8 +114,8 @@
     <section class="marketing-collateral-designs-section">
       <div class="container">
         <div class="marketing-collateral-designs-header">
-          <span class="marketing-collateral-section-eyebrow">What We Design</span>
-          <h2>The print, digital, and sales materials that help the brand show up with clarity.</h2>
+          <h2 class="sub-heading">What We Design</h2>
+          <h3 class="sub-heading-caption">The print, digital, and sales materials that help the brand show up with clarity.</h3>
         </div>
 
         <div class="marketing-collateral-designs-grid">
@@ -159,8 +159,8 @@
       <div class="container">
         <div class="marketing-collateral-approach-header">
           <div>
-            <span class="marketing-collateral-section-eyebrow">Our Approach</span>
-            <h2>Four steps that turn campaign needs into ready-to-use assets.</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">Four steps that turn campaign needs into ready-to-use assets.</h3>
           </div>
           <p>Understand, design, align, and deliver with consistency across print and digital.</p>
         </div>

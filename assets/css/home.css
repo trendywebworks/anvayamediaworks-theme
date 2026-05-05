@@ -1,7 +1,7 @@
 /* Placeholder */
 .page-shell {
   position: relative;
-  --home-eyebrow-size: 1.2rem;
+  --home-eyebrow-size: 2.625rem;
   --home-eyebrow-gap: 0.9rem;
   --home-section-header-gap: 2.25rem;
   --home-title-copy-gap: 1rem;
@@ -485,6 +485,8 @@
 
 .who-we-are-content {
   max-width: 52rem;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .who-we-are-eyebrow {
@@ -498,12 +500,8 @@
   text-transform: uppercase;
 }
 
-.who-we-are-content h2 {
+.who-we-are-content .sub-heading-caption {
   margin: 0;
-  color: var(--color-white);
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
 }
 
 .who-we-are-content p {
@@ -614,13 +612,9 @@
   text-transform: uppercase;
 }
 
-.clients-section-header h2 {
+.clients-section-header .sub-heading-caption {
   max-width: 16ch;
   margin: 0;
-  color: var(--color-text);
-  font-size: clamp(2.1rem, 4vw, 3.4rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
 }
 
 .clients-intro {
@@ -717,12 +711,8 @@
   text-transform: uppercase;
 }
 
-.industries-header h2 {
+.industries-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: clamp(2.2rem, 4.4vw, 3.9rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
 }
 
 .industries-intro {
@@ -878,12 +868,8 @@
   text-transform: uppercase;
 }
 
-.insights-header h2 {
+.insights-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: clamp(2.65rem, 5vw, 4.4rem);
-  line-height: 0.96;
-  letter-spacing: -0.05em;
 }
 
 .insights-intro {
@@ -1010,16 +996,12 @@
 }
 
 .impact-title,
-.capabilities-title,
-.clients-section-header h2,
-.industries-header h2,
-.insights-header h2 {
+.capabilities-title {
   font-size: var(--home-section-title-size);
   line-height: var(--home-section-title-line-height);
 }
 
-.capability-panel-copy h3,
-.who-we-are-content h2 {
+.capability-panel-copy h3 {
   font-size: var(--home-spotlight-title-size);
   line-height: var(--home-spotlight-title-line-height);
 }

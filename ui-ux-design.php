@@ -41,8 +41,8 @@
     <section class="uiux-design-clarity-section">
       <div class="container">
         <div class="uiux-design-clarity-header">
-          <span class="uiux-design-section-eyebrow">UI Vs UX</span>
-          <h2>Great products need both beautiful design and seamless experience.</h2>
+          <h2 class="sub-heading">UI Vs UX</h2>
+          <h3 class="sub-heading-caption">Great products need both beautiful design and seamless experience.</h3>
         </div>
 
         <div class="uiux-design-clarity-grid">
@@ -65,8 +65,8 @@
       <div class="container">
         <div class="uiux-design-thinking-shell">
           <div class="uiux-design-thinking-copy">
-            <span class="uiux-design-section-eyebrow">Think Like Your Users</span>
-            <h2>We understand expectations, struggle points, and motivation before we design.</h2>
+            <h2 class="sub-heading">Think Like Your Users</h2>
+            <h3 class="sub-heading-caption">We understand expectations, struggle points, and motivation before we design.</h3>
             <p>
               Instead of jumping straight into visuals, we start with what users expect, what slows them down, and what motivates them to take action.
             </p>
@@ -99,8 +99,8 @@
       <div class="container">
         <div class="uiux-design-system-shell">
           <div class="uiux-design-system-intro">
-            <span class="uiux-design-section-eyebrow">Our UI UX Design System</span>
-            <h2>Research, structure, design, optimize.</h2>
+            <h2 class="sub-heading">Our UI UX Design System</h2>
+            <h3 class="sub-heading-caption">Research, structure, design, optimize.</h3>
             <p>
               We design systems that move from insight into structure, interface quality, testing, and iteration, so the experience keeps improving as the product grows.
             </p>

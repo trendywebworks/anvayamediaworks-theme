@@ -50,8 +50,8 @@
 
           <div class="brand-style-guides-importance-content">
             <div class="brand-style-guides-importance-copy">
-              <span class="brand-style-guides-section-eyebrow">Why Brand Style Guides Matter</span>
-              <h2>Consistency is what turns a brand into a recognizable identity.</h2>
+              <h2 class="sub-heading">Why Brand Style Guides Matter</h2>
+              <h3 class="sub-heading-caption">Consistency is what turns a brand into a recognizable identity.</h3>
               <p>
                 Without guidelines, brands become inconsistent over time. A strong brand style guide makes it easier to protect the identity as more people, channels, and campaigns get involved.
               </p>
@@ -72,8 +72,8 @@
     <section class="brand-style-guides-elements-section">
       <div class="container">
         <div class="brand-style-guides-elements-header">
-          <span class="brand-style-guides-section-eyebrow">What Goes Into a Brand Style Guide?</span>
-          <h2>The rules and references that keep the brand clear wherever it shows up.</h2>
+          <h2 class="sub-heading">What Goes Into a Brand Style Guide?</h2>
+          <h3 class="sub-heading-caption">The rules and references that keep the brand clear wherever it shows up.</h3>
         </div>
 
         <div class="brand-style-guides-elements-grid">
@@ -120,8 +120,8 @@
       <div class="container">
         <div class="brand-style-guides-approach-header">
           <div>
-            <span class="brand-style-guides-section-eyebrow">Our Approach</span>
-            <h2>Four steps that turn brand decisions into a usable system.</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">Four steps that turn brand decisions into a usable system.</h3>
           </div>
           <p>Define, structure, document, and scale the brand with clarity.</p>
         </div>

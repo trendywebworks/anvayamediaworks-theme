@@ -142,8 +142,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
       <div class="container">
         <div class="industry-solution-insight-shell">
           <div class="industry-solution-insight-copy">
-            <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionInsightEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionInsightHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionInsightEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionInsightHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p class="industry-solution-insight-body">
               <?php echo htmlspecialchars($solutionInsightBody, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -171,8 +171,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
       <div class="container">
         <div class="industry-solution-approach-shell">
           <div class="industry-solution-approach-intro">
-            <span class="industry-solution-section-eyebrow industry-solution-section-eyebrow-light"><?php echo htmlspecialchars($solutionApproachEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionApproachHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionApproachEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionApproachHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p>
               <?php echo htmlspecialchars($solutionApproachBody, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -197,8 +197,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
     <section class="industry-solution-solve-section">
       <div class="container">
         <div class="industry-solution-solve-header">
-          <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionSolveEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionSolveHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionSolveEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionSolveHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionSolveIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>
@@ -217,8 +217,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
     <section class="industry-solution-services-section">
       <div class="container">
         <div class="industry-solution-services-header">
-          <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionServicesEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionServicesHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionServicesEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionServicesHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionServicesIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>
@@ -239,8 +239,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
     <section class="industry-solution-journey-section">
       <div class="container">
         <div class="industry-solution-journey-header">
-          <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionJourneyEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionJourneyHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionJourneyEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionJourneyHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionJourneyIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>
@@ -262,8 +262,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
       <div class="container">
         <div class="industry-solution-audience-shell">
           <div class="industry-solution-audience-header">
-            <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionAudienceEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-            <h2><?php echo htmlspecialchars($solutionAudienceHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h2 class="sub-heading"><?php echo htmlspecialchars($solutionAudienceEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+            <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionAudienceHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
             <p>
               <?php echo htmlspecialchars($solutionAudienceIntro, ENT_QUOTES, 'UTF-8'); ?>
             </p>
@@ -281,8 +281,8 @@ $solutionProcessEyebrow = $solutionProcessEyebrow ?? 'Process';
     <section class="industry-solution-process-section">
       <div class="container">
         <div class="industry-solution-process-header">
-          <span class="industry-solution-section-eyebrow"><?php echo htmlspecialchars($solutionProcessEyebrow, ENT_QUOTES, 'UTF-8'); ?></span>
-          <h2><?php echo htmlspecialchars($solutionProcessHeading, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h2 class="sub-heading"><?php echo htmlspecialchars($solutionProcessEyebrow, ENT_QUOTES, 'UTF-8'); ?></h2>
+          <h3 class="sub-heading-caption"><?php echo htmlspecialchars($solutionProcessHeading, ENT_QUOTES, 'UTF-8'); ?></h3>
           <p>
             <?php echo htmlspecialchars($solutionProcessIntro, ENT_QUOTES, 'UTF-8'); ?>
           </p>

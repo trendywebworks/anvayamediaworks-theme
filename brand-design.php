@@ -50,8 +50,8 @@
 
           <div class="brand-design-definition-content">
             <div class="brand-design-definition-copy">
-              <span class="brand-design-section-eyebrow">What Is Brand Design?</span>
-              <h2>Shape how the brand looks, feels, and communicates across every touchpoint.</h2>
+              <h2 class="sub-heading">What Is Brand Design?</h2>
+              <h3 class="sub-heading-caption">Shape how the brand looks, feels, and communicates across every touchpoint.</h3>
               <p>
                 Brand Design is the visual expression of your brand, how it looks, feels, and communicates across all touchpoints.
               </p>
@@ -72,8 +72,8 @@
     <section class="brand-design-signs-section">
       <div class="container">
         <div class="brand-design-signs-header">
-          <span class="brand-design-section-eyebrow">Signs Your Brand Needs a Redesign</span>
-          <h2>When brand signals feel scattered, recognition and trust start to weaken.</h2>
+          <h2 class="sub-heading">Signs Your Brand Needs a Redesign</h2>
+          <h3 class="sub-heading-caption">When brand signals feel scattered, recognition and trust start to weaken.</h3>
         </div>
 
         <div class="brand-design-signs-grid">
@@ -158,8 +158,8 @@
         <div class="brand-design-process-carousel" data-review-carousel data-review-carousel-autoplay="4500">
           <div class="brand-design-process-header">
             <div>
-              <span class="brand-design-section-eyebrow">Our Brand Design Process</span>
-              <h2>Six steps that move from exploration to real-world brand application.</h2>
+              <h2 class="sub-heading">Our Brand Design Process</h2>
+              <h3 class="sub-heading-caption">Six steps that move from exploration to real-world brand application.</h3>
             </div>
 
             <div class="brand-design-process-controls" aria-label="Brand design process navigation">

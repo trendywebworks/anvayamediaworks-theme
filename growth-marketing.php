@@ -44,8 +44,8 @@
       <div class="container">
         <div class="growth-marketing-idea-shell">
           <div class="growth-marketing-idea-copy">
-            <span class="growth-marketing-section-eyebrow">Big Idea</span>
-            <h2>Growth Isn&rsquo;t Luck. It&rsquo;s a System.</h2>
+            <h2 class="sub-heading">Big Idea</h2>
+            <h3 class="sub-heading-caption">Growth Isn&rsquo;t Luck. It&rsquo;s a System.</h3>
             <p class="growth-marketing-idea-body">
               Most businesses rely on isolated campaigns&mdash;ads, SEO, social. But real growth happens when everything works together.
             </p>
@@ -69,8 +69,8 @@
     <section class="growth-marketing-problem-section">
       <div class="container">
         <div class="growth-marketing-problem-header">
-          <span class="growth-marketing-section-eyebrow">The Problem</span>
-          <h2>Why Most Marketing Doesn&rsquo;t Scale</h2>
+          <h2 class="sub-heading">The Problem</h2>
+          <h3 class="sub-heading-caption">Why Most Marketing Doesn&rsquo;t Scale</h3>
           <p>
             Without a structured approach, growth becomes inconsistent and expensive.
           </p>
@@ -147,8 +147,8 @@
       <div class="container">
         <div class="growth-marketing-approach-shell">
           <div class="growth-marketing-approach-intro">
-            <span class="growth-marketing-section-eyebrow growth-marketing-section-eyebrow-light">Our Approach</span>
-            <h2>A Full-Funnel Growth Marketing Framework</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Full-Funnel Growth Marketing Framework</h3>
             <p>
               At Anvaya Media Works, we focus on end-to-end growth systems, not just individual tactics.
             </p>
@@ -195,8 +195,8 @@
     <section class="growth-marketing-funnel-section">
       <div class="container">
         <div class="growth-marketing-funnel-header">
-          <span class="growth-marketing-section-eyebrow">Growth Funnel</span>
-          <h2>Optimizing Every Stage of Growth</h2>
+          <h2 class="sub-heading">Growth Funnel</h2>
+          <h3 class="sub-heading-caption">Optimizing Every Stage of Growth</h3>
           <p>
             We work across the full customer journey so each stage supports the next and growth compounds more efficiently.
           </p>
@@ -239,8 +239,8 @@
     <section class="growth-marketing-services-section">
       <div class="container">
         <div class="growth-marketing-services-header">
-          <span class="growth-marketing-section-eyebrow">Our Growth Marketing Services</span>
-          <h2>Integrated Solutions for Scalable Growth</h2>
+          <h2 class="sub-heading">Our Growth Marketing Services</h2>
+          <h3 class="sub-heading-caption">Integrated Solutions for Scalable Growth</h3>
           <p>
             We combine strategy, acquisition, funnel optimization, automation, and analytics into one scalable growth system.
           </p>
@@ -295,8 +295,8 @@
     <section class="growth-marketing-process-section">
       <div class="container">
         <div class="growth-marketing-process-header">
-          <span class="growth-marketing-section-eyebrow">Process</span>
-          <h2>Our Continuous Growth Loop</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">Our Continuous Growth Loop</h3>
           <p>
             Growth is never static&mdash;it&rsquo;s a loop.
           </p>

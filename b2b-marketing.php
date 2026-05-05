@@ -11,8 +11,8 @@
       <div class="container">
         <div class="b2b-marketing-idea-shell">
           <div class="b2b-marketing-idea-copy">
-            <span class="b2b-marketing-section-eyebrow">Big Idea</span>
-            <h2>B2B Marketing Isn&rsquo;t About Traffic.</h2>
+            <h2 class="sub-heading">Big Idea</h2>
+            <h3 class="sub-heading-caption">B2B Marketing Isn&rsquo;t About Traffic.</h3>
             <p class="b2b-marketing-idea-divider">It&rsquo;s About the Right Decision Makers.</p>
             <p class="b2b-marketing-idea-body">
               In B2B, one qualified lead is more valuable than thousands of random visitors.
@@ -50,8 +50,8 @@
     <section class="b2b-marketing-problem-section">
       <div class="container">
         <div class="b2b-marketing-problem-header">
-          <span class="b2b-marketing-section-eyebrow">The Challenge</span>
-          <h2>Why B2B Marketing Is Complex</h2>
+          <h2 class="sub-heading">The Challenge</h2>
+          <h3 class="sub-heading-caption">Why B2B Marketing Is Complex</h3>
           <p>
             Without the right strategy, B2B marketing becomes slow, expensive, and unpredictable.
           </p>
@@ -129,8 +129,8 @@
       <div class="container">
         <div class="b2b-marketing-approach-shell">
           <div class="b2b-marketing-approach-intro">
-            <span class="b2b-marketing-section-eyebrow b2b-marketing-section-eyebrow-light">Our Approach</span>
-            <h2>A Full-Funnel B2B Growth Strategy</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Full-Funnel B2B Growth Strategy</h3>
             <p>
               At Anvaya Media Works, we build structured B2B marketing systems that drive consistent pipeline growth.
             </p>
@@ -177,8 +177,8 @@
     <section class="b2b-marketing-funnel-section">
       <div class="container">
         <div class="b2b-marketing-funnel-header">
-          <span class="b2b-marketing-section-eyebrow">B2B Funnel</span>
-          <h2>Optimizing the Entire B2B Journey</h2>
+          <h2 class="sub-heading">B2B Funnel</h2>
+          <h3 class="sub-heading-caption">Optimizing the Entire B2B Journey</h3>
           <p>
             We focus on each stage of the buyer journey so awareness, trust, pipeline movement, and retention work as one connected system.
           </p>
@@ -215,8 +215,8 @@
     <section class="b2b-marketing-services-section">
       <div class="container">
         <div class="b2b-marketing-services-header">
-          <span class="b2b-marketing-section-eyebrow">Our B2B Marketing Services</span>
-          <h2>End-to-End Solutions for Pipeline Growth</h2>
+          <h2 class="sub-heading">Our B2B Marketing Services</h2>
+          <h3 class="sub-heading-caption">End-to-End Solutions for Pipeline Growth</h3>
           <p>
             We combine strategy, demand generation, account targeting, automation, and optimization into one B2B pipeline growth system.
           </p>
@@ -271,8 +271,8 @@
     <section class="b2b-marketing-process-section">
       <div class="container">
         <div class="b2b-marketing-process-header">
-          <span class="b2b-marketing-section-eyebrow">Process</span>
-          <h2>How We Drive B2B Growth</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Drive B2B Growth</h3>
           <p>
             We use an enterprise-minded process built for clarity, coordination, and repeatable pipeline growth.
           </p>

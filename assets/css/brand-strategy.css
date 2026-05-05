@@ -126,13 +126,9 @@
   margin-bottom: 2rem;
 }
 
-.brand-strategy-section-header h2,
-.brand-strategy-process-header h2 {
+.brand-strategy-section-header .sub-heading-caption,
+.brand-strategy-process-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--brand-strategy-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .brand-strategy-section-intro,
@@ -191,12 +187,8 @@
   margin-bottom: 2.4rem;
 }
 
-.brand-strategy-process-header h2 {
+.brand-strategy-process-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--brand-strategy-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .brand-strategy-process-header p {

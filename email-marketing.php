@@ -44,8 +44,8 @@
       <div class="container">
         <div class="email-marketing-idea-shell">
           <div class="email-marketing-idea-copy">
-            <span class="email-marketing-section-eyebrow">Big Idea</span>
-            <h2>The Highest ROI Channel You&rsquo;re Underutilizing</h2>
+            <h2 class="sub-heading">Big Idea</h2>
+            <h3 class="sub-heading-caption">The Highest ROI Channel You&rsquo;re Underutilizing</h3>
             <p class="email-marketing-idea-body">
               Email marketing isn&rsquo;t dead&mdash;it&rsquo;s one of the most powerful growth channels.
             </p>
@@ -82,8 +82,8 @@
     <section class="email-marketing-problem-section">
       <div class="container">
         <div class="email-marketing-problem-header">
-          <span class="email-marketing-section-eyebrow">The Problem</span>
-          <h2>Why Most Email Marketing Fails</h2>
+          <h2 class="sub-heading">The Problem</h2>
+          <h3 class="sub-heading-caption">Why Most Email Marketing Fails</h3>
           <p>
             Sending emails is easy. Building a revenue-generating email system is not.
           </p>
@@ -161,8 +161,8 @@
       <div class="container">
         <div class="email-marketing-approach-shell">
           <div class="email-marketing-approach-intro">
-            <span class="email-marketing-section-eyebrow email-marketing-section-eyebrow-light">Our Approach</span>
-            <h2>A Data-Driven Email Marketing Strategy</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Data-Driven Email Marketing Strategy</h3>
             <p>
               At Anvaya Media Works, we treat email as a performance channel, not just communication.
             </p>
@@ -210,8 +210,8 @@
       <div class="container">
         <div class="email-marketing-build-shell">
           <div class="email-marketing-build-header">
-            <span class="email-marketing-section-eyebrow">What We Build</span>
-            <h2>Complete Email Marketing Ecosystem</h2>
+            <h2 class="sub-heading">What We Build</h2>
+            <h3 class="sub-heading-caption">Complete Email Marketing Ecosystem</h3>
             <p>
               We create a full email system across the lifecycle, not just one-off campaigns.
             </p>
@@ -236,8 +236,8 @@
     <section class="email-marketing-services-section">
       <div class="container">
         <div class="email-marketing-services-header">
-          <span class="email-marketing-section-eyebrow">Our Email Marketing Services</span>
-          <h2>End-to-End Email Marketing Solutions</h2>
+          <h2 class="sub-heading">Our Email Marketing Services</h2>
+          <h3 class="sub-heading-caption">End-to-End Email Marketing Solutions</h3>
           <p>
             We combine strategy, automation, segmentation, design, and integration into one revenue-focused email system.
           </p>
@@ -286,8 +286,8 @@
     <section class="email-marketing-process-section">
       <div class="container">
         <div class="email-marketing-process-header">
-          <span class="email-marketing-section-eyebrow">Process</span>
-          <h2>How We Drive Results Through Email</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Drive Results Through Email</h3>
           <p>
             We build lifecycle systems that keep improving as the audience, campaigns, and automation flows mature.
           </p>

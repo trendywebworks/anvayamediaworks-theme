@@ -41,8 +41,8 @@
       <div class="container">
         <div class="healthcare-fitness-solution-insight-shell">
           <div class="healthcare-fitness-solution-insight-copy">
-            <span class="healthcare-fitness-solution-section-eyebrow">Industry Insight</span>
-            <h2>In Healthcare, Trust Is Everything.</h2>
+            <h2 class="sub-heading">Industry Insight</h2>
+            <h3 class="sub-heading-caption">In Healthcare, Trust Is Everything.</h3>
             <p class="healthcare-fitness-solution-insight-body">
               Patients and clients do not just choose services. They choose credibility, experience, and confidence.
             </p>
@@ -84,8 +84,8 @@
       <div class="container">
         <div class="healthcare-fitness-solution-approach-shell">
           <div class="healthcare-fitness-solution-approach-intro">
-            <span class="healthcare-fitness-solution-section-eyebrow healthcare-fitness-solution-section-eyebrow-light">Our Approach</span>
-            <h2>A Patient-Centric Digital Growth Approach</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Patient-Centric Digital Growth Approach</h3>
             <p>
               At Anvaya Media Works, we understand that healthcare and fitness marketing is not just about promotion. It is about education, trust, and connection.
             </p>
@@ -132,8 +132,8 @@
     <section class="healthcare-fitness-solution-solve-section">
       <div class="container">
         <div class="healthcare-fitness-solution-solve-header">
-          <span class="healthcare-fitness-solution-section-eyebrow">What We Solve</span>
-          <h2>Solving Real Healthcare &amp; Fitness Challenges</h2>
+          <h2 class="sub-heading">What We Solve</h2>
+          <h3 class="sub-heading-caption">Solving Real Healthcare &amp; Fitness Challenges</h3>
           <p>
             We focus on the visibility, trust, engagement, and conversion issues that slow down sustainable growth.
           </p>
@@ -165,8 +165,8 @@
     <section class="healthcare-fitness-solution-services-section">
       <div class="container">
         <div class="healthcare-fitness-solution-services-header">
-          <span class="healthcare-fitness-solution-section-eyebrow">Our Solutions</span>
-          <h2>End-to-End Digital Solutions for Healthcare &amp; Fitness</h2>
+          <h2 class="sub-heading">Our Solutions</h2>
+          <h3 class="sub-heading-caption">End-to-End Digital Solutions for Healthcare &amp; Fitness</h3>
           <p>
             We connect visibility, trust-building, acquisition, reputation, and conversion into one growth-focused system.
           </p>
@@ -221,8 +221,8 @@
     <section class="healthcare-fitness-solution-journey-section">
       <div class="container">
         <div class="healthcare-fitness-solution-journey-header">
-          <span class="healthcare-fitness-solution-section-eyebrow">Patient / Client Journey</span>
-          <h2>Optimizing the Entire Experience</h2>
+          <h2 class="sub-heading">Patient / Client Journey</h2>
+          <h3 class="sub-heading-caption">Optimizing the Entire Experience</h3>
           <p>
             We improve every stage of the journey so discovery, evaluation, contact, and retention work together.
           </p>
@@ -266,8 +266,8 @@
       <div class="container">
         <div class="healthcare-fitness-solution-audience-shell">
           <div class="healthcare-fitness-solution-audience-header">
-            <span class="healthcare-fitness-solution-section-eyebrow">Who We Work With</span>
-            <h2>Serving Healthcare &amp; Fitness Professionals</h2>
+            <h2 class="sub-heading">Who We Work With</h2>
+            <h3 class="sub-heading-caption">Serving Healthcare &amp; Fitness Professionals</h3>
             <p>
               We support service-led brands that need stronger visibility, credibility, and conversion systems.
             </p>
@@ -288,8 +288,8 @@
     <section class="healthcare-fitness-solution-process-section">
       <div class="container">
         <div class="healthcare-fitness-solution-process-header">
-          <span class="healthcare-fitness-solution-section-eyebrow">Process</span>
-          <h2>How We Help You Grow</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Help You Grow</h3>
           <p>
             We follow a structured growth process that helps improve visibility, engagement, and patient acquisition over time.
           </p>

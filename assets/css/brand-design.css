@@ -141,13 +141,10 @@
   align-content: center;
 }
 
-.brand-design-definition-copy h2,
-.brand-design-signs-header h2,
-.brand-design-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.brand-design-definition-copy .sub-heading-caption,
+.brand-design-signs-header .sub-heading-caption,
+.brand-design-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .brand-design-definition-copy p,

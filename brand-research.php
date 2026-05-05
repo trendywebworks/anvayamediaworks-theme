@@ -42,8 +42,8 @@
       <div class="container">
         <div class="brand-research-section-header">
           <div>
-            <span class="brand-research-section-eyebrow">Why It Matters</span>
-            <h2>Without research, branding becomes subjective. With research, it becomes strategic.</h2>
+            <h2 class="sub-heading">Why It Matters</h2>
+            <h3 class="sub-heading-caption">Without research, branding becomes subjective. With research, it becomes strategic.</h3>
           </div>
           <p class="brand-research-section-intro">
             Stronger decisions start when we replace assumptions with evidence and shape the brand from what
@@ -111,8 +111,8 @@
       <div class="container">
         <div class="brand-research-process-shell">
           <div class="brand-research-process-intro">
-            <span class="brand-research-section-eyebrow">Our Process</span>
-            <h2>Five focused steps that turn information into direction.</h2>
+            <h2 class="sub-heading">Our Process</h2>
+            <h3 class="sub-heading-caption">Five focused steps that turn information into direction.</h3>
             <p>
               Each stage builds on the previous one, so the final recommendation is not just informative,
               but useful across brand strategy, messaging, and growth planning.

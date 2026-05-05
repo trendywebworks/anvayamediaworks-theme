@@ -3,8 +3,8 @@
     <div class="container">
     <div class="capabilities-spectrum-header">
         <div>
-        <span class="capabilities-eyebrow">Our Spectrum of Capabilities</span>
-        <h2 class="capabilities-title">A strategic growth system built to move brands from clarity to scale.</h2>
+            <h2 class="sub-heading">Our Spectrum of Capabilities</h2>
+            <h3 class="sub-heading-caption">A strategic growth system built to move brands from clarity to scale.</h3>
         </div>
         <p class="capabilities-intro">
         Our process is structured around four connected stages so every engagement moves with focus,

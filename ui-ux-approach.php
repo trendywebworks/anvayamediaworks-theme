@@ -42,8 +42,8 @@
       <div class="container">
         <div class="uiux-decision-shell">
           <div class="uiux-decision-copy">
-            <span class="uiux-section-eyebrow">Decision Environment</span>
-            <h2>We design interfaces that reduce friction and guide behaviour.</h2>
+            <h2 class="sub-heading">Decision Environment</h2>
+            <h3 class="sub-heading-caption">We design interfaces that reduce friction and guide behaviour.</h3>
             <p>
               Design is useful only when it helps people understand what they are seeing, why it matters,
               and how to move forward without confusion.
@@ -65,8 +65,8 @@
     <section class="uiux-questions-section">
       <div class="container">
         <div class="uiux-questions-header">
-          <span class="uiux-section-eyebrow">Three Questions</span>
-          <h2>Every page answers three questions.</h2>
+          <h2 class="sub-heading">Three Questions</h2>
+          <h3 class="sub-heading-caption">Every page answers three questions.</h3>
         </div>
 
         <div class="uiux-questions-grid">

@@ -154,16 +154,13 @@
   border-radius: 20px;
 }
 
-.ppc-management-hook-copy h2,
-.ppc-management-problem-header h2,
-.ppc-management-approach-intro h2,
-.ppc-management-platforms-header h2,
-.ppc-management-services-header h2,
-.ppc-management-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.ppc-management-hook-copy .sub-heading-caption,
+.ppc-management-problem-header .sub-heading-caption,
+.ppc-management-approach-intro .sub-heading-caption,
+.ppc-management-platforms-header .sub-heading-caption,
+.ppc-management-services-header .sub-heading-caption,
+.ppc-management-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .ppc-management-hook-body,
@@ -290,6 +287,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .ppc-management-approach-intro p {

@@ -3,8 +3,8 @@
     <div class="container">
     <div class="impact-section-header">
         <div>
-        <span class="impact-eyebrow">Impact Delivered</span>
-        <h2 class="impact-title">Measured outcomes that build confidence.</h2>
+            <h2 class="sub-heading">Impact Delivered</h2>
+            <h3 class="sub-heading-caption">Measured outcomes that build confidence.</h3>
         </div>
         <p class="impact-intro">
         A credibility-led section designed to communicate delivery scale, reach, global exposure,

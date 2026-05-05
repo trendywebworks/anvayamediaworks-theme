@@ -51,8 +51,8 @@
 
           <div class="ux-research-foundation-content">
             <div class="ux-research-foundation-copy">
-              <span class="ux-research-section-eyebrow">What Is UX Research</span>
-              <h2>Study behavior before you shape the experience.</h2>
+              <h2 class="sub-heading">What Is UX Research</h2>
+              <h3 class="sub-heading-caption">Study behavior before you shape the experience.</h3>
               <p>
                 UX Research is the process of studying user behavior, needs, and motivations through observation, analysis, and feedback.
               </p>
@@ -82,8 +82,8 @@
     <section class="ux-research-problems-section">
       <div class="container">
         <div class="ux-research-problems-header">
-          <span class="ux-research-section-eyebrow">The Problems We Solve</span>
-          <h2>When user behavior is unclear, performance starts to stall.</h2>
+          <h2 class="sub-heading">The Problems We Solve</h2>
+          <h3 class="sub-heading-caption">When user behavior is unclear, performance starts to stall.</h3>
         </div>
 
         <div class="ux-research-problems-grid">
@@ -152,8 +152,8 @@
       <div class="container">
         <div class="ux-research-approach-header">
           <div>
-            <span class="ux-research-section-eyebrow">Our UX Research Approach</span>
-            <h2>Observe, analyze, validate, improve.</h2>
+            <h2 class="sub-heading">Our UX Research Approach</h2>
+            <h3 class="sub-heading-caption">Observe, analyze, validate, improve.</h3>
           </div>
           <p>
             We move from behavior signals to clear recommendations, so design and business decisions are grounded in evidence instead of instinct.
@@ -201,8 +201,8 @@
         <div class="ux-research-methods-shell">
           <div class="ux-research-methods-side">
             <div class="ux-research-methods-header">
-              <span class="ux-research-section-eyebrow">Research Methods We Use</span>
-              <h2>Methods that add depth, clarity, and authority to every recommendation.</h2>
+              <h2 class="sub-heading">Research Methods We Use</h2>
+              <h3 class="sub-heading-caption">Methods that add depth, clarity, and authority to every recommendation.</h3>
               <p>
                 We use a mix of qualitative and behavioral methods so the research captures not just what users say, but what they actually do.
               </p>
@@ -247,8 +247,8 @@
       <div class="container">
         <div class="ux-research-outcomes-shell">
           <div class="ux-research-outcomes-copy">
-            <span class="ux-research-section-eyebrow">What You Gain</span>
-            <h2>Research that improves both experience and decision quality.</h2>
+            <h2 class="sub-heading">What You Gain</h2>
+            <h3 class="sub-heading-caption">Research that improves both experience and decision quality.</h3>
             <ul class="ux-research-bullet-list">
               <li>Clear understanding of your users</li>
               <li>Improved user experience (UX)</li>
@@ -280,8 +280,8 @@
           </div>
 
           <div class="ux-research-fit-copy">
-            <span class="ux-research-section-eyebrow">Where UX Research Fits</span>
-            <h2>UX Research is the foundation for stronger digital decisions.</h2>
+            <h2 class="sub-heading">Where UX Research Fits</h2>
+            <h3 class="sub-heading-caption">UX Research is the foundation for stronger digital decisions.</h3>
             <ul class="ux-research-bullet-list ux-research-bullet-list-links">
               <li><a href="<?php echo htmlspecialchars($servicesLink, ENT_QUOTES, 'UTF-8'); ?>">UI/UX Design</a></li>
               <li><a href="<?php echo htmlspecialchars($servicesLink, ENT_QUOTES, 'UTF-8'); ?>">Website Design</a></li>

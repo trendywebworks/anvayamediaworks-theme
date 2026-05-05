@@ -41,8 +41,8 @@
       <div class="container">
         <div class="ppc-system-shell">
           <div class="ppc-system-intro">
-            <span class="ppc-section-eyebrow">Brand System</span>
-            <h2>We don&rsquo;t isolate paid media from the brand experience around it.</h2>
+            <h2 class="sub-heading">Brand System</h2>
+            <h3 class="sub-heading-caption">We don&rsquo;t isolate paid media from the brand experience around it.</h3>
             <p>
               Ads perform better when they sound like the brand, reflect real audience motives, and connect
               to a landing experience built for action rather than drop-off.

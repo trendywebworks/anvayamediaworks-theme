@@ -149,16 +149,13 @@
   border-radius: 20px;
 }
 
-.cro-service-insight-copy h2,
-.cro-service-problem-header h2,
-.cro-service-approach-intro h2,
-.cro-service-optimize-header h2,
-.cro-service-services-header h2,
-.cro-service-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.cro-service-insight-copy .sub-heading-caption,
+.cro-service-problem-header .sub-heading-caption,
+.cro-service-approach-intro .sub-heading-caption,
+.cro-service-optimize-header .sub-heading-caption,
+.cro-service-services-header .sub-heading-caption,
+.cro-service-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .cro-service-insight-divider {
@@ -295,6 +292,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .cro-service-approach-intro p {

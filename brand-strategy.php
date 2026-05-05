@@ -42,8 +42,8 @@
       <div class="container">
         <div class="brand-strategy-section-header">
           <div>
-            <span class="brand-strategy-section-eyebrow">Why It Matters</span>
-            <h2>Without strategy, branding becomes inconsistent. With strategy, it becomes a powerful business asset.</h2>
+            <h2 class="sub-heading">Why It Matters</h2>
+            <h3 class="sub-heading-caption">Without strategy, branding becomes inconsistent. With strategy, it becomes a powerful business asset.</h3>
           </div>
           <p class="brand-strategy-section-intro">
             Brand strategy creates alignment across identity, messaging, experience, and growth so the business shows up with clarity wherever customers meet it.
@@ -98,8 +98,8 @@
       <div class="container">
         <div class="brand-strategy-process-header">
           <div>
-            <span class="brand-strategy-section-eyebrow">Our Process</span>
-            <h2>Six focused steps that turn brand thinking into a practical growth system.</h2>
+            <h2 class="sub-heading">Our Process</h2>
+            <h3 class="sub-heading-caption">Six focused steps that turn brand thinking into a practical growth system.</h3>
           </div>
           <p>
             We move from discovery to implementation planning so the final strategy is clear enough to guide brand, design, and communication decisions with confidence.

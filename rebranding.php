@@ -49,8 +49,8 @@
 
           <div class="rebranding-definition-content">
             <div class="rebranding-definition-copy">
-              <span class="rebranding-section-eyebrow">What Is Rebranding?</span>
-              <h2>Transform identity, positioning, and perception to match where the business is going.</h2>
+              <h2 class="sub-heading">What Is Rebranding?</h2>
+              <h3 class="sub-heading-caption">Transform identity, positioning, and perception to match where the business is going.</h3>
               <p>
                 Rebranding is the process of transforming your brand&rsquo;s identity, positioning, and perception to better align with your business goals and market.
               </p>
@@ -74,8 +74,8 @@
     <section class="rebranding-signs-section">
       <div class="container">
         <div class="rebranding-signs-header">
-          <span class="rebranding-section-eyebrow">When Should You Consider Rebranding?</span>
-          <h2>When the current identity no longer carries the business where it needs to go.</h2>
+          <h2 class="sub-heading">When Should You Consider Rebranding?</h2>
+          <h3 class="sub-heading-caption">When the current identity no longer carries the business where it needs to go.</h3>
         </div>
 
         <div class="rebranding-signs-grid">
@@ -153,8 +153,8 @@
     <section class="rebranding-transform-section">
       <div class="container">
         <div class="rebranding-transform-header">
-          <span class="rebranding-section-eyebrow">What We Transform</span>
-          <h2>The parts of the brand that need to move together for change to feel real.</h2>
+          <h2 class="sub-heading">What We Transform</h2>
+          <h3 class="sub-heading-caption">The parts of the brand that need to move together for change to feel real.</h3>
         </div>
 
         <div class="rebranding-transform-grid">
@@ -196,8 +196,8 @@
         <div class="rebranding-process-carousel" data-review-carousel data-review-carousel-autoplay="4500">
           <div class="rebranding-process-header">
             <div>
-              <span class="rebranding-section-eyebrow">Our Rebranding Process</span>
-              <h2>Five steps that take the brand from audit to rollout.</h2>
+              <h2 class="sub-heading">Our Rebranding Process</h2>
+              <h3 class="sub-heading-caption">Five steps that take the brand from audit to rollout.</h3>
             </div>
 
             <div class="rebranding-process-controls" aria-label="Rebranding process navigation">

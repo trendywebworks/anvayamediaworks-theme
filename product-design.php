@@ -42,8 +42,8 @@
       <div class="container">
         <div class="product-design-definition-shell">
           <div class="product-design-definition-copy">
-            <span class="product-design-section-eyebrow">What Is Product Design?</span>
-            <h2>Create products from idea to execution around usability, function, and growth.</h2>
+            <h2 class="sub-heading">What Is Product Design?</h2>
+            <h3 class="sub-heading-caption">Create products from idea to execution around usability, function, and growth.</h3>
             <p>
               Product Design is the process of creating user-centric digital products from idea to execution, focusing on usability, functionality, and business impact.
             </p>
@@ -82,8 +82,8 @@
     <section class="product-design-challenges-section">
       <div class="container">
         <div class="product-design-challenges-header">
-          <span class="product-design-section-eyebrow">Challenges We Help You Solve</span>
-          <h2>The friction that slows adoption, engagement, and product growth.</h2>
+          <h2 class="sub-heading">Challenges We Help You Solve</h2>
+          <h3 class="sub-heading-caption">The friction that slows adoption, engagement, and product growth.</h3>
         </div>
 
         <div class="product-design-challenges-board">
@@ -154,8 +154,8 @@
       <div class="container">
         <div class="product-design-approach-shell">
           <div class="product-design-approach-intro">
-            <span class="product-design-section-eyebrow">Our Product Design Approach</span>
-            <h2>Discover, define, design, deliver.</h2>
+            <h2 class="sub-heading">Our Product Design Approach</h2>
+            <h3 class="sub-heading-caption">Discover, define, design, deliver.</h3>
             <p>
               We move from research and structure into interface design, testing, and systems, so the product stays coherent as it grows.
             </p>
