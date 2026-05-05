@@ -2,10 +2,12 @@
 <section class="impact-section">
     <div class="container">
     <div class="impact-section-header">
+        
         <div>
             <h2 class="sub-heading">Impact Delivered</h2>
             <h3 class="sub-heading-caption">Measured outcomes that build confidence.</h3>
         </div>
+
         <p class="impact-intro">
         A credibility-led section designed to communicate delivery scale, reach, global exposure,
         and client confidence at a glance.

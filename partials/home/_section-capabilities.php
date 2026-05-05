@@ -50,8 +50,10 @@
             <div class="capability-showcase-copy-column">
             <div class="capability-showcase-copy">
                 <div class="capability-panel-copy">
-                <span class="capability-panel-label">Discover</span>
-                <h3>Understand where the brand stands before deciding where it should go.</h3>
+                
+                <h2 class="sub-heading">Discover</h2>
+                <h3 class="sub-heading-caption">Understand where the brand stands before deciding where it should go.</h3>
+
                 <p>
                     Better brand and marketing decisions start with better visibility. We assess the current
                     brand, map market realities, and uncover audience signals so the next move is based on evidence,
@@ -113,8 +115,9 @@
             <div class="capability-showcase-copy-column">
             <div class="capability-showcase-copy">
                 <div class="capability-panel-copy">
-                <span class="capability-panel-label">Define</span>
-                <h3>Turn insight into a positioning system the business can act on with confidence.</h3>
+                <h2 class="sub-heading">Define</h2>
+                <h3 class="sub-heading-caption">Turn insight into a positioning system the business can act on with confidence.</h3>
+
                 <p>
                     Clear growth starts with strategic definition. We shape the brand's market position,
                     build a sharper messaging structure, and set the direction that aligns campaigns,
@@ -176,8 +179,9 @@
             <div class="capability-showcase-copy-column">
             <div class="capability-showcase-copy">
                 <div class="capability-panel-copy">
-                <span class="capability-panel-label">Execute</span>
-                <h3>Turn strategy into campaigns, channels, and content that perform in the market.</h3>
+
+                <h2 class="sub-heading">Execute</h2>
+                <h3 class="sub-heading-caption">Turn strategy into campaigns, channels, and content that perform in the market.</h3>
                 <p>
                     Execution is where direction becomes visibility. We activate creative campaigns,
                     digital marketing systems, and performance-led content so the brand shows up with
@@ -239,8 +243,10 @@
             <div class="capability-showcase-copy-column">
             <div class="capability-showcase-copy">
                 <div class="capability-panel-copy">
-                <span class="capability-panel-label">Scale</span>
-                <h3>Improve what works and scale growth with better signals, systems, and momentum.</h3>
+                
+                <h2 class="sub-heading">Scale</h2>
+                <h3 class="sub-heading-caption">Improve what works and scale growth with better signals, systems, and momentum.</h3>
+                
                 <p>
                     Sustainable growth depends on measurement and refinement. We track performance,
                     optimize continuously, and scale winning activity so growth becomes more efficient,

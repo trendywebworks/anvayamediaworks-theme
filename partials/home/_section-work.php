@@ -1,10 +1,12 @@
 <section id="work" class="clients-section">
     <div class="container">
     <div class="clients-section-header">
+        
         <div>
-        <h2 class="sub-heading">Our Work</h2>
-        <h3 class="sub-heading-caption">Our Work</h3>
+            <h2 class="sub-heading">Our Work</h2>
+            <h3 class="sub-heading-caption">Our Work</h3>
         </div>
+
         <p class="clients-intro">
         We work across categories to build clearer brands, stronger digital systems, and more effective
         growth communication for businesses ready to move with intent.
