@@ -139,14 +139,11 @@
   color: var(--color-text);
 }
 
-.website-development-problem-copy h2,
-.website-development-approach-intro h2,
-.website-development-services-header h2,
-.website-development-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.website-development-problem-copy .sub-heading-caption,
+.website-development-approach-intro .sub-heading-caption,
+.website-development-services-header .sub-heading-caption,
+.website-development-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .website-development-problem-lead {
@@ -243,6 +240,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .website-development-approach-intro p {

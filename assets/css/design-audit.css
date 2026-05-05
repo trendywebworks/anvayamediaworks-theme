@@ -278,21 +278,20 @@
   position: sticky;
   top: 7.5rem;
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .design-audit-impact-intro .design-audit-section-eyebrow,
-.design-audit-impact-intro h2,
+.design-audit-impact-intro .sub-heading-caption,
 .design-audit-impact-intro p {
   color: var(--color-white);
 }
 
-.design-audit-impact-intro h2,
-.design-audit-scope-header h2,
-.design-audit-process-header h2 {
+.design-audit-impact-intro .sub-heading-caption,
+.design-audit-scope-header .sub-heading-caption,
+.design-audit-process-header .sub-heading-caption {
   margin: 0;
-  font-size: var(--design-audit-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .design-audit-impact-intro p,
@@ -355,10 +354,12 @@
 
 .design-audit-scope-header {
   padding: 0 2.2rem 1.7rem;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .design-audit-scope-header .design-audit-section-eyebrow,
-.design-audit-scope-header h2 {
+.design-audit-scope-header .sub-heading-caption {
   color: var(--color-white);
 }
 

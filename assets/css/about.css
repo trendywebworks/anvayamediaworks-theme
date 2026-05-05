@@ -129,12 +129,8 @@
   margin-bottom: 2.2rem;
 }
 
-.about-section-header h2 {
+.about-section-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--about-section-title-size);
-  line-height: 1;
-  letter-spacing: -0.04em;
 }
 
 .about-section-intro {

@@ -49,8 +49,8 @@
 
           <div class="dashboard-design-importance-content">
             <div class="dashboard-design-importance-copy">
-              <span class="dashboard-design-section-eyebrow">Why Dashboard Design Matters</span>
-              <h2>A poorly designed dashboard creates confusion. A well-designed one creates clarity.</h2>
+              <h2 class="sub-heading">Why Dashboard Design Matters</h2>
+              <h3 class="sub-heading-caption">A poorly designed dashboard creates confusion. A well-designed one creates clarity.</h3>
               <p>
                 Great dashboards reduce cognitive load, guide attention to the right metrics, and help users move from observation to action without friction.
               </p>
@@ -75,8 +75,8 @@
     <section class="dashboard-design-problems-section">
       <div class="container">
         <div class="dashboard-design-problems-header">
-          <span class="dashboard-design-section-eyebrow">Common Dashboard Problems We Solve</span>
-          <h2>When data interfaces are cluttered or unfocused, insight gets buried and action slows down.</h2>
+          <h2 class="sub-heading">Common Dashboard Problems We Solve</h2>
+          <h3 class="sub-heading-caption">When data interfaces are cluttered or unfocused, insight gets buried and action slows down.</h3>
         </div>
 
         <div class="dashboard-design-problems-grid">
@@ -115,8 +115,8 @@
     <section class="dashboard-design-designs-section">
       <div class="container">
         <div class="dashboard-design-designs-header">
-          <span class="dashboard-design-section-eyebrow">What We Design</span>
-          <h2>The dashboard systems and interfaces that make complex information easier to act on.</h2>
+          <h2 class="sub-heading">What We Design</h2>
+          <h3 class="sub-heading-caption">The dashboard systems and interfaces that make complex information easier to act on.</h3>
         </div>
 
         <div class="dashboard-design-designs-grid">
@@ -157,8 +157,8 @@
       <div class="container">
         <div class="dashboard-design-approach-header">
           <div>
-            <span class="dashboard-design-section-eyebrow">Our Dashboard Design Approach</span>
-            <h2>Five steps that turn raw metrics into a clear interface with usable insight.</h2>
+            <h2 class="sub-heading">Our Dashboard Design Approach</h2>
+            <h3 class="sub-heading-caption">Five steps that turn raw metrics into a clear interface with usable insight.</h3>
           </div>
           <p>Understand, structure, visualize, and optimize the experience so data becomes easier to trust and use.</p>
         </div>

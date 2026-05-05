@@ -138,13 +138,10 @@
   align-content: center;
 }
 
-.logo-design-importance-copy h2,
-.logo-design-problems-header h2,
-.logo-design-approach-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.logo-design-importance-copy .sub-heading-caption,
+.logo-design-problems-header .sub-heading-caption,
+.logo-design-approach-header .sub-heading-caption {
+  margin: 0;
 }
 
 .logo-design-importance-copy p,

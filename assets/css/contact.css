@@ -106,13 +106,9 @@
   gap: 1.15rem;
 }
 
-.contact-connect-copy h2,
-.contact-team-header h2 {
+.contact-connect-copy .sub-heading-caption,
+.contact-team-header .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--contact-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .contact-connect-copy p {

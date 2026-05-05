@@ -140,14 +140,11 @@
   align-content: center;
 }
 
-.marketing-collateral-definition-copy h2,
-.marketing-collateral-gaps-header h2,
-.marketing-collateral-designs-header h2,
-.marketing-collateral-approach-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.marketing-collateral-definition-copy .sub-heading-caption,
+.marketing-collateral-gaps-header .sub-heading-caption,
+.marketing-collateral-designs-header .sub-heading-caption,
+.marketing-collateral-approach-header .sub-heading-caption {
+  margin: 0;
 }
 
 .marketing-collateral-definition-copy p,

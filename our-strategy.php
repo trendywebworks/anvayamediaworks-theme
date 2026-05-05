@@ -41,8 +41,8 @@
       <div class="container">
         <div class="strategy-section-header">
           <div>
-            <span class="strategy-section-eyebrow">We Define</span>
-            <h2>The structure behind consistent visibility and guided customer movement.</h2>
+            <h2 class="sub-heading">We Define</h2>
+            <h3 class="sub-heading-caption">The structure behind consistent visibility and guided customer movement.</h3>
           </div>
 
           <p class="strategy-section-intro">

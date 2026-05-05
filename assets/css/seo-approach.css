@@ -176,12 +176,8 @@
   gap: 1.5rem;
 }
 
-.seo-evidence-content h2 {
+.seo-evidence-content .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--seo-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .seo-truth-list {

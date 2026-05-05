@@ -2,8 +2,8 @@
     <div class="container">
     <div class="industries-header">
         <div>
-        <span class="industries-eyebrow">Industries</span>
-        <h2>Industries we are working with.</h2>
+            <h2 class="sub-heading">Industries</h2>
+            <h3 class="sub-heading-caption">Industries we are working with.</h3>
         </div>
         <p class="industries-intro">
         We partner with ambitious brands across fast-moving sectors including e-commerce, healthcare,

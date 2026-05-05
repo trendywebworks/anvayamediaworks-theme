@@ -49,8 +49,8 @@
 
           <div class="product-packaging-design-importance-content">
             <div class="product-packaging-design-importance-copy">
-              <span class="product-packaging-design-section-eyebrow">Why Packaging Design Matters</span>
-              <h2>Packaging is not just protection. In a competitive market, it becomes persuasion.</h2>
+              <h2 class="sub-heading">Why Packaging Design Matters</h2>
+              <h3 class="sub-heading-caption">Packaging is not just protection. In a competitive market, it becomes persuasion.</h3>
               <p>
                 Effective packaging does more than contain the product. It shapes perception, communicates value, and influences whether someone reaches for your product or keeps walking.
               </p>
@@ -75,8 +75,8 @@
     <section class="product-packaging-design-challenges-section">
       <div class="container">
         <div class="product-packaging-design-challenges-header">
-          <span class="product-packaging-design-section-eyebrow">Common Packaging Challenges We Solve</span>
-          <h2>When packaging is unclear, cluttered, or inconsistent, products lose attention and trust.</h2>
+          <h2 class="sub-heading">Common Packaging Challenges We Solve</h2>
+          <h3 class="sub-heading-caption">When packaging is unclear, cluttered, or inconsistent, products lose attention and trust.</h3>
         </div>
 
         <div class="product-packaging-design-challenges-grid">
@@ -115,8 +115,8 @@
     <section class="product-packaging-design-designs-section">
       <div class="container">
         <div class="product-packaging-design-designs-header">
-          <span class="product-packaging-design-section-eyebrow">What We Design</span>
-          <h2>The packaging layers and systems that help products show up with clarity and consistency.</h2>
+          <h2 class="sub-heading">What We Design</h2>
+          <h3 class="sub-heading-caption">The packaging layers and systems that help products show up with clarity and consistency.</h3>
         </div>
 
         <div class="product-packaging-design-designs-grid">
@@ -157,8 +157,8 @@
       <div class="container">
         <div class="product-packaging-design-process-header">
           <div>
-            <span class="product-packaging-design-section-eyebrow">Our Packaging Design Process</span>
-            <h2>Five steps that move from product understanding to production-ready delivery.</h2>
+            <h2 class="sub-heading">Our Packaging Design Process</h2>
+            <h3 class="sub-heading-caption">Five steps that move from product understanding to production-ready delivery.</h3>
           </div>
           <p>Understand, concept, design, and deliver with production in mind.</p>
         </div>

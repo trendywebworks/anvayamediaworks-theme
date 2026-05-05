@@ -139,14 +139,11 @@
   color: var(--color-text);
 }
 
-.seo-service-problem-copy h2,
-.seo-service-approach-intro h2,
-.seo-service-services-header h2,
-.seo-service-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.seo-service-problem-copy .sub-heading-caption,
+.seo-service-approach-intro .sub-heading-caption,
+.seo-service-services-header .sub-heading-caption,
+.seo-service-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .seo-service-problem-lead {
@@ -240,6 +237,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .seo-service-approach-intro p {

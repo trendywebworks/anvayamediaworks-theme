@@ -175,17 +175,13 @@
   align-content: center;
 }
 
-.ux-research-foundation-copy h2,
-.ux-research-problems-header h2,
-.ux-research-approach-header h2,
-.ux-research-methods-header h2,
-.ux-research-outcomes-copy h2,
-.ux-research-fit-copy h2 {
+.ux-research-foundation-copy .sub-heading-caption,
+.ux-research-problems-header .sub-heading-caption,
+.ux-research-approach-header .sub-heading-caption,
+.ux-research-methods-header .sub-heading-caption,
+.ux-research-outcomes-copy .sub-heading-caption,
+.ux-research-fit-copy .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--ux-research-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .ux-research-foundation-copy p,
@@ -238,7 +234,7 @@
 }
 
 .ux-research-problems-header .ux-research-section-eyebrow,
-.ux-research-problems-header h2 {
+.ux-research-problems-header .sub-heading-caption {
   color: var(--color-white);
 }
 

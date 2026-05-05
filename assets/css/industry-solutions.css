@@ -156,17 +156,14 @@
   border-radius: 20px;
 }
 
-.industry-solution-insight-copy h2,
-.industry-solution-approach-intro h2,
-.industry-solution-solve-header h2,
-.industry-solution-services-header h2,
-.industry-solution-journey-header h2,
-.industry-solution-audience-header h2,
-.industry-solution-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.industry-solution-insight-copy .sub-heading-caption,
+.industry-solution-approach-intro .sub-heading-caption,
+.industry-solution-solve-header .sub-heading-caption,
+.industry-solution-services-header .sub-heading-caption,
+.industry-solution-journey-header .sub-heading-caption,
+.industry-solution-audience-header .sub-heading-caption,
+.industry-solution-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .industry-solution-insight-body,
@@ -243,6 +240,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .industry-solution-approach-intro p {

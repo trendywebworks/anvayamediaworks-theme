@@ -19,8 +19,8 @@
       <div class="container">
         <div class="contact-connect-shell">
           <div class="contact-connect-copy">
-            <span class="contact-section-eyebrow">Get In Touch</span>
-            <h2>We&rsquo;re here to help you grow.</h2>
+            <h2 class="sub-heading">Get In Touch</h2>
+            <h3 class="sub-heading-caption">We&rsquo;re here to help you grow.</h3>
             <p>
               Feel free to reach out to us through your preferred method of contact. We are eager to connect
               with you and explore how our digital marketing team can contribute to your success.
@@ -86,8 +86,8 @@
     <section class="contact-team-section">
       <div class="container">
         <div class="contact-team-header">
-          <span class="contact-section-eyebrow">Our Team</span>
-          <h2>People you can expect to hear from.</h2>
+          <h2 class="sub-heading">Our Team</h2>
+          <h3 class="sub-heading-caption">People you can expect to hear from.</h3>
         </div>
 
         <div class="contact-team-grid">

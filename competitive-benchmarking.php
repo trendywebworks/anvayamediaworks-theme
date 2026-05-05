@@ -42,8 +42,8 @@
       <div class="container">
         <div class="competitive-benchmarking-definition-shell">
           <div class="competitive-benchmarking-definition-copy">
-            <span class="competitive-benchmarking-section-eyebrow">What Is Competitive Benchmarking?</span>
-            <h2>Compare what matters before you decide what to improve.</h2>
+            <h2 class="sub-heading">What Is Competitive Benchmarking?</h2>
+            <h3 class="sub-heading-caption">Compare what matters before you decide what to improve.</h3>
             <p>
               Competitive Benchmarking is the process of evaluating your brand, website, and marketing performance against your key competitors.
             </p>
@@ -84,8 +84,8 @@
     <section class="competitive-benchmarking-struggle-section">
       <div class="container">
         <div class="competitive-benchmarking-struggle-header">
-          <span class="competitive-benchmarking-section-eyebrow">Why Most Businesses Struggle Without It</span>
-          <h2>Without context, effort gets expensive and positioning gets weak.</h2>
+          <h2 class="sub-heading">Why Most Businesses Struggle Without It</h2>
+          <h3 class="sub-heading-caption">Without context, effort gets expensive and positioning gets weak.</h3>
         </div>
 
         <div class="competitive-benchmarking-struggle-grid">
@@ -154,8 +154,8 @@
       <div class="container">
         <div class="competitive-benchmarking-scope-shell">
           <div class="competitive-benchmarking-scope-intro">
-            <span class="competitive-benchmarking-section-eyebrow">What We Benchmark</span>
-            <h2>Six layers of your market presence that shape attention, trust, and performance.</h2>
+            <h2 class="sub-heading">What We Benchmark</h2>
+            <h3 class="sub-heading-caption">Six layers of your market presence that shape attention, trust, and performance.</h3>
             <p>
               We compare how your business shows up across positioning, experience, visibility, messaging, promotion, and conversion structure.
             </p>
@@ -218,8 +218,8 @@
       <div class="container">
         <div class="competitive-benchmarking-framework-header">
           <div>
-            <span class="competitive-benchmarking-section-eyebrow">Our Benchmarking Framework</span>
-            <h2>Identify. Compare. Analyze. Strategize.</h2>
+            <h2 class="sub-heading">Our Benchmarking Framework</h2>
+            <h3 class="sub-heading-caption">Identify. Compare. Analyze. Strategize.</h3>
           </div>
           <p>
             The framework is built to move from market observation to strategic action, so the output becomes a sharper growth plan instead of a passive comparison report.

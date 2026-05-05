@@ -41,8 +41,8 @@
       <div class="container">
         <div class="events-solution-insight-shell">
           <div class="events-solution-insight-copy">
-            <span class="events-solution-section-eyebrow">Industry Insight</span>
-            <h2>A Great Event Needs More Than Planning.<br>It Needs Attention.</h2>
+            <h2 class="sub-heading">Industry Insight</h2>
+            <h3 class="sub-heading-caption">A Great Event Needs More Than Planning.<br>It Needs Attention.</h3>
             <p class="events-solution-insight-body">
               Even the best events fail without the right promotion.
             </p>
@@ -84,8 +84,8 @@
       <div class="container">
         <div class="events-solution-approach-shell">
           <div class="events-solution-approach-intro">
-            <span class="events-solution-section-eyebrow events-solution-section-eyebrow-light">Our Approach</span>
-            <h2>A 360&deg; Event Growth Strategy</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A 360&deg; Event Growth Strategy</h3>
             <p>
               At Anvaya Media Works, we don&rsquo;t just promote events. We build end-to-end event marketing systems.
             </p>
@@ -132,8 +132,8 @@
     <section class="events-solution-solve-section">
       <div class="container">
         <div class="events-solution-solve-header">
-          <span class="events-solution-section-eyebrow">What We Solve</span>
-          <h2>Solving Real Event Marketing Challenges</h2>
+          <h2 class="sub-heading">What We Solve</h2>
+          <h3 class="sub-heading-caption">Solving Real Event Marketing Challenges</h3>
           <p>
             We help close the visibility, targeting, engagement, and retention gaps that keep events from performing at their best.
           </p>
@@ -165,8 +165,8 @@
     <section class="events-solution-services-section">
       <div class="container">
         <div class="events-solution-services-header">
-          <span class="events-solution-section-eyebrow">Our Event Solutions</span>
-          <h2>End-to-End Solutions for Event Success</h2>
+          <h2 class="sub-heading">Our Event Solutions</h2>
+          <h3 class="sub-heading-caption">End-to-End Solutions for Event Success</h3>
           <p>
             We combine campaign strategy, conversion-focused digital experiences, and audience communication into one connected event growth system.
           </p>
@@ -221,8 +221,8 @@
     <section class="events-solution-lifecycle-section">
       <div class="container">
         <div class="events-solution-lifecycle-header">
-          <span class="events-solution-section-eyebrow">Event Lifecycle</span>
-          <h2>Optimizing Every Stage of Your Event</h2>
+          <h2 class="sub-heading">Event Lifecycle</h2>
+          <h3 class="sub-heading-caption">Optimizing Every Stage of Your Event</h3>
           <p>
             We support the full event lifecycle so awareness, live momentum, and post-event value all work together.
           </p>
@@ -254,8 +254,8 @@
       <div class="container">
         <div class="events-solution-audience-shell">
           <div class="events-solution-audience-header">
-            <span class="events-solution-section-eyebrow">Who We Work With</span>
-            <h2>Supporting All Types of Events</h2>
+            <h2 class="sub-heading">Who We Work With</h2>
+            <h3 class="sub-heading-caption">Supporting All Types of Events</h3>
             <p>
               We support organizers, brands, and agencies running experiences that depend on visibility, attendance, and lasting audience engagement.
             </p>
@@ -276,8 +276,8 @@
     <section class="events-solution-process-section">
       <div class="container">
         <div class="events-solution-process-header">
-          <span class="events-solution-section-eyebrow">Process</span>
-          <h2>How We Drive Event Success</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Drive Event Success</h3>
           <p>
             Our process aligns strategy, execution, optimization, and follow-up so each campaign phase contributes to stronger event outcomes.
           </p>

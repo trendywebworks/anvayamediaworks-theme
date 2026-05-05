@@ -241,14 +241,11 @@
   border-radius: 20px;
 }
 
-.cro-audit-definition-copy h2,
-.cro-audit-signs-header h2,
-.cro-audit-analysis-header h2,
-.cro-audit-framework-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.cro-audit-definition-copy .sub-heading-caption,
+.cro-audit-signs-header .sub-heading-caption,
+.cro-audit-analysis-header .sub-heading-caption,
+.cro-audit-framework-header .sub-heading-caption {
+  margin: 0;
 }
 
 .cro-audit-definition-copy p,
@@ -392,9 +389,11 @@
 .cro-audit-analysis-header {
   display: grid;
   gap: 0.25rem;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
-.cro-audit-analysis-header h2 {
+.cro-audit-analysis-header .sub-heading-caption {
   color: var(--color-white);
 }
 

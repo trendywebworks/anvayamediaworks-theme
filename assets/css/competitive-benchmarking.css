@@ -236,14 +236,11 @@
   border-radius: 20px;
 }
 
-.competitive-benchmarking-definition-copy h2,
-.competitive-benchmarking-struggle-header h2,
-.competitive-benchmarking-scope-intro h2,
-.competitive-benchmarking-framework-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 2.9rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.competitive-benchmarking-definition-copy .sub-heading-caption,
+.competitive-benchmarking-struggle-header .sub-heading-caption,
+.competitive-benchmarking-scope-intro .sub-heading-caption,
+.competitive-benchmarking-framework-header .sub-heading-caption {
+  margin: 0;
 }
 
 .competitive-benchmarking-definition-copy p,
@@ -388,9 +385,11 @@
   background: var(--color-blue);
   color: var(--color-white);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
-.competitive-benchmarking-scope-intro h2,
+.competitive-benchmarking-scope-intro .sub-heading-caption,
 .competitive-benchmarking-scope-intro p {
   color: inherit;
 }
@@ -468,7 +467,7 @@
   align-items: end;
 }
 
-.competitive-benchmarking-framework-header h2,
+.competitive-benchmarking-framework-header .sub-heading-caption,
 .competitive-benchmarking-framework-header p {
   color: var(--color-white);
 }

@@ -154,16 +154,13 @@
   border-radius: 20px;
 }
 
-.email-marketing-idea-copy h2,
-.email-marketing-problem-header h2,
-.email-marketing-approach-intro h2,
-.email-marketing-build-header h2,
-.email-marketing-services-header h2,
-.email-marketing-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.email-marketing-idea-copy .sub-heading-caption,
+.email-marketing-problem-header .sub-heading-caption,
+.email-marketing-approach-intro .sub-heading-caption,
+.email-marketing-build-header .sub-heading-caption,
+.email-marketing-services-header .sub-heading-caption,
+.email-marketing-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .email-marketing-idea-body,
@@ -293,6 +290,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .email-marketing-approach-intro p {

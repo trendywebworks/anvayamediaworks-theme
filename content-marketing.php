@@ -44,8 +44,8 @@
       <div class="container">
         <div class="content-marketing-idea-shell">
           <div class="content-marketing-idea-copy">
-            <span class="content-marketing-section-eyebrow">Big Idea</span>
-            <h2>Content Isn&rsquo;t Just Creation. It&rsquo;s Strategy.</h2>
+            <h2 class="sub-heading">Big Idea</h2>
+            <h3 class="sub-heading-caption">Content Isn&rsquo;t Just Creation. It&rsquo;s Strategy.</h3>
             <p class="content-marketing-idea-body">
               Anyone can publish content. But only the right content drives results.
             </p>
@@ -82,8 +82,8 @@
     <section class="content-marketing-problem-section">
       <div class="container">
         <div class="content-marketing-problem-header">
-          <span class="content-marketing-section-eyebrow">The Problem</span>
-          <h2>Why Most Content Doesn&rsquo;t Perform</h2>
+          <h2 class="sub-heading">The Problem</h2>
+          <h3 class="sub-heading-caption">Why Most Content Doesn&rsquo;t Perform</h3>
           <p>
             Creating content without direction leads to wasted effort and zero impact.
           </p>
@@ -157,8 +157,8 @@
       <div class="container">
         <div class="content-marketing-approach-shell">
           <div class="content-marketing-approach-intro">
-            <span class="content-marketing-section-eyebrow content-marketing-section-eyebrow-light">Our Approach</span>
-            <h2>A Strategy-First Content Marketing Framework</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Strategy-First Content Marketing Framework</h3>
             <p>
               At Anvaya Media Works, we treat content as a long-term growth asset.
             </p>
@@ -206,8 +206,8 @@
       <div class="container">
         <div class="content-marketing-ecosystem-shell">
           <div class="content-marketing-ecosystem-header">
-            <span class="content-marketing-section-eyebrow">Content Ecosystem</span>
-            <h2>Building a Complete Content System</h2>
+            <h2 class="sub-heading">Content Ecosystem</h2>
+            <h3 class="sub-heading-caption">Building a Complete Content System</h3>
             <p>
               We don&rsquo;t just create individual pieces&mdash;we build a connected content ecosystem aligned to your business goals.
             </p>
@@ -227,8 +227,8 @@
     <section class="content-marketing-services-section">
       <div class="container">
         <div class="content-marketing-services-header">
-          <span class="content-marketing-section-eyebrow">Our Content Marketing Services</span>
-          <h2>End-to-End Content Solutions</h2>
+          <h2 class="sub-heading">Our Content Marketing Services</h2>
+          <h3 class="sub-heading-caption">End-to-End Content Solutions</h3>
           <p>
             We combine strategy, writing, channel content, and optimization into one consistent content growth system.
           </p>
@@ -277,8 +277,8 @@
     <section class="content-marketing-process-section">
       <div class="container">
         <div class="content-marketing-process-header">
-          <span class="content-marketing-section-eyebrow">Process</span>
-          <h2>How We Build High-Performing Content</h2>
+          <h2 class="sub-heading">Process</h2>
+          <h3 class="sub-heading-caption">How We Build High-Performing Content</h3>
           <p>
             We follow a clean workflow that moves from research into execution, distribution, and continuous improvement.
           </p>

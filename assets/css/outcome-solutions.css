@@ -155,16 +155,13 @@
   gap: 0.3rem;
 }
 
-.outcome-solution-idea-copy h2,
-.outcome-solution-challenge-header h2,
-.outcome-solution-approach-intro h2,
-.outcome-solution-build-header h2,
-.outcome-solution-services-header h2,
-.outcome-solution-journey-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.outcome-solution-idea-copy .sub-heading-caption,
+.outcome-solution-challenge-header .sub-heading-caption,
+.outcome-solution-approach-intro .sub-heading-caption,
+.outcome-solution-build-header .sub-heading-caption,
+.outcome-solution-services-header .sub-heading-caption,
+.outcome-solution-journey-header .sub-heading-caption {
+  margin: 0;
 }
 
 .outcome-solution-idea-body,
@@ -251,6 +248,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .outcome-solution-approach-intro p {

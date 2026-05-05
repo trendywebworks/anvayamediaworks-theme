@@ -123,12 +123,8 @@
   gap: 1.2rem;
 }
 
-.ppc-system-intro h2 {
+.ppc-system-intro .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--ppc-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .ppc-system-intro p {

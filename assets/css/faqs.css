@@ -97,12 +97,8 @@
   align-content: start;
 }
 
-.faqs-intro h2 {
+.faqs-intro .sub-heading-caption {
   margin: 0;
-  color: var(--color-text);
-  font-size: var(--faqs-section-title-size);
-  line-height: 0.98;
-  letter-spacing: -0.05em;
 }
 
 .faqs-intro p {

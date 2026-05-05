@@ -2,8 +2,8 @@
     <div class="container">
     <div class="insights-header">
         <div>
-        <span class="insights-eyebrow">Blog / Insights</span>
-        <h2>Strategic Insights for Modern Growth</h2>
+        <h2 class="sub-heading">Blog / Insights</h2>
+        <h3 class="sub-heading-caption">Strategic Insights for Modern Growth</h3>
         </div>
         <p class="insights-intro">
         Blog categories help the site rank for broader queries while guiding visitors from educational

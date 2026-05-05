@@ -45,8 +45,8 @@
       <div class="container">
         <div class="website-development-problem-header">
           <div class="website-development-problem-copy">
-            <span class="website-development-section-eyebrow">The Problem</span>
-            <h2>Most Websites Fail for One Reason:</h2>
+            <h2 class="sub-heading">The Problem</h2>
+            <h3 class="sub-heading-caption">Most Websites Fail for One Reason:</h3>
             <p class="website-development-problem-lead">
               They&rsquo;re built for design, not for performance.
             </p>
@@ -122,8 +122,8 @@
       <div class="container">
         <div class="website-development-approach-shell">
           <div class="website-development-approach-intro">
-            <span class="website-development-section-eyebrow website-development-section-eyebrow-light">Our Approach</span>
-            <h2>A Connected Approach to Website Development</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Connected Approach to Website Development</h3>
             <p>
               At Anvaya Media Works, we don&rsquo;t just build websites.
             </p>
@@ -167,8 +167,8 @@
     <section class="website-development-services-section">
       <div class="container">
         <div class="website-development-services-header">
-          <span class="website-development-section-eyebrow">What We Offer</span>
-          <h2>End-to-End Website Development Services</h2>
+          <h2 class="sub-heading">What We Offer</h2>
+          <h3 class="sub-heading-caption">End-to-End Website Development Services</h3>
           <p>
             We build the right website system for your brand stage, sales model, and operational needs.
           </p>
@@ -211,8 +211,8 @@
     <section class="website-development-process-section">
       <div class="container">
         <div class="website-development-process-header">
-          <span class="website-development-section-eyebrow">Our Process</span>
-          <h2>A Structured Process That Delivers Results</h2>
+          <h2 class="sub-heading">Our Process</h2>
+          <h3 class="sub-heading-caption">A Structured Process That Delivers Results</h3>
           <p>
             From first discovery to post-launch support, we follow a clear delivery system built for speed, clarity, and continuous improvement.
           </p>

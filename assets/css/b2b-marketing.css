@@ -147,16 +147,13 @@
   border-radius: 20px;
 }
 
-.b2b-marketing-idea-copy h2,
-.b2b-marketing-problem-header h2,
-.b2b-marketing-approach-intro h2,
-.b2b-marketing-funnel-header h2,
-.b2b-marketing-services-header h2,
-.b2b-marketing-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.b2b-marketing-idea-copy .sub-heading-caption,
+.b2b-marketing-problem-header .sub-heading-caption,
+.b2b-marketing-approach-intro .sub-heading-caption,
+.b2b-marketing-funnel-header .sub-heading-caption,
+.b2b-marketing-services-header .sub-heading-caption,
+.b2b-marketing-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .b2b-marketing-idea-divider {
@@ -298,6 +295,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .b2b-marketing-approach-intro p {

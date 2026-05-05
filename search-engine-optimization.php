@@ -45,8 +45,8 @@
       <div class="container">
         <div class="seo-service-problem-header">
           <div class="seo-service-problem-copy">
-            <span class="seo-service-section-eyebrow">The Problem</span>
-            <h2>Your Customers Are Searching.<br>But Are They Finding You?</h2>
+            <h2 class="sub-heading">The Problem</h2>
+            <h3 class="sub-heading-caption">Your Customers Are Searching.<br>But Are They Finding You?</h3>
             <p class="seo-service-problem-lead">
               If your website isn&rsquo;t ranking on search engines, you&rsquo;re losing valuable traffic and revenue every single day.
             </p>
@@ -130,8 +130,8 @@
       <div class="container">
         <div class="seo-service-approach-shell">
           <div class="seo-service-approach-intro">
-            <span class="seo-service-section-eyebrow seo-service-section-eyebrow-light">Our Approach</span>
-            <h2>A Strategic, Data-Driven SEO Approach</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Strategic, Data-Driven SEO Approach</h3>
             <p>
               At Anvaya Media Works, we go beyond basic optimization.
             </p>
@@ -181,8 +181,8 @@
     <section class="seo-service-services-section">
       <div class="container">
         <div class="seo-service-services-header">
-          <span class="seo-service-section-eyebrow">Our SEO Services</span>
-          <h2>Comprehensive SEO Solutions for Sustainable Growth</h2>
+          <h2 class="sub-heading">Our SEO Services</h2>
+          <h3 class="sub-heading-caption">Comprehensive SEO Solutions for Sustainable Growth</h3>
           <p>
             We combine technical improvements, search strategy, content systems, and authority building into one SEO growth framework.
           </p>
@@ -237,8 +237,8 @@
     <section class="seo-service-process-section">
       <div class="container">
         <div class="seo-service-process-header">
-          <span class="seo-service-section-eyebrow">Our Process</span>
-          <h2>A Structured SEO Framework That Delivers Results</h2>
+          <h2 class="sub-heading">Our Process</h2>
+          <h3 class="sub-heading-caption">A Structured SEO Framework That Delivers Results</h3>
           <p>
             We move from audit to implementation and ongoing optimization through a clear search growth system built for measurable progress.
           </p>

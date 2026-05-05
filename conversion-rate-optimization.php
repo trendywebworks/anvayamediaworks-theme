@@ -45,8 +45,8 @@
       <div class="container">
         <div class="cro-service-insight-shell">
           <div class="cro-service-insight-copy">
-            <span class="cro-service-section-eyebrow">Core Insight</span>
-            <h2>More Traffic &ne; More Revenue</h2>
+            <h2 class="sub-heading">Core Insight</h2>
+            <h3 class="sub-heading-caption">More Traffic &ne; More Revenue</h3>
             <p class="cro-service-insight-divider">Better Conversions = Real Growth</p>
             <p class="cro-service-insight-body">
               Most businesses focus on driving traffic. But if your website isn&rsquo;t converting, you&rsquo;re simply pouring money into a leaking bucket.
@@ -81,8 +81,8 @@
     <section class="cro-service-problem-section">
       <div class="container">
         <div class="cro-service-problem-header">
-          <span class="cro-service-section-eyebrow">Problem Breakdown</span>
-          <h2>Why Visitors Don&rsquo;t Convert</h2>
+          <h2 class="sub-heading">Problem Breakdown</h2>
+          <h3 class="sub-heading-caption">Why Visitors Don&rsquo;t Convert</h3>
           <p>
             Even with good traffic, conversions fail because friction shows up across the journey. Every friction point reduces your revenue.
           </p>
@@ -165,8 +165,8 @@
       <div class="container">
         <div class="cro-service-approach-shell">
           <div class="cro-service-approach-intro">
-            <span class="cro-service-section-eyebrow cro-service-section-eyebrow-light">Our Approach</span>
-            <h2>A Data-Driven CRO Framework</h2>
+            <h2 class="sub-heading">Our Approach</h2>
+            <h3 class="sub-heading-caption">A Data-Driven CRO Framework</h3>
             <p>
               At Anvaya Media Works, we don&rsquo;t rely on guesswork.
             </p>
@@ -217,8 +217,8 @@
       <div class="container">
         <div class="cro-service-optimize-shell">
           <div class="cro-service-optimize-header">
-            <span class="cro-service-section-eyebrow">What We Optimize</span>
-            <h2>Every Element That Impacts Conversion</h2>
+            <h2 class="sub-heading">What We Optimize</h2>
+            <h3 class="sub-heading-caption">Every Element That Impacts Conversion</h3>
             <p>
               We optimize your entire digital experience, not just isolated screens or visuals.
             </p>
@@ -244,8 +244,8 @@
     <section class="cro-service-services-section">
       <div class="container">
         <div class="cro-service-services-header">
-          <span class="cro-service-section-eyebrow">Our CRO Services</span>
-          <h2>End-to-End Conversion Optimization</h2>
+          <h2 class="sub-heading">Our CRO Services</h2>
+          <h3 class="sub-heading-caption">End-to-End Conversion Optimization</h3>
           <p>
             We combine analysis, testing, UX refinement, and funnel strategy to improve the full path from visit to conversion.
           </p>
@@ -294,8 +294,8 @@
     <section class="cro-service-process-section">
       <div class="container">
         <div class="cro-service-process-header">
-          <span class="cro-service-section-eyebrow">Our Process</span>
-          <h2>How We Improve Your Conversions</h2>
+          <h2 class="sub-heading">Our Process</h2>
+          <h3 class="sub-heading-caption">How We Improve Your Conversions</h3>
           <p>
             We follow a premium but simple optimization flow designed to uncover leverage points, test improvements, and scale what works.
           </p>

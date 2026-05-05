@@ -152,17 +152,14 @@
   border-radius: 20px;
 }
 
-.ecommerce-solution-insight-copy h2,
-.ecommerce-solution-approach-intro h2,
-.ecommerce-solution-solve-header h2,
-.ecommerce-solution-services-header h2,
-.ecommerce-solution-journey-header h2,
-.ecommerce-solution-platforms-header h2,
-.ecommerce-solution-process-header h2 {
-  margin: 1rem 0 0;
-  font-size: clamp(2rem, 3.8vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+.ecommerce-solution-insight-copy .sub-heading-caption,
+.ecommerce-solution-approach-intro .sub-heading-caption,
+.ecommerce-solution-solve-header .sub-heading-caption,
+.ecommerce-solution-services-header .sub-heading-caption,
+.ecommerce-solution-journey-header .sub-heading-caption,
+.ecommerce-solution-platforms-header .sub-heading-caption,
+.ecommerce-solution-process-header .sub-heading-caption {
+  margin: 0;
 }
 
 .ecommerce-solution-insight-body,
@@ -238,6 +235,8 @@
   color: var(--color-white);
   box-shadow: var(--shadow-strong);
   border-radius: 20px;
+  --sub-heading-color: rgba(255, 255, 255, 0.78);
+  --sub-heading-caption-color: var(--color-white);
 }
 
 .ecommerce-solution-approach-intro p {
