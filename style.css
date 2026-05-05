@@ -16,7 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin: 0 0 10px 0;
     color: var(--sub-heading-color, var(--color-blue));
     font-family: "Poppins", sans-serif;
-    font-size: 2.625rem;
+    font-size: 2.625rem !important;
     font-weight: 500;
     line-height: 1.05;
     text-transform: capitalize;
@@ -24,12 +24,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .sub-heading-caption {
     display: block;
-    margin: 0 0 30px 0;
-    color: var(--sub-heading-caption-color, var(--color-text));
+    margin: 0 0 30px 0 !important;
+    color: var(--sub-heading-caption-color, var(--color-text)) !important;
     font-family: "Poppins", sans-serif;
-    font-size: 1.875rem;
+    font-size: 1.7rem !important;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 2rem !important;
     text-transform: capitalize;
 }
 
