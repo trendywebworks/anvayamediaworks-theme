@@ -139,7 +139,7 @@ $(function () {
   }
 
   function toggleNavbarState() {
-    $navbar.toggleClass("scrolled", $window.scrollTop() > 20);
+    $navbar.toggleClass("scrolled", $window.scrollTop() > 0);
   }
 
   function updateCapabilityRailState() {
