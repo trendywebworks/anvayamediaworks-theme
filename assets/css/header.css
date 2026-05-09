@@ -168,7 +168,7 @@
 
 .navbar.scrolled .navbar-toggler,
 .navbar.menu-open .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 1);
   color: var(--color-white);
 }
 

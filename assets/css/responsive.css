@@ -3,6 +3,19 @@
     grid-template-columns: auto auto;
   }
 
+  .navbar-toggler {
+    color: var(--color-white);
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+  }
+
+  .navbar.scrolled .navbar-toggler,
+  .navbar.menu-open .navbar-toggler {
+    color: var(--color-white);
+    background: transparent;
+    border-color: rgba(255, 255, 255, 1);
+  }
+
   .navbar-collapse {
     grid-column: 1 / -1;
     justify-self: stretch;
@@ -70,7 +83,7 @@
   }
 
   .navbar-mobile-cta {
-    margin-top: 1rem;
+    display: none !important;
   }
 
   .footer-grid {
