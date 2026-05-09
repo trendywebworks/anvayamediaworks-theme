@@ -3,7 +3,7 @@
 ========================================================= */
 
 :root {
-  --amw-banner-spacing: 60px;
+  --amw-banner-spacing: 0px;
 }
 
 main h1,
@@ -74,6 +74,33 @@ main h4 {
 :where(.hero-section, [class*="hero-section"], .prefooter-section)>.container-fluid {
   position: relative;
   z-index: 1;
+}
+
+:is(
+  .impact-section-header,
+  .capabilities-spectrum-header,
+  .clients-section-header,
+  .industries-header,
+  .insights-header,
+  .about-section-header,
+  .brand-research-section-header,
+  .brand-strategy-section-header,
+  .brand-strategy-process-header,
+  .brand-design-process-header,
+  .brand-style-guides-approach-header,
+  .competitive-benchmarking-framework-header,
+  .cro-audit-framework-header,
+  .dashboard-design-approach-header,
+  .design-audit-impact-shell,
+  .design-audit-process-header,
+  .logo-design-approach-header,
+  .marketing-collateral-approach-header,
+  .product-packaging-design-process-header,
+  .rebranding-process-header,
+  .strategy-section-header,
+  .ux-research-approach-header
+) {
+  align-items: self-start !important;
 }
 
 [data-lucide-host="true"] {
