@@ -43,7 +43,20 @@
     <nav id="mainNav" class="navbar navbar-expand-xl">
       <div class="container-fluid nav-shell nav-shell-fluid">
         <a class="navbar-brand" href="<?php echo home_url(); ?>" aria-label="Anvaya Media Works home">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-amw-white.png" alt="Anvaya Media Works logo">
+          <span class="navbar-brand-logo-stack">
+            <img
+              class="navbar-brand-logo navbar-brand-logo-blue"
+              src="<?php bloginfo('template_directory'); ?>/assets/images/logo-amw-blue.png"
+              alt=""
+              aria-hidden="true"
+            >
+            <img
+              class="navbar-brand-logo navbar-brand-logo-white"
+              src="<?php bloginfo('template_directory'); ?>/assets/images/logo-amw-white.png"
+              alt=""
+              aria-hidden="true"
+            >
+          </span>
         </a>
 
         <button

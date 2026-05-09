@@ -2,6 +2,10 @@
    Shared Site Polish
 ========================================================= */
 
+:root {
+  --amw-banner-spacing: 60px;
+}
+
 main h1,
 [class*="hero-section"] h1 {
   font-size: clamp(1.5rem, 5vw, 2.2rem) !important;
@@ -32,6 +36,11 @@ main h4 {
   position: relative;
   overflow: hidden;
   isolation: isolate;
+}
+
+:where(.hero-section, [class*="hero-section"]) {
+  padding-top: var(--amw-banner-spacing) !important;
+  padding-bottom: var(--amw-banner-spacing) !important;
 }
 
 :where(.hero-section, [class*="hero-section"], .prefooter-section)::before,
