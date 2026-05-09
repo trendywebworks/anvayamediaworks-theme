@@ -16,6 +16,13 @@
     border-color: rgba(255, 255, 255, 1);
   }
 
+  .navbar-toggler-icon,
+  .navbar-toggler-icon[data-lucide-host="true"],
+  .navbar-toggler-icon[data-lucide-host="true"] svg {
+    color: var(--color-white) !important;
+    stroke: currentColor;
+  }
+
   .navbar-collapse {
     grid-column: 1 / -1;
     justify-self: stretch;
